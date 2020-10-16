@@ -30,7 +30,7 @@ Finally, there will be links to my social media accounts including LinkedIn, Git
 ### Skeleton
 [Mobile wireframe](https://f62d3d72-4d22-4366-babd-04b3790bc9d1.ws-eu01.gitpod.io/files/download/?id=5e425e68-0de8-4453-8245-524a845f6580)
 
-[Desktop wireframe](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/c28ec2e11f241a16cd8042c0bf24639792d0b6ca/assets/wireframes/Desktop%20Wire%20Frames.pdf)
+[Desktop wireframe](https://f62d3d72-4d22-4366-babd-04b3790bc9d1.ws-eu01.gitpod.io/files/download/?id=506c03f6-184f-4d66-b040-fcb37976fde3)
 
 ### Surface
 * TBD
