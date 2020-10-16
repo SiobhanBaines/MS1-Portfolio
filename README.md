@@ -28,7 +28,7 @@ There will be a contact page to allow prospective employers to contact me via em
 Finally, there will be links to my social media accounts including LinkedIn, GitHub, Twitter and Instagram as well as providing the ability to download my CV which will open in a separate tab.
 
 ### Skeleton
-[Mobile wireframe](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/c28ec2e11f241a16cd8042c0bf24639792d0b6ca/assets/wireframes/Mobile%20Wire%20Frames.pdf)
+[Mobile wireframe](https://f62d3d72-4d22-4366-babd-04b3790bc9d1.ws-eu01.gitpod.io/files/download/?id=5e425e68-0de8-4453-8245-524a845f6580)
 
 [Desktop wireframe](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/c28ec2e11f241a16cd8042c0bf24639792d0b6ca/assets/wireframes/Desktop%20Wire%20Frames.pdf)
 
