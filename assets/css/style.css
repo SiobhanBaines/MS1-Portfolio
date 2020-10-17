@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Chilanka&family=Handlee&display=swap');
+*{
+margin: 0;
+padding: 0;
+border: 0;
+}
+
+body{
+    font-family: Chilanka;
+    color: #073445;
+}
+
+li {
+  float: right;
+  margin-right: 30px;
+}
+
+.name{
+    font-size: 40px;
+    font-weight: 500;
+    color: #073445;
+    font-style: bold;
+    margin-top: 40px;
+}
+
+.list-inline-item:not(:last-child) {
+    margin-right: 0;
+}
+
