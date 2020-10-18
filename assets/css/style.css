@@ -1,29 +1,57 @@
 @import url('https://fonts.googleapis.com/css2?family=Chilanka&family=Handlee&display=swap');
-*{
-margin: 0;
-padding: 0;
-border: 0;
-}
+/*-----------------------------------------Colours*/
 
-body{
+
+/*------------------------------------------Header*/
+header {
+    margin: 0;
     font-family: Chilanka;
     color: #073445;
 }
 
-li {
-  float: right;
-  margin-right: 30px;
+body {
+    margin: 0;
+    display: flex;
 }
-
-.name{
+#nav{
+    padding: 0;
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
+    font-size: 12px;
+}
+.list-inline{
+    background-color: #96b5bf;
+    line-height: 50px;
+    position: absolute;
+}
+.nav-item{
+    
+    font-family: Chilanka;
+    color: #073445;
+    
+}
+/*.navbar {
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
+    font-size: 12px;
+}*/
+li {
+  float: left;
+  padding: 2;
+}
+li::marker{
+    content: none;
+}
+.list-inline-item:not(:first-child) {
+    margin-left: 0;
+}
+/*.name{
     font-size: 40px;
     font-weight: 500;
     color: #073445;
     font-style: bold;
     margin-top: 40px;
 }
-
-.list-inline-item:not(:last-child) {
-    margin-right: 0;
-}
-
+*/
