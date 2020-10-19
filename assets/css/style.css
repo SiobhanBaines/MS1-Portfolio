@@ -8,11 +8,11 @@ header {
     font-family: Chilanka;
     color: #073445;
 }
-
+/*
 body {
     margin: 0;
     display: flex;
-}
+}*/
 #nav{
     padding: 0;
     margin-bottom: 0;
@@ -30,7 +30,7 @@ body {
     font-family: Chilanka;
     color: #073445;
     
-}
+} 
 /*.navbar {
     margin-bottom: 0;
     border: 0;
@@ -41,17 +41,19 @@ li {
   float: left;
   padding: 2;
 }
+/*
 li::marker{
     content: none;
 }
 .list-inline-item:not(:first-child) {
     margin-left: 0;
-}
-/*.name{
+} */
+.name{
     font-size: 40px;
     font-weight: 500;
     color: #073445;
     font-style: bold;
-    margin-top: 40px;
+    margin-top: 150px;
+
 }
-*/
+
