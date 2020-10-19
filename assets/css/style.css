@@ -24,6 +24,7 @@ body {
     height: 50px;
     text-align: center;
     padding: 2px;
+    font-family: Chilanka;
 }
 
 .nav-item a {
@@ -37,9 +38,13 @@ body {
     padding-top: 2px;
     display: block;
     color: #073445;
-    font-size: 14px;
+    font-size: 12px;
+}
+.nav-item span {
+   /* display: block;*/
     font-family: Chilanka;
 }
+
 .name{
     font-size: 40px;
     font-weight: 500;
