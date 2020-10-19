@@ -3,51 +3,43 @@
 
 
 /*------------------------------------------Header*/
-header {
-    margin: 0;
-    font-family: Chilanka;
-    color: #073445;
-}
-/*
 body {
     margin: 0;
-    display: flex;
-}*/
-#nav{
-    padding: 0;
-    margin-bottom: 0;
-    border: 0;
-    width: 100%;
-    font-size: 12px;
-}
-.list-inline{
-    background-color: #96b5bf;
-    line-height: 50px;
-    position: absolute;
-}
-.nav-item{
-    
     font-family: Chilanka;
     color: #073445;
+}
+
+.navbar {
+    background-color: #96b5bf;
+    align-items: baseline;
     
-} 
-/*.navbar {
-    margin-bottom: 0;
-    border: 0;
+}
+
+.navbar-nav {
+    display:inline-block;
+}
+
+.nav-item {
+    display:inline-block;
+    height: 50px;
+    text-align: center;
+    padding: 2px;
+}
+
+.nav-item a {
     width: 100%;
-    font-size: 12px;
-}*/
-li {
-  float: left;
-  padding: 2;
+    text-decoration: none;
+    color: #073445;
+    height: 12px;
+    
 }
-/*
-li::marker{
-    content: none;
+.nav-item a i {
+    padding-top: 2px;
+    display: block;
+    color: #073445;
+    font-size: 14px;
+    font-family: Chilanka;
 }
-.list-inline-item:not(:first-child) {
-    margin-left: 0;
-} */
 .name{
     font-size: 40px;
     font-weight: 500;
