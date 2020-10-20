@@ -89,7 +89,8 @@ On a mobile device does the schrunk menu icon expand correctly and all the links
 ## Credits
 
 ## Content
-•	The text for section Y was copied from the Wikipedia article Z
+•	After adding the fontawsome icons to the navbar items I decided it would be more clean without them.
+    I decided having the dowload CV button at the top gave a call to action for a user
 
 ## Media
 •	The photos used in this site were obtained from ...
