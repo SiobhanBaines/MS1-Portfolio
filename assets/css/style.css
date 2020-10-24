@@ -13,12 +13,11 @@ body {
     width: 100%;
     padding: 0;
     margin: 0;
-}
-.header-row{
     background-color: #96b5bf;
     align-items: baseline;
 }
-.head-col-nav{}
+
+
 
 .cv-pdf{
     display:inline-block;
@@ -38,15 +37,11 @@ body {
     text-align: center;
     padding: 2px;
     font-family: Chilanka;
+    color: #073445;
 }
-.cv-pdf {
-    display:inline-block;
-    height: 20px;
-    text-align: center;
-    padding: 2px;
-    font-family: Chilanka;
-}
+
 a {
+    display: inline-block;
     color:#073445;
     height: 12px;   
 }
@@ -88,10 +83,13 @@ a {
     width: 100%;
     padding: 0;
     margin: 0;
+    height: 40px;
+    background-color: #96b5bf;
+    display: inline-block;
 }
 .footer-row{
-    background-color: #96b5bf;
-    align-items: baseline;
+
+    text-align: center;
 }
 .social-media{
     display: inline-block;

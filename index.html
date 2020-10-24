@@ -18,33 +18,37 @@
 <body>
 	<!-- Header containing Navigation and CV Download call to action -->
 	<header>
-		<!--<div class="container-fluid navalert-container">-->
-		<div class="container-fluid header-contianer">
+		<div class="container-fluid navalert-container header-container">
 			<div class="row justify-content-between header-row">
-				<div class="col col-md-4 head-col-nav">
-					<nav class="navbar">
-						<ul class="navbar-nav">
-							<li class="active nav-item">
-								<a href="index.html"><span>Home</span></a>
-							</li>
-							<li class="nav-item">
-								<a href="about.html"><span>About</span></a>
-							</li>
-							<li class="nav-item">
-								<a href="projects.html"><span>Projects</span></a>
-							</li>
-							<li class="nav-item">
-								<a href="contact.html"><span>Contact</span></a>
-							</li>
-						</ul>
+				<div class="col col-md-8 head-col-nav">
+					<nav class="navbar navbar-dark navbar-expand-sm">
+						<button class="navbar-toggler mr-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+						<div class="collapse navbar-collapse" id="navbarNavDropdown">
+							<ul class="navbar-nav mr-auto">
+								<li class="active nav-item mr-2">
+									<a class="nav-link" href="index.html">Home</a></li>
+								<li class="nav-item mr-2">
+									<a class="nav-link" href="about.html"> About</a></li>
+								<li class="nav-item mr-2">
+									<a class="nav-link" href="projects.html">Projects</a></li>
+								<li class="nav-item mr-2">
+									<a class="nav-link" href="contact.html">Contact</a></li>
+							</ul>
+						</div>
+						<div class="col col-md-4 head-cv-pdf ml-auto">
+						<div class="navbar-nav d-md-block">
+							<!--	<p class="cv-pdf">Download CV here-->
+							<p class="navbar-text my-auto mr-2 cv-pdf">
+								<i>Download CV here</i>
+								<!--<button type="button" class="btn btn-link">-->
+								<a class="nav-link" href="assets/cv/Siobhan Baines CV.pdf" target="_blank">
+									<i class="fa fa-download" aria-hidden="true"></i></a>
+								<!-- </button>-->
+							</p>
+
+						</div>
+						</div>
 					</nav>
-				</div>
-				<div class="col col-md-4 head-cv-pdf">
-					<p class="cv-pdf">Download CV here</p>
-					<button type="button" class="btn btn-link">
-                        <a href="assets/cv/Siobhan Baines CV.pdf" target="_blank">
-                        <i class="fa fa-download" aria-hidden="true"></i></a>
-                    </button>
 				</div>
 			</div>
 		</div>
@@ -66,13 +70,14 @@
 	<!-- social media links -->
 	<footer>
 		<div class="contain footer-container">
-			<div class="row justify-content-center footer-row">
+			<div class="row justify-content-around footer-row">
+				<div class="col col-md-8 cv-pdf">
+					<p>Download CV here
+						<a href="assets/cv/Siobhan Baines CV.pdf" target="_blank">
+							<i class="fa fa-download" aria-hidden="true"></i></a>
+					</p>
+				</div>
 				<div class="col col-md-4 cv-pdf">
-					<p >Download CV here</p>
-					<button type="button" class="btn btn-link">
-                        <a href="assets/cv/Siobhan Baines CV.pdf" target="_blank">
-                        <i class="fa fa-download" aria-hidden="true"></i></a>
-                    </button>
 					<ul class="social-media">
 						<li class="social-media"><a href="https://www.linkedin.com/in/siobhan-baines-9b296a22/"
 								target="_blank"><i class="fab fa-linkedin"></i></a></li>
