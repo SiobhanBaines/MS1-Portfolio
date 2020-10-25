@@ -3,6 +3,11 @@
 a {
     color: #073445;
 }
+
+.cv-pdf a{
+    color: #b99557;
+}
+
 /*------------------------------------------Global*/
 body {
     margin: 0;
@@ -27,15 +32,18 @@ body {
     padding: 2px;
     font-family: Chilanka;
     color: #073445;
+    font-size: 25px;
 }
 
 /*---------------------------------Header & Footer*/
+.cv-pdf i {
+    font-size: 25px;  
+}
 
 
 .cv-pdf a {
-/*    display: inline-block;
-    color:#073445;
-    height: 12px;   */
+    font-size: 30px;  
+    font-weight: bold;
 }
 
 /*--------------------------------------Index Body*/
@@ -85,14 +93,17 @@ body {
 }
 .social-media a{
     color: #073445;
+    font-size: 25px;
 }
 
 /*--------------------------------------------Media Queries*/
-@media(min-width: 992px) {
-    .center-form {
-        padding-top: 30px;
-        min-height:240px;
-        margin: 0 auto;
-        max-width: 50%;
-    }
+@media(min-width: 992px){
+
+.center-form{
+    padding-top: 30px;
+    min-height: 240px;
+    margin: 0 auto;
+    max-width: 50%;
+}
+
 }
