@@ -26,12 +26,12 @@ body {
     background-color: #96b5bf;
     align-items: baseline;
 }
+.navbar {
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
+}
 .nav-item {
-    height: 20px;
-    text-align: center;
-    padding: 2px;
-    font-family: Chilanka;
-    color: #073445;
     font-size: 25px;
 }
 
@@ -84,16 +84,24 @@ body {
     width: 100%;
     padding: 0;
     margin: 0;
-    height: 40px;
     background-color: #96b5bf;
-    display: inline-block;
-}
-.footer-row{
     text-align: center;
 }
-.social-media a{
-    color: #073445;
-    font-size: 25px;
+.footer-container ul{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-container ul li {
+    margin-top: 12px;
+    padding: 0;
+}
+
+.social-media {
+    font-size: 30px;  
+    font-weight: bold;
+    text-align: center;
 }
 
 /*--------------------------------------------Media Queries*/
