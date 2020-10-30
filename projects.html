@@ -1,36 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-      crossorigin="anonymous"
-    />
-    <script
-      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-      crossorigin="anonymous"
-    ></script>
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
-      integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-    <title>Siobhan Baines Portfolio</title>
-  </head>
 
-  <body>
-    <!-- Header containing Navigation and CV Download call to action -->
-    <header>
-      <div class="container-fluid header-container">
-        <nav class="navbar navbar-expand-sm navbar-light">
-          <button
-            class="navbar-toggler ml-auto"
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap CDN-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
+    <!--js CDN from Bootstrap (Navbar dropdown won't work without)-->
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+	</script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
+	</script>
+    <!-- fontawesome CDN for icons-->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+		integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous" />
+	<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+	<title>Siobhan Baines Portfolio</title>
+</head>
+
+<body>
+	<!-- Header containing Navigation and CV Download call to action -->
+	<header>
+		<div class="container-fluid header-container">
+			<nav class="navbar navbar-expand-sm navbar-light">
+				<button
+            class="navbar-toggler mr-auto"
             type="button"
             data-toggle="collapse"
             data-target="#navbarNavDropdown"
@@ -41,102 +37,87 @@
             <span class="navbar-toggler-icon"></span>
           </button>
 
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav mr-auto">
-              <li class="active nav-item mr-2">
-                <a class="nav-link" href="index.html">Home</a>
-              </li>
-              <li class="nav-item mr-2">
-                <a class="nav-link" href="about.html"> About</a>
-              </li>
-              <li class="nav-item mr-2">
-                <a class="nav-link" href="projects.html">Projects</a>
-              </li>
-              <li class="nav-item mr-2">
-                <a class="nav-link" href="contact.html">Contact</a>
-              </li>
-            </ul>
-          </div>
-          <div class="d-none d-md-block">
-            <p class="navbar-text mr-auto cv-pdf">
-              <i>Download CV here</i>
-              <a
-                href="assets/cv/Siobhan Baines CV.pdf"
-                target="_blank"
-                class="inline-block nav-link"
-              >
-                <i class="fa fa-download" aria-hidden="true"></i
-                ><span class="sr-only">Download link</span></a
-              >
-            </p>
-          </div>
-        </nav>
-      </div>
-    </header>
-    <!-- My name and some high level personal details -->
-    <div class="container-fluid coffee-container">
-      <div class="opaque-overlay">&nbsp;</div>
-      <div class="row">
-        <div class="col-12">
-          <section class="name-callout jumbotron">
-            <p class="jumbotron-paragraph">
-              p1
-            </p>
-            <p class="jumbotron-paragraph">
-              p2
-            </p>
-            <p class="jumbotron-paragraph">
-              p3
-            </p>
-            <p class="jumbotron-paragraph">
-              p4
-            </p>
-            <p class="jumbotron-paragraph">
-              p5
-            </p>
-            <p class="jumbotron-paragraph">
-              p6
-            </p>
-          </section>
-        </div>
-      </div>
-    </div>
-    <!-- social media links -->
-    <footer>
-      <div class="contain-fluid footer-container">
-        <div class="row footer-row">
-          <div class="col-12">
-            <ul class="social-media inline-block">
-              <li class="social-media inline-block mr-3">
-                <a
-                  href="https://www.linkedin.com/in/siobhan-baines-9b296a22/"
-                  target="_blank"
-                  ><i class="fab fa-linkedin"></i
-                ></a>
-              </li>
-              <li class="social-media inline-block mr-3">
-                <a
-                  href="https://www.facebook.com/siobhan.baines/"
-                  target="_blank"
-                  ><i class="fab fa-facebook"></i
-                ></a>
-              </li>
-              <li class="social-media inline-block mr-3">
-                <a
-                  href="https://www.instagram.com/siobhan.baines/"
-                  target="_blank"
-                  ><i class="fab fa-instagram"></i
-                ></a>
-              </li>
-              <li class="social-media inline-block mr-3">
-                <a href="https://twitter.com/BainesSiobhan" target="_blank"
-                  ><i class="fab fa-twitter"></i
-                ></a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </footer>
-  </body>
+				<div class="collapse navbar-collapse" id="navbarNavDropdown">
+					<ul class="navbar-nav mr-auto">
+						<li class="active nav-item mr-2">
+							<a class="nav-link" href="index.html">Home</a>
+						</li>
+						<li class="nav-item mr-2">
+							<a class="nav-link" href="about.html"> About</a>
+						</li>
+						<li class="nav-item mr-2">
+							<a class="nav-link" href="projects.html">Projects</a>
+						</li>
+						<li class="nav-item mr-2">
+							<a class="nav-link" href="contact.html">Contact</a>
+						</li>
+					</ul>
+				</div>
+				<div class="d-none d-md-block">
+					<p class="navbar-text mr-auto cv-pdf">
+						<i>Download CV here</i>
+						<a href="assets/cv/Siobhan Baines CV.pdf" target="_blank" class="inline-block nav-link">
+							<i class="fa fa-download" aria-hidden="true"></i><span class="sr-only">Download link</span></a>
+					</p>
+				</div>
+			</nav>
+		</div>
+	</header>
+	<!-- My name and some high level personal details -->
+	<div class="container-fluid coffee-container">
+		<div class="opaque-overlay">&nbsp;</div>
+		<div class="row">
+			<div class="col-12">
+				<section class="name-callout jumbotron">
+					<p class="jumbotron-paragraph">
+						p1
+					</p>
+					<p class="jumbotron-paragraph">
+						p2
+					</p>
+					<p class="jumbotron-paragraph">
+						p3
+					</p>
+					<p class="jumbotron-paragraph">
+						p4
+					</p>
+					<p class="jumbotron-paragraph">
+						p5
+					</p>
+					<p class="jumbotron-paragraph">
+						p6
+					</p>
+				</section>
+			</div>
+		</div>
+	</div>
+	<!-- social media links -->
+	<footer>
+		<div class="contain-fluid footer-container">
+			<div class="row footer-row">
+				<div class="col-12">
+					<ul class="social-media inline-block">
+						<li class="social-media inline-block mr-3">
+							<a href="https://www.linkedin.com/in/siobhan-baines-9b296a22/"
+								target="_blank"><i class="fab fa-linkedin"></i></a>
+						</li>
+						<li class="social-media inline-block mr-3">
+							<a href="https://www.facebook.com/siobhan.baines/"
+								target="_blank"><i class="fab fa-facebook"></i></a>
+						</li>
+						<li class="social-media inline-block mr-3">
+							<a href="https://www.instagram.com/siobhan.baines/"
+								target="_blank"><i class="fab fa-instagram"></i></a>
+						</li>
+						<li class="social-media inline-block mr-3">
+							<a href="https://twitter.com/BainesSiobhan"
+								target="_blank"><i class="fab fa-twitter"></i></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+
 </html>
