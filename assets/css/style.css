@@ -76,6 +76,18 @@ body {
     margin-top: 25px;
     margin-left: 50px;
 }
+/*--------------------------------------Time line */
+h4.time-head{
+    text-align: center;
+    margin: 20px 0;
+}
+.main-timeline4{}
+.timeline{}
+.timeline-content{}
+.year{}
+.organisation{}
+.qualification{}
+
 /*--------------------------------------About Body*/
 /*------------------------------------Contact Body*/
 /*-----------------------------------Projects Body*/
