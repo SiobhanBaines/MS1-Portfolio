@@ -39,7 +39,11 @@ body {
 .cv-pdf {
   font-size: 25px;
 }
-
+.sm-cv-pdf {
+  font-size: 25px;
+  text-align: center;
+  position: center;
+}
 .cv-pdf a i {
   font-size: 30px;
   font-weight: bold;
@@ -48,6 +52,38 @@ body {
   -moz-transition: all 0.35x ease-in-out;
   -webkit-transition: all 0.35x ease-in-out;
   -o-transition: all 0.35x ease-in-out;
+}
+.sm-cv-pdf a i {
+  font-size: 30px;
+  font-weight: bold;
+  color: #b99557;
+  transition: all 0.35x ease-in-out;
+  -moz-transition: all 0.35x ease-in-out;
+  -webkit-transition: all 0.35x ease-in-out;
+  -o-transition: all 0.35x ease-in-out;
+}
+footer {
+  background-color: #96b5bf;
+  margin: 0;
+  min-height: 50px;
+}
+footer ul {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  margin-top: 10px;
+}
+
+.footer ul li {
+  margin-top: 12px;
+  padding: 0;
+}
+
+.social-media {
+  font-size: 30px;
+  font-weight: bold;
+  position: relative;
+  text-align: center;
 }
 
 /*------------------------------------Index Body Image*/
@@ -98,6 +134,11 @@ body {
   margin-top: 25px;
   margin-left: 50px;
 }
+.ethos {
+    margin-left: 55px;
+    font-style: italic bold;
+    font-size: 20px;
+}
 /*-----------------------------Education Body Image */
 .education-container {
   height: 100vh;
@@ -129,10 +170,10 @@ h4.time-head {
 .qualification {
 }
 
-/*--------------------------------------AS400 Body*/
-.as400-container {
+/*--------------------------------------ERP Body*/
+.erp-container {
   height: 100vh;
-  background: url("../images/as400-image.jpg") no-repeat top left fixed;
+  background: url("../images/erp-image.jpg") no-repeat top left fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -142,6 +183,19 @@ h4.time-head {
   justify-content: center;
   position: relative;
 }
+.erp-row{
+    justify-content: center;
+}
+.erp-project{
+    border: 2px solid;
+    border-color: #c9cacb;
+    background-color: #fafafa;
+
+}
+.erp-header{}
+.erp-outline{}
+.erp-description{}
+
 /*------------------------------------Contact Body*/
 .contact-container {
   height: 100vh;
@@ -156,17 +210,17 @@ h4.time-head {
   position: relative;
 }
 
-.contact-form  {
+.contact-form {
   padding-top: 10px;
-  margin: 0 auto;
-  max-width: 70%;
+  margin: 0 auto;
+  max-width: 75%;
 }
 
 button[type="submit"] {
   margin-top: 15px;
   margin-bottom: 20px;
   color: #fafafa;
-  background-color: #b99557;;
+  background-color: #b99557;
 }
 /*-----------------------------------Full Stack Body*/
 .fullstack-container {
@@ -181,31 +235,7 @@ button[type="submit"] {
   justify-content: center;
   position: relative;
 }
-/*------------------------------------------Footer*/
 
-footer {
-  background-color: #96b5bf;
-  margin: 0;
-  min-height: 50px;
-}
-footer ul {
-  width: 100%;
-  padding: 0;
-  margin: 0;
-  margin-top: 10px;
-}
-
-.footer ul li {
-  margin-top: 12px;
-  padding: 0;
-}
-
-.social-media {
-  font-size: 30px;
-  font-weight: bold;
-  position: relative;
-  text-align: center;
-}
 
 /*--------------------------------------------Media Queries*/
 @media (min-width: 992px) {
@@ -220,10 +250,5 @@ footer ul {
     background-color: #96b5bf;
     margin: 0;
     /*  min-height: 150px;*/
-  }
-  .cv-pdf {
-    font-size: 25px;
-    text-align: center;
-    position: center;
   }
 }
