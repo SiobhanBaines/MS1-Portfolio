@@ -139,36 +139,61 @@ footer ul {
     font-style: italic bold;
     font-size: 20px;
 }
-/*-----------------------------Education Body Image */
-.education-container {
+/*-----------------------------Qualification Body Image */
+.qualification-container {
   height: 100vh;
-  background: url("../images/edu-image.jpg") no-repeat top left fixed;
+  background: url("../images/qual-image.jpg") no-repeat top left fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   display: flex;
-  align-items: center;
+  align-items:flex-start; 
   justify-content: center;
   position: relative;
 }
-/*------------------------------Education Time line */
-h4.time-head {
-  text-align: center;
-  margin: 20px 0;
+/*--------------------------Qualification Time line */
+.qual-head {
+  margin-top: 25px;
+  margin-bottom: 20px;
+  width: 100%;
 }
-.main-timeline4 {
+.timeline-item {
+    padding: 4em 2em 0em 2em;
+    position: relative;
+    border-left: 1px solid;
 }
-.timeline {
+.timeline-item p {
+    padding:0;
+    margin: 0;
 }
-.timeline-content {
+.timeline-item:before {
+    content: attr(data-dates);
+    position: absolute;
+    left: 2.5em;
+    top: 3em;
+    display: block;
+    font-family: "Exo", sans-serif;
+    font-weight: 500;
+    font-size: 0.8em;
+    padding: 0;
+    margin: 0;
 }
-.year {
+.timeline-item:after {
+    width: 12px;
+    height: 12px;
+    display: block;
+    top: 2.4em;
+    position: absolute;
+    left: -6px;
+    border-radius: 12px;
+    content: '';
+    background: #fafafa;
 }
-.organisation {
+.history-items {
+    margin-bottom: 30px;
 }
-.qualification {
-}
+
 
 /*--------------------------------------ERP Body*/
 .erp-container {
