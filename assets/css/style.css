@@ -37,31 +37,8 @@ body {
 }
 
 /*---------------------------------Header & Footer*/
-/*.cv-pdf {
-  font-size: 15px;
-}*/
-.sm-cv-pdf {
-  font-size: 25px;
-  text-align: center;
-  position: center;
-}
-/*.cv-pdf a i {
-  font-size: 20px;
-  font-weight: bold;
-  color: #b99557;
-  transition: all 0.35x ease-in-out;
-  -moz-transition: all 0.35x ease-in-out;
-  -webkit-transition: all 0.35x ease-in-out;
-  -o-transition: all 0.35x ease-in-out;
-}*/
-.sm-cv-pdf a i {
-  font-size: 25px;
-  font-weight: bold;
-  color: #b99557;
-  transition: all 0.35x ease-in-out;
-  -moz-transition: all 0.35x ease-in-out;
-  -webkit-transition: all 0.35x ease-in-out;
-  -o-transition: all 0.35x ease-in-out;
+h1,h2,h3,h4,h5{
+    margin: 0;
 }
 footer {
   background-color: rgba(150, 181, 191, 0.5);
@@ -160,52 +137,60 @@ footer ul {
     border: 1px auto #b99557;
     margin: 0 auto;
 }
-.about-me{
-    font-size: 10px;
+.about-me,
+.contact-me{
     align-items: center;
     justify-content: center;
     margin-top: 1px;
     margin-bottom: 1px;
-}
-.contact i{
-    color: #b99557;
-}
-.timeline-item {
-    padding: 4em 2em 0em 2em;
-    position: relative;
-    border-left: 1px solid;
-}
-.timeline-item p {
-    padding:0;
-    margin: 0;
-}
-.timeline-item::before{
-    content: attr(data-dates);
-    position: absolute;
-    left: 2.5em;
-    top: 3em;
-    display: block;
-    font-family: "Exo", sans-serif;
-    font-weight: 500;
-    font-size: 0.8em;
-    padding: 0;
-    margin: 0;
-}
-.timeline-item::after{
-    width: 12px;
-    height: 12px;
-    display: block;
-    top: 2.4em;
-    position: absolute;
-    left: -6px;
-    border-radius: 12px;
-    content: '';
-    background: #fafafa;
-}
-.history-items {
-    margin-bottom: 30px;
+    font-size: 10px;
+    padding: 1px 5px 5px 1px;
 }
 
+
+.contact-me i{
+    color: #b99557;
+    font-style: normal;
+}
+.timeline-heading {
+    margin-bottom: 50px;
+    font-style: bold;
+    font-size: 14px;
+}
+.timeline-item {
+    padding: 4em 2em 0em 2em;
+    position: relative;
+    border-left: 1px #b99557 solid;
+}
+.timeline-item p{
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item::before{
+    content:attr(data-dates);
+    position: absolute;
+    left: 2.5em;
+    top: 3em;
+    display: block;
+    font-style: 0.8em;
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item::after{
+    width: 12px;
+    height: 12px;
+    display: block;
+    top: 2.4em;
+    position:absolute;
+    left:-6px;
+    border-radius:12px;
+    content:'';
+}
+.history-items {
+    margin-bottom: 30px;
+}
 
 /*--------------------------------------ERP Body*/
 .erp-container {
@@ -227,7 +212,6 @@ footer ul {
     border: 2px solid;
     border-color: #c9cacb;
     background-color: #fafafa;
-
 }
 .erp-header{}
 .erp-outline{}
