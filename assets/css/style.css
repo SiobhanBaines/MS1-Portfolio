@@ -21,7 +21,6 @@ body {
 /*------------------------------------------Header*/
 .header-container {
   width: 100%;
-  height: 50px;
   padding: 0;
   margin: 0;
   background-color: rgba(150, 181, 191, 0.5);
@@ -31,22 +30,22 @@ body {
   margin-bottom: 0;
   border: 0;
   width: 100%;
-  height: 50px;
+
 }
 .nav-item {
   font-size: 15px;
 }
 
 /*---------------------------------Header & Footer*/
-.cv-pdf {
+/*.cv-pdf {
   font-size: 15px;
-}
+}*/
 .sm-cv-pdf {
   font-size: 25px;
   text-align: center;
   position: center;
 }
-.cv-pdf a i {
+/*.cv-pdf a i {
   font-size: 20px;
   font-weight: bold;
   color: #b99557;
@@ -54,9 +53,9 @@ body {
   -moz-transition: all 0.35x ease-in-out;
   -webkit-transition: all 0.35x ease-in-out;
   -o-transition: all 0.35x ease-in-out;
-}
+}*/
 .sm-cv-pdf a i {
-  font-size: 30px;
+  font-size: 25px;
   font-weight: bold;
   color: #b99557;
   transition: all 0.35x ease-in-out;
@@ -82,7 +81,7 @@ footer ul {
 }
 
 .social-media {
-  font-size: 30px;
+  font-size: 25px;
   font-weight: bold;
   position: relative;
   text-align: center;
@@ -141,24 +140,35 @@ footer ul {
     font-style: italic bold;
     font-size: 20px;
 }
-/*-----------------------------Qualification Body Image */
-.qualification-container {
+
+/*-------------------------------About Me body */
+.about-container {
   height: 100vh;
-  background: url("../images/qual-image.jpg") no-repeat top left fixed;
+  background-color: #ececeb;;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   display: flex;
-  align-items:flex-start; 
+  align-items: flex-start; 
   justify-content: center;
   position: relative;
 }
-/*--------------------------Qualification Time line */
-.qual-head {
-  margin-top: 25px;
-  margin-bottom: 20px;
-  width: 100%;
+.card {
+    width: 45%;
+    background-color: #ececeb;
+    border: 1px auto #b99557;
+    margin: 0 auto;
+}
+.about-me{
+    font-size: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+.contact i{
+    color: #b99557;
 }
 .timeline-item {
     padding: 4em 2em 0em 2em;
