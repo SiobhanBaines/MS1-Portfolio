@@ -119,32 +119,23 @@ footer ul {
 }
 
 /*-------------------------------About Me body */
-.about-container {
-  height: 100vh;
-  background-color: #ececeb;;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  display: flex;
-  align-items: flex-start; 
-  justify-content: center;
-  position: relative;
+.section-1,
+.section-2{
+  background-color: #ececeb;
 }
-.card {
-    width: 45%;
-    background-color: #ececeb;
-    border: 1px auto #b99557;
-    margin: 0 auto;
-}
+
 .about-me,
 .contact-me{
     align-items: center;
     justify-content: center;
     margin-top: 1px;
     margin-bottom: 1px;
-    font-size: 10px;
+    font-size: 12px;
     padding: 1px 5px 5px 1px;
+}
+
+ .about-me li{
+     list-style: none;
 }
 
 
@@ -152,19 +143,34 @@ footer ul {
     color: #b99557;
     font-style: normal;
 }
+
+.qualify-section,
+.work-section{
+    display: table-cell;
+    padding: 0 15px 15px;
+    float: none;
+}
+
 .timeline-heading {
     margin-bottom: 50px;
     font-style: bold;
     font-size: 14px;
 }
+
 .timeline-item {
     padding: 4em 2em 0em 2em;
     position: relative;
     border-left: 1px #b99557 solid;
+    font-size: 11px;
+
+}
+.timeline-item h6{
+  padding-top: 1em;  
 }
 .timeline-item p{
     padding: 0;
     margin: 0;
+    font-size: 12px;
 }
 
 .timeline-item::before{
@@ -177,19 +183,18 @@ footer ul {
     padding: 0;
     margin: 0;
 }
-
-.timeline-item::after{
-    width: 12px;
+.timeline-heading::after{
     height: 12px;
     display: block;
-    top: 2.4em;
-    position:absolute;
-    left:-6px;
-    border-radius:12px;
-    content:'';
+    top: 2.4em;
+    position: absolute;
+    left: -6px;
+    border-radius: 12px;
+    content: '';
+    background: #b99557;
 }
-.history-items {
-    margin-bottom: 30px;
+timeline-items {
+    margin-bottom: 20px;
 }
 
 /*--------------------------------------ERP Body*/
