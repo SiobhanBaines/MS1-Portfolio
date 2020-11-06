@@ -270,11 +270,11 @@ button[type="submit"] {
   position: relative;
 }
 .card {
-  border-radius: 3%;
-  width: 18em;
-  height: 15em;
-  top: 30%;
-  left: 30%;
+  border-radius: 5%;
+  width: 15em;
+  height: 12em;
+  top: 27%;
+  left: 27%;
   margin: 15% auto;
   padding: 15px;
   align-items: center;
@@ -307,6 +307,7 @@ button[type="submit"] {
   font-size: 30px;
   font-weight: bold;
   position: relative;
+  justify-items: bottom;
   text-align: center;
   color: #b99557;
   padding: 30px 10px 0 10px;
