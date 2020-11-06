@@ -272,9 +272,9 @@ button[type="submit"] {
 .card {
   border-radius: 3%;
   width: 18em;
-  height: 18em;
-  top: 50%;
-  left: 50%;
+  height: 15em;
+  top: 30%;
+  left: 30%;
   margin: 15% auto;
   padding: 15px;
   align-items: center;
@@ -286,23 +286,32 @@ button[type="submit"] {
   -moz-transition: all 0.3s ease-in;
   -o-transition: all 0.3s ease-in;
 }
-.card-body {
-}
-.card-text {
-  font-size: 25px;
-  font-weight: bold;
-  position: relative;
-  text-align: center;
-  color: #897d6f;
+.card-title{
+    font-size: 20px;
+    font-style: bold;
+    text-align: center;
 }
 
-.card-text a i{
-  font-size: 25px;
+.card-subtitle{
+    font-size: 15px;
+}
+.card-text {
+  font-size: 30px;
   font-weight: bold;
   position: relative;
   text-align: center;
-  color: #897d6f;
+  color: #b99557;
+  padding: 30px 10px 0 10px;
 }
+.card-text a{
+  font-size: 30px;
+  font-weight: bold;
+  position: relative;
+  text-align: center;
+  color: #b99557;
+  padding: 30px 10px 0 10px;
+}
+
 /*--------------------------------------------Media Queries*/
 @media (min-width: 992px) {
   .center-form {
