@@ -11,8 +11,10 @@ a {
 /*------------------------------------------Global*/
 body {
   margin: 0;
+  padding:0;
   font-family: Chilanka;
   color: #073445;
+
 }
 
 .inline-block {
@@ -30,7 +32,9 @@ h8 {
 }
 /*------------------------------------------Header*/
 .header-container {
-  width: 100%;
+    max-width: 100vw !important;
+  max-height: 100vh !important;
+  /*width: 100%;*/
   padding: 0;
   margin: 0;
   background-color: rgba(150, 181, 191, 0.5);
@@ -42,7 +46,7 @@ h8 {
   width: 100%;
 }
 .nav-item {
-  font-size: 15px;
+  font-size: 20px;
 }
 
 /*----------------------------------------Footer*/
@@ -73,7 +77,8 @@ footer ul {
 
 /*------------------------------------Index Body Image*/
 .index-container {
-  height: 100vh;
+  height: 81vh;
+  width: 100vw;
   background: url("../images/index-image.jpg") no-repeat top left fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -93,20 +98,24 @@ footer ul {
   width: 100%;
   background-color: rgba(250, 250, 250, 0.8);
 }
-.opaque-overlay-light {
+/*.opaque-overlay-light {
   position: absolute;
   top: 0;
   left: 0;
-  height: 100%;
-  width: 100%;
+  max-width: 100vw !important;
+  max-height: 81vh !important;
+  /*height: 100%;
+  width: 100%;*/
   background-color: rgba(250, 250, 250, 0.85);
-}
+}*/
 .opaque-overlay-dark {
   position: absolute;
   top: 0;
   left: 0;
-  height: 100%;
-  width: 100%;
+  max-width: 100vw !important;
+  max-height: 81vh !important;
+  /*height: 100%;
+  width: 100%;*/
   background-color: rgba(250, 250, 250, 0.5);
 }
 
@@ -202,37 +211,11 @@ timeline-items {
   margin-bottom: 20px;
 }
 
-/*--------------------------------------ERP Body*/
-.erp-container {
-  height: 100vh;
-  background: url("../images/erp-image.jpg") no-repeat top left fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-}
-.erp-row {
-  justify-content: center;
-}
-.erp-project {
-  border: 2px solid;
-  border-color: #c9cacb;
-  background-color: #fafafa;
-}
-.erp-header {
-}
-.erp-outline {
-}
-.erp-description {
-}
-
 /*------------------------------------Contact Body*/
 .contact-container {
-  height: 100vh;
+  height: 80.85vh;
+  width: 100vw;
+  overflow: hidden;
   background: url("../images/contact-image.jpg") no-repeat top left fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -258,23 +241,35 @@ button[type="submit"] {
 }
 /*-----------------------------------Project Body*/
 .projects-container {
-  height: 100vh;
-  background: url("../images/projects-image.jpg") no-repeat top left fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
+    max-width: 100vw !important;
+    max-height: 81vh !important;
+    margin: 0;
+    padding: 0;
+    background: url("../images/projects-image.jpg") no-repeat center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+.col-xs-6{
+    align-items: center;
+}
+.project-row{
+      justify-content: center;
+      align-items: center;
+}
+ .project{
+     align-items: center;
+     justify-content: center;
+ }
 .card {
   border-radius: 5%;
   width: 15em;
   height: 12em;
   top: 27%;
-  left: 27%;
   margin: 15% auto;
   padding: 15px;
   align-items: center;
@@ -321,4 +316,5 @@ button[type="submit"] {
     margin: 0 auto;
     max-width: 50%;
   }
+
 }
