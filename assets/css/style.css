@@ -116,10 +116,6 @@ footer ul {
 .about-container{
     background-color: #ececeb;
 }
-/*.section-1,
-.section-2 {
-    background-color: #ececeb;
-}*/
 #about-me-intro{
     padding:5px 0px 0px 0px;
     margin-left: 25px;
@@ -134,7 +130,6 @@ footer ul {
     padding: 0em 1em 0em;
     margin: 0;
 }
-
 .about-me, 
 .contact-me{
     margin-bottom: 1px;
@@ -148,8 +143,6 @@ footer ul {
     color: #b99557;
     font-style: normal;
 }
-
-
 #work-section {
     position: relative;
     margin-left: 50px;
@@ -163,9 +156,10 @@ footer ul {
     padding: 5px 15px 15px;
     width: 300px;
 }
-.timeline-heading  {
+.heading-time {
     font-style: bold;
     font-size: 14px;
+    text-align: center;
 }
 .timeline-item {
     padding: 1em 2em 1em 2em;
@@ -178,7 +172,7 @@ footer ul {
     margin: 0;
     font-size: 12px;
 }
-.timeline-item::before {
+.timeline-item:before {
     content: attr(data-dates);
     left: 2.5em;
     top: 1em;
@@ -187,6 +181,17 @@ footer ul {
     margin: 0;
 }
 
+.timeline-item:after {
+    width: 12px;
+    height: 12px;
+    display: block;
+    top: 2.3rem;
+    position: absolute;
+    left: -6px;
+    border-radius: 50%;
+    content:"";
+    background: #b99557;
+}
 /*-----------------------------------Project Body*/
 .projects-container {
     height: 100vh;
