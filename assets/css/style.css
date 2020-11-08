@@ -294,5 +294,11 @@ button[type="submit"] {
     margin: 0 auto;
     max-width: 50%;
   }
-
+.projects-container{
+    background-color: #ececeb;
+}
+.opaque-overlay-dark{
+    background-color: rgba(250, 250, 250, 0.0)
+ 
+}
 }
