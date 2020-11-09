@@ -194,20 +194,11 @@ footer ul {
 }
 /*-----------------------------------Project Body*/
 .projects-container {
-    height: 100vh;
-    background: url("../images/projects-image.jpg") no-repeat center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
+    background-color: #ececeb;
 }
-.col-xs-6{
+/*.col-xs-6{
     align-items: center;
-}
+}*/
 .project-row{
       justify-content: center;
       align-items: center;
@@ -294,11 +285,4 @@ button[type="submit"] {
     margin: 0 auto;
     max-width: 50%;
   }
-.projects-container{
-    background-color: #ececeb;
-}
-.opaque-overlay-dark{
-    background-color: rgba(250, 250, 250, 0.0)
- 
-}
 }
