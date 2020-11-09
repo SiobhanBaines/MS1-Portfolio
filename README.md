@@ -44,7 +44,9 @@ Finally, there will be links to my social media accounts including LinkedIn, Git
 After working on various parts of the website I decided there were some things I did not like such as the icons for each menu option on the navigation bar, the positioning of the social media links, the download CV link and the layout of the My Story page (aka about).
 
 ### *Surface*
-The colour scheme was taken from the colours of [index-image.jpg](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/4b32379f0e76701ccb944197136907a9fdf6c8db/assets/images/index-image.jpg) I believe the muted blues and browns give the site a more professional image. I chose the laptop and coffee image because I always have a coffee by my side when I am developing.
+The colour scheme was taken from the colours of [index-image.jpg](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/4b32379f0e76701ccb944197136907a9fdf6c8db/assets/images/index-image.jpg) 
+[colour pallet](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/73d398841eb3099f02e69c91bd96042ae3f2f8df/assets/reference%20documents/colour%20pallet.pdf)
+I believe the muted blues and browns give the site a more professional image. I chose the laptop and coffee image because I always have a coffee by my side when I am developing.
 
 ## Features
 
@@ -74,6 +76,7 @@ Link to Milestone Project 4
 CSS3
 HMTL5
 Bootstrap Framework
+Google
 
 ## Testing
 
@@ -134,15 +137,18 @@ Do the pages flow smoothly on a mobile device?
 Does the content look clean and readable, and does it fit well in the mobile device screen?
 
 Does the scroll work properly?
-
+[Test Evidence](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/73d398841eb3099f02e69c91bd96042ae3f2f8df/assets/reference%20documents/MS1%20Test%20Evidence.pdf)
 
 
 ## Credits
+Hayley Schafer Portfolio for help with my Projects page and inspiration for my design.(https://www.haleyschafer.com/index.html)
+Lucy Jones Portfolio for inspiration for My Story page. (https://www.haleyschafer.com/index.html)
+Code Institute - Whiskey Drop and Rosie Resume websites for help with navigation, timeline and contact page.
+
 
 ### Media
 
 The photographs used in this site were obtained from [dreamstime](https://www.dreamstime.com/)
+I then used https://icolorpalette.com/ to get a colour palatte from the image I used for index-image.
 
-### Time Line
 
-I used the 
