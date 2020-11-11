@@ -8,7 +8,9 @@ This project is to build a static front-end which demonstrates the skills I have
 
 [View the live project here](https://siobhanbaines.github.io/Siobhan-Baines-MS1-Portfolio/)
 
-<h2 align="center"><img stc="https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/06c243511cf5b78676516ed0c7f6a763ae274b51/assets/images/Portfolio%20Landing%20Page.jpg"</h2>
+<h2 align="center"><img stc="../assets/images/Portfolio%20Landing%20Page.jpg"</h2>
+
+<!--<h2 align="center"><img stc="https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/06c243511cf5b78676516ed0c7f6a763ae274b51/assets/images/Portfolio%20Landing%20Page.jpg"</h2>-->
 
 ## User Experience (UX)
 
