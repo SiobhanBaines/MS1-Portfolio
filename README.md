@@ -4,7 +4,7 @@
 
 This project is to build a static front-end which demonstrates the skills I have developed using CSS3, HTML5 and Bootstrap technologies. The subject of this project is my personal portfolio including information about my past, present and future career. The front-end is designed to give any user an informative, interesting, user friendly and professional experience. There will be navigation to 2/3 pages, links to my social media accounts, information about past projects and place holders for future projects, the ability to open my curriculum vitae on a separate tab in pdf format and the facility to contact me directly.
 
- ![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/75385010ab182dde4286107761b6a8229cfdbf20/assets/reference_documents/images_README/amiresponsive_image.png)
+ ![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/b6849bb33bb888d3bcfdca3196203adeadc29a65/assets/reference_documents/images_README/amiresponsive_image.png)
 
 [View the live project here](https://siobhanbaines.github.io/Siobhan-Baines-MS1-Portfolio/)
 
@@ -35,11 +35,11 @@ At the same time as providing a good outline of my skills and experience for a p
 ### *Structure*
 My landing page will be very simple with only my name and job title in the centre, the header navigation and the footer links.
 
-![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/75385010ab182dde4286107761b6a8229cfdbf20/assets/reference_documents/images_README/Portfolio_Landing_Page.png)
+![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/b6849bb33bb888d3bcfdca3196203adeadc29a65/assets/reference_documents/images_README/Portfolio_Landing_Page.png)
 
 The 'My Story' page will give a brief overview of who I am and what I have done throughout my career in IT as well as the qualifications I have earned since leaving school.
 
-![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/75385010ab182dde4286107761b6a8229cfdbf20/assets/reference_documents/images_README/My_Story_page.png)
+![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/b6849bb33bb888d3bcfdca3196203adeadc29a65/assets/reference_documents/images_README/My_Story_page.png)
 
 The 'Projects' page will highlight some of the larger projects I have previously worked on my IT career and some place holders for the future mile stone projects with Code Institute which will eventually have links to the projects source and deployed site.
 
@@ -183,5 +183,4 @@ https://www.w3schools.com/default.asp) or [stackoverflow](https://stackoverflow.
 The photographs used in this site were obtained from [dreamstime](https://www.dreamstime.com/)
 
 I then used [icolorpalette](https://icolorpalette.com/) to get a colour palatte from the image I used for index-image.
-
 
