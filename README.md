@@ -6,10 +6,11 @@ This project is to build a static front-end which demonstrates the skills I have
 
  http://ami.responsivedesign.is/#
 
-https://siobhanbaines.github.io/Siobhan-Baines-MS1-Portfolio/
+[View the live project here](https://siobhanbaines.github.io/Siobhan-Baines-MS1-Portfolio/)
+
+<h2 align="center"><img stc="https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/06c243511cf5b78676516ed0c7f6a763ae274b51/assets/images/Portfolio%20Landing%20Page.jpg"</h2>
 
 ## User Experience (UX)
-
 
 
 ### *User Stories*
@@ -27,26 +28,32 @@ https://siobhanbaines.github.io/Siobhan-Baines-MS1-Portfolio/
    As an employer I want her site to show me some of her personality as well as her technologically skill set so that I can evaluate her fit with my team.
 
 ### *Strategy*
-My design objective was to make the information on my site completely accessible and keep the pages as uncluttered as possible while giving all the information a visitor to my site might want or need.
+My design objective was to create a website showcasing a highlevel of my technical skill set. I wanted the information to be easily accessible, clear and concise but at the same time giving the visitor everything they might want or need.
 
 ### *Scope*
-At the same time as providing a good outline of my skills and experience for a prospective employer I wanted to make the experience of using the site as enjoyable as possible and give them the facilities to download my curriculum vitae and/or contract me directly. 
+At the same time as providing a good outline of my skills and experience for a prospective employer I wanted to make the experience of using the site as enjoyable as possible and give them the facility to download my curriculum vitae and/or contract me directly as well as the ability to check out all my social media presence. 
 
 ### *Structure*
-The about section will give a brief overview of who I am and what I have done throughout my career.
-The projects section will highlight some of the larger projects I have previously worked on in IT and some place holders to the future mile stone projects with Code Institute which will have links (in time) to each of them.
+The 'My Story' page will give a brief overview of who I am and what I have done throughout my career in IT as well as the qualifications I have earned since leaving school.
+
+The 'Projects' page will highlight some of the larger projects I have previously worked on my IT career and some place holders for the future mile stone projects with Code Institute which will eventually have links to the projects source and deployed site.
+
 There will be a contact page to allow prospective employers to contact me via email.
-Finally, there will be links to my social media accounts including LinkedIn, GitHub, Twitter and Instagram as well as providing the ability to download my CV which will open in a separate tab.
+
+Finally, there will be links to my social media accounts including LinkedIn, GitHub, Facebook,Twitter and Instagram as well as providing the ability to download my CV. Where there are active links, they will open in a separate tab. 
 
 ### *Skeleton*
-[Wireframes](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/4b32379f0e76701ccb944197136907a9fdf6c8db/assets/reference%20documents/wireframes)
+#### Wireframes
+[Initial Design](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/06c243511cf5b78676516ed0c7f6a763ae274b51/assets/reference%20documents/wireframes/Initial%20Design)
 
 After working on various parts of the website I decided there were some things I did not like such as the icons for each menu option on the navigation bar, the positioning of the social media links, the download CV link and the layout of the My Story page (aka about).
+
+[Final Design](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/06c243511cf5b78676516ed0c7f6a763ae274b51/assets/reference%20documents/wireframes/Final%20Design)
 
 ### *Surface*
 The colour scheme was taken from the colours of [index-image.jpg](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/4b32379f0e76701ccb944197136907a9fdf6c8db/assets/images/index-image.jpg) 
 [colour pallet](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/73d398841eb3099f02e69c91bd96042ae3f2f8df/assets/reference%20documents/colour%20pallet.pdf)
-I believe the muted blues and browns give the site a more professional image. I chose the laptop and coffee image because I always have a coffee by my side when I am developing.
+I believe the muted blues and browns give the site a more professional image which is easy on the eye. I chose the laptop and coffee image because the concept seems to fit well with my working personality. I always have a coffee by my side when I am coding which has usually gone cold.
 
 ## Features
 
@@ -54,11 +61,11 @@ I believe the muted blues and browns give the site a more professional image. I 
 
 ##### Header navigation bar
 
-[](https://www.youtube.com/watch?v=qmPmwdshCMw)
+Initially I based my navigation bar on the one in the Whiskey Drop tutorial but I struggled to get it working. By using google I came across this bootstrap grid [video](https://www.youtube.com/watch?v=qmPmwdshCMw). After watching I was able to get the navigation bar to not only work but to look how I wanted it to on the screen.
 
 ##### Image
 
-Opacity - https://www.w3schools.com/css/css_image_transparency.asp
+I wanted the images I was using to be more in the back ground and after using Google I found this information on opacity - https://www.w3schools.com/css/css_image_transparency.asp which gave the the information I needed to achieve the result I was looking for.
 
 ##### Time line for Qualifications and Experience
 
@@ -106,13 +113,13 @@ GitHub
 LinkedIn
 Facebook
 Instagram
-TwitterTest 
+Twitter
 
 ### My Story Page
 
 #### Test Scenario 7
 
-Click on my email address on 'My Story' page to check it creates an email with my email address and the recipients address
+Click on my email address on 'My Story' page to check it creates an email with my email address and the recipients' address
 
 ### Projects Page
 
@@ -137,18 +144,37 @@ Do the pages flow smoothly on a mobile device?
 Does the content look clean and readable, and does it fit well in the mobile device screen?
 
 Does the scroll work properly?
+
 [Test Evidence](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/73d398841eb3099f02e69c91bd96042ae3f2f8df/assets/reference%20documents/MS1%20Test%20Evidence.pdf)
 
+Once I had completed my unit testing, I sent the link to family and friend asking them to be critical. Perhaps family and friends are too kind.
+
+The final test is to ask for a peer review.
+
+#### Other Testing
+I used https://validator.w3.org/ to check my HTML5. 
+I used https://jigsaw.w3.org/css-validator/ to check my css. 
+I used https://autoprefixer.github.io/ to add in any prefixes I had missed. 
+I also copied the HTML into word to run a spell check over it and cleaned up my bad typing.
 
 ## Credits
-Hayley Schafer Portfolio for help with my Projects page and inspiration for my design.(https://www.haleyschafer.com/index.html)
-Lucy Jones Portfolio for inspiration for My Story page. (https://www.haleyschafer.com/index.html)
+Hayley Schafer Portfolio for help with my Projects page and inspiration for my design.(https://www.haleyschafer.com/index.html).
+
+Lucy Jones Portfolio for inspiration for My Story page. (https://lucyjpjones.github.io/LucyJones-resume/my-story.html).
+
 Code Institute - Whiskey Drop and Rosie Resume websites for help with navigation, timeline and contact page.
+
+Academind  - I used the ideas from their video to fix my navigation bar
+(https://www.youtube.com/watch?v=qmPmwdshCMw).
+
+When using Google to find out more information about various parts of my code that were not working as I expected I often used[w3schools](
+https://www.w3schools.com/default.asp) or [stackoverflow](https://stackoverflow.com/questions/29595233/website-not-filling-entire-width-of-screen).
 
 
 ### Media
 
 The photographs used in this site were obtained from [dreamstime](https://www.dreamstime.com/)
-I then used https://icolorpalette.com/ to get a colour palatte from the image I used for index-image.
+
+I then used [icolorpalette](https://icolorpalette.com/) to get a colour palatte from the image I used for index-image.
 
 
