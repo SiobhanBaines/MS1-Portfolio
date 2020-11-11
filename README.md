@@ -4,11 +4,10 @@
 
 This project is to build a static front-end which demonstrates the skills I have developed using CSS3, HTML5 and Bootstrap technologies. The subject of this project is my personal portfolio including information about my past, present and future career. The front-end is designed to give any user an informative, interesting, user friendly and professional experience. There will be navigation to 2/3 pages, links to my social media accounts, information about past projects and place holders for future projects, the ability to open my curriculum vitae on a separate tab in pdf format and the facility to contact me directly.
 
- ![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/45c931fd9203438646fb7561a0b8cb625f9d6d5f/assets/reference%20documents/images_README/amiresponsive%20image.jpg)
+ ![image](../assets/reference_documents/images_README/amiresponsive_image.jpg)
 
 [View the live project here](https://siobhanbaines.github.io/Siobhan-Baines-MS1-Portfolio/)
 
-<h2 align="center"><img stc="https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/06c243511cf5b78676516ed0c7f6a763ae274b51/assets/images/Portfolio%20Landing%20Page.jpg"</h2>
 
 ## User Experience (UX)
 
@@ -36,15 +35,15 @@ At the same time as providing a good outline of my skills and experience for a p
 ### *Structure*
 My landing page will be very simple with only my name and job title in the centre, the header navigation and the footer links.
 
-![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/45c931fd9203438646fb7561a0b8cb625f9d6d5f/assets/reference%20documents/images_README/Portfolio%20Landing%20Page.jpg)
+![image](../assets/reference_documents/images_README/Portfolio_Landing_Page.jpg)
 
 The 'My Story' page will give a brief overview of who I am and what I have done throughout my career in IT as well as the qualifications I have earned since leaving school.
 
-![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/45c931fd9203438646fb7561a0b8cb625f9d6d5f/assets/reference%20documents/images_README/My%20Story%20page.jpg)
+![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/45c931fd9203438646fb7561a0b8cb625f9d6d5f/assets/reference_documents/images_README/My_Story_page.jpg)
 
 The 'Projects' page will highlight some of the larger projects I have previously worked on my IT career and some place holders for the future mile stone projects with Code Institute which will eventually have links to the projects source and deployed site.
 
-![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/45c931fd9203438646fb7561a0b8cb625f9d6d5f/assets/reference%20documents/images_README/Projects%20page.jpg)
+![image](../assets/reference_documents/images_README/Projects_page.jpg)
 
 There will be a contact page to allow prospective employers to contact me via email.
 
@@ -52,15 +51,15 @@ Finally, there will be links to my social media accounts including LinkedIn, Git
 
 ### *Skeleton*
 #### Wireframes
-[Initial Design](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/06c243511cf5b78676516ed0c7f6a763ae274b51/assets/reference%20documents/wireframes/Initial%20Design)
+[Initial Design](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/5bcddc8ac0353ef1baee7dc8454ee900aae741df/assets/reference_documents/wireframes/Initial_Design)
 
 After working on various parts of the website I decided there were some things I did not like such as the icons for each menu option on the navigation bar, the positioning of the social media links, the download CV link and the layout of the My Story page (aka about).
 
-[Final Design](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/06c243511cf5b78676516ed0c7f6a763ae274b51/assets/reference%20documents/wireframes/Final%20Design)
+[Final Design](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/5bcddc8ac0353ef1baee7dc8454ee900aae741df/assets/reference_documents/wireframes/Final_Design)
 
 ### *Surface*
 The colour scheme was taken from the colours of [index-image.jpg](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/4b32379f0e76701ccb944197136907a9fdf6c8db/assets/images/index-image.jpg) 
-[colour pallet](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/73d398841eb3099f02e69c91bd96042ae3f2f8df/assets/reference%20documents/colour%20pallet.pdf)
+[colour pallet](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/5bcddc8ac0353ef1baee7dc8454ee900aae741df/assets/reference_documents/colour_pallet.pdf)
 I believe the muted blues and browns give the site a more professional image which is easy on the eye. I chose the laptop and coffee image because the concept seems to fit well with my working personality. I always have a coffee by my side when I am coding which has usually gone cold.
 
 ## Features
@@ -153,7 +152,7 @@ Does the content look clean and readable, and does it fit well in the mobile dev
 
 Does the scroll work properly?
 
-[Test Evidence](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/73d398841eb3099f02e69c91bd96042ae3f2f8df/assets/reference%20documents/MS1%20Test%20Evidence.pdf)
+[Test Evidence](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/5bcddc8ac0353ef1baee7dc8454ee900aae741df/assets/reference_documents/MS1_Test_Evidence.pdf)
 
 Once I had completed my unit testing, I sent the link to family and friend asking them to be critical. Perhaps family and friends are too kind.
 
