@@ -49,11 +49,7 @@ The 'My Story' page will give a brief overview of who I am and what I have done 
 
 The 'Projects' page will highlight some of the larger projects I have previously worked on my IT career and some place holders for the future mile stone projects with Code Institute which will eventually have links to the projects source and deployed site.
 
-<<<<<<< HEAD
-![image](../assets/reference_documents/images_README/Projects_page.jpg)
-=======
-![image](../assets/reference%20documents/images_README/Projects%20page.jpg)
->>>>>>> e2ef097d79e19e9797d01e98ae66ce07e12c1ec3
+![image](../assets/reference_documents/images_README/Projects_page.png)
 
 There will be a contact page to allow prospective employers to contact me via email.
 
