@@ -49,7 +49,7 @@ The 'My Story' page will give a brief overview of who I am and what I have done 
 
 The 'Projects' page will highlight some of the larger projects I have previously worked on my IT career and some place holders for the future mile stone projects with Code Institute which will eventually have links to the projects source and deployed site.
 
-![image](../assets/reference_documents/images_README/Projects_page.png)
+![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/d89906cb03dd31d6cf17e21b59dbf87b7b076043/assets/reference_documents/images_README/Projects_page.png)
 
 There will be a contact page to allow prospective employers to contact me via email.
 
