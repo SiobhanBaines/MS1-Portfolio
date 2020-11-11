@@ -4,7 +4,7 @@
 
 This project is to build a static front-end which demonstrates the skills I have developed using CSS3, HTML5 and Bootstrap technologies. The subject of this project is my personal portfolio including information about my past, present and future career. The front-end is designed to give any user an informative, interesting, user friendly and professional experience. There will be navigation to 2/3 pages, links to my social media accounts, information about past projects and place holders for future projects, the ability to open my curriculum vitae on a separate tab in pdf format and the facility to contact me directly.
 
- http://ami.responsivedesign.is/#
+ ![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/45c931fd9203438646fb7561a0b8cb625f9d6d5f/assets/reference%20documents/images_README/amiresponsive%20image.jpg)
 
 [View the live project here](https://siobhanbaines.github.io/Siobhan-Baines-MS1-Portfolio/)
 
@@ -34,9 +34,17 @@ My design objective was to create a website showcasing a highlevel of my technic
 At the same time as providing a good outline of my skills and experience for a prospective employer I wanted to make the experience of using the site as enjoyable as possible and give them the facility to download my curriculum vitae and/or contract me directly as well as the ability to check out all my social media presence. 
 
 ### *Structure*
+My landing page will be very simple with only my name and job title in the centre, the header navigation and the footer links.
+
+![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/45c931fd9203438646fb7561a0b8cb625f9d6d5f/assets/reference%20documents/images_README/Portfolio%20Landing%20Page.jpg)
+
 The 'My Story' page will give a brief overview of who I am and what I have done throughout my career in IT as well as the qualifications I have earned since leaving school.
 
+![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/45c931fd9203438646fb7561a0b8cb625f9d6d5f/assets/reference%20documents/images_README/My%20Story%20page.jpg)
+
 The 'Projects' page will highlight some of the larger projects I have previously worked on my IT career and some place holders for the future mile stone projects with Code Institute which will eventually have links to the projects source and deployed site.
+
+![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/45c931fd9203438646fb7561a0b8cb625f9d6d5f/assets/reference%20documents/images_README/Projects%20page.jpg)
 
 There will be a contact page to allow prospective employers to contact me via email.
 
