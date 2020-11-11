@@ -34,21 +34,10 @@ h1, h2, h3, h4, h5, h6, h7, h8 {
     width: 100%;
     background-color: rgba(250, 250, 250, 0.8);
 }
-
-.opaque-overlay-dark {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(250, 250, 250, 0.5);
-}
-
 /*------------------------------------------Header*/
 .header-container {
     max-width: 100vw !important;
     max-height: 100vh !important;
-    /*width: 100%;*/
     padding: 0;
     margin: 0;
     background-color: rgba(150, 181, 191, 0.5);
@@ -102,16 +91,11 @@ footer ul {
     justify-content: center;
     position: relative;
 }
-
-
-.jumbotron-jobtitle {
+.jobtitle {
     color: #073445;
-    font-style: bold;
     margin-top: 25px;
     margin-left: 50px;
 }
-
-
 /*-------------------------------About Me body */
 .about-container{
     background-color: #ececeb;
@@ -121,36 +105,39 @@ footer ul {
 }
 #about-me-intro{
     padding:5px 0px 0px 0px;
-    margin-left: 25px;
+    margin-left: 50px;
+    margin-right: 80px;
     border-color: #b99557;
     border-style: dashed;
-    border-width: medium;
+    border-width: thin;
     align-items: left;
     justify-content: left;
-    font-size: 12px;
+    font-size: 13px;
 }
 #about-me-intro ul{
-    padding: 0em 1em 0em;
-    margin: 0;
+    padding: 0em 0.5em 0em;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 0.5em;
 }
-.about-me, 
-.contact-me{
-    margin-bottom: 1px;
-}
-.about-me li,
- .contact-me li {
+#about-me-intro li {
     list-style: none;
 }
+.about-me p {
+    margin-bottom: 3px;
+}
 
-.contact-me i {
+#about-me-intro i {
     color: #b99557;
-    font-style: normal;
 }
 #work-section {
     display: table-cell;
     position: relative;
     padding: 10px 60px 15px 60px;
     text-align: center;
+}
+#work-section .heading-time{
+font-weight: 700;
 }
 #qualify-section {
     position: relative;
@@ -176,11 +163,9 @@ footer ul {
     content: attr(data-dates);
     left: 2.5em;
     top: 1em;
-    font-style: 0.8em;
     padding: 0;
     margin: 0;
 }
-
 .timeline-item:after {
     width: 12px;
     height: 12px;
@@ -196,40 +181,34 @@ footer ul {
 .projects-container {
     background-color: #eae5cc;
 }
-/*.col-xs-6{
-    align-items: center;
-}*/
 .project-row{
       justify-content: center;
       align-items: center;
 }
- .project{
-     align-items: center;
-     justify-content: center;
- }
 .card {
-  border-radius: 5%;
-  width: 15em;
-  height: 12em;
-  top: 27%;
-  margin: 15% auto;
-  padding: 15px;
-  align-items: center;
-  z-index: 2;
-  display: block;
-  opacity: 0.75;
-  transition: all 0.3s ease-in;
-  -webkit-transition: all 0.3s ease-in;
-  -moz-transition: all 0.3s ease-in;
-  -o-transition: all 0.3s ease-in;
+    border-radius: 5%;
+    width: 15em;
+    height: 12em;
+    top: 25%;
+    margin: 8% auto;
+    padding: 15px;
+    align-items: center;
+    z-index: 2;
+    display: block;
+    opacity: 0.75;
+    transition: all 0.3s ease-in;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
 }
 .card-title{
-    font-size: 20px;
-    font-style: bold;
+    font-size: 18px;
+    font-weight: 700;
     text-align: center;
 }
 .card-subtitle{
     font-size: 15px;
+    text-align: center;
 }
 .card-text {
   font-size: 30px;
