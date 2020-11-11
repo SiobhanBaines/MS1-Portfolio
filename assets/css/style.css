@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 @import url('https://fonts.googleapis.com/css2?family=Chilanka&display=swap');
 /*-----------------------------------------Colours*/
 a {
@@ -41,7 +48,9 @@ h1, h3,h5, h6{
     padding: 0;
     margin: 0;
     background-color: rgba(150, 181, 191, 0.5);
-    align-items: baseline;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
 }
 .navbar {
     margin-bottom: 0;
@@ -82,13 +91,16 @@ footer ul {
 .index-container {
     height: 100vh;
     background: url("../images/index-image.jpg") no-repeat top left fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     position: relative;
 }
 .jobtitle {
@@ -110,8 +122,9 @@ footer ul {
     border-color: #b99557;
     border-style: dashed;
     border-width: thin;
-    align-items: left;
-    justify-content: left;
+    -webkit-box-pack: left;
+        -ms-flex-pack: left;
+            justify-content: left;
     font-size: 13px;
 }
 #about-me-intro ul{
@@ -143,9 +156,6 @@ font-weight: 700;
     position: relative;
     padding: 10px 60px 15px 60px;
     text-align: center;
-}
-.timeline-items{
-    align-items: left;
 }
 .timeline-item {
     padding: 1em 2em 1em 5em;
@@ -182,8 +192,12 @@ font-weight: 700;
     background-color: #eae5cc;
 }
 .project-row{
-      justify-content: center;
-      align-items: center;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
 }
 .card {
     border-radius: 5%;
@@ -192,7 +206,9 @@ font-weight: 700;
     top: 25%;
     margin: 8% auto;
     padding: 15px;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     z-index: 2;
     display: block;
     opacity: 0.75;
@@ -222,7 +238,6 @@ font-weight: 700;
   font-size: 30px;
   font-weight: bold;
   position: relative;
-  justify-items: bottom;
   text-align: center;
   color: #b99557;
   padding: 30px 10px 0 10px;
@@ -233,13 +248,16 @@ font-weight: 700;
     height: 100vh;
     overflow: hidden;
     background: url("../images/contact-image.jpg") no-repeat top left fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     position: relative;
 }
 
@@ -256,7 +274,7 @@ button[type="submit"] {
   background-color: #b99557;
 }
 
-/*--------------------------------------------Media Queries*/
+/*--------------------------------------------Media Queries*/
 @media (min-width: 992px) {
   .center-form {
     padding-top: 30px;
