@@ -8,6 +8,12 @@ This project is to build a static front-end which demonstrates the skills I have
 
 [View the live project here](https://siobhanbaines.github.io/Siobhan-Baines-MS1-Portfolio/)
 
+<<<<<<< HEAD
+=======
+<h2 align="center"><img stc="../assets/reference%20documents/images_README/Portfolio%20Landing%20Page.jpg"</h2>
+
+<!--<h2 align="center"><img stc="https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/06c243511cf5b78676516ed0c7f6a763ae274b51/assets/images/Portfolio%20Landing%20Page.jpg"</h2>-->
+>>>>>>> e2ef097d79e19e9797d01e98ae66ce07e12c1ec3
 
 ## User Experience (UX)
 
@@ -43,7 +49,11 @@ The 'My Story' page will give a brief overview of who I am and what I have done 
 
 The 'Projects' page will highlight some of the larger projects I have previously worked on my IT career and some place holders for the future mile stone projects with Code Institute which will eventually have links to the projects source and deployed site.
 
+<<<<<<< HEAD
 ![image](../assets/reference_documents/images_README/Projects_page.jpg)
+=======
+![image](../assets/reference%20documents/images_README/Projects%20page.jpg)
+>>>>>>> e2ef097d79e19e9797d01e98ae66ce07e12c1ec3
 
 There will be a contact page to allow prospective employers to contact me via email.
 
