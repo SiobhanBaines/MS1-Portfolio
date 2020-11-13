@@ -62,7 +62,6 @@ header{
 }
 
 /*----------------------------------------Footer*/
-
 footer {
     background-color: #c4d4df;
     margin: 0;
@@ -104,7 +103,6 @@ footer ul {
         -ms-flex-pack: center;
             justify-content: center;
    position: relative;
-   z-index: -50;
 }
 .jobtitle {
     color: #073445;

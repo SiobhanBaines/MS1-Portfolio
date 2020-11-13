@@ -80,11 +80,10 @@ The Work History from Code Institutes [resume-miniproject-bootstrap4](https://gi
 
 ### Features Left to Implement
 
-Link to Milestone Project 2
+Link to Milestone Project 2 - The interactive front-end project will be added later and the links to the site and github will be activated. I have left placeholders in the code for the links.
+Link to Milestone Project 3  - The data centric project will be added later and the links to the site and github will be activated. I have left placeholders in the code for the links.
 
-Link to Milestone Project 3
-
-Link to Milestone Project 4
+Link to Milestone Project 4 - The final project will be added later and the links to the site and github will be activated. I have left placeholders in the code for the links.
 
 ## Technologies Used
 CSS3
@@ -174,8 +173,7 @@ Code Institute - Whiskey Drop and Rosie Resume websites for help with navigation
 Academind  - I used the ideas from their video to fix my navigation bar
 (https://www.youtube.com/watch?v=qmPmwdshCMw).
 
-When using Google to find out more information about various parts of my code that were not working as I expected I often used[w3schools](
-https://www.w3schools.com/default.asp) or [stackoverflow](https://stackoverflow.com/questions/29595233/website-not-filling-entire-width-of-screen).
+When using Google to find out more information about various parts of my code that were not working as I expected I often used[w3schools](https://www.w3schools.com/default.asp) or [stackoverflow](https://stackoverflow.com/questions/tagged/html).
 
 
 ### Media
