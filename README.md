@@ -14,7 +14,7 @@ This project is to build a static front-end which demonstrates the skills I have
 
 ### *User Stories*
 
-1. **An new visitor to the site**
+1. **A new visitor to the site**
 
    As a new visitor to the site I want the information to be clear and concise so that I can easily understand what the site is about, I want to be able to easily navigate around the site to find all it's content and I may want to be to check out their social media for any other useful information.
 
@@ -51,15 +51,15 @@ Finally, there will be links to my social media accounts including LinkedIn, Git
 
 ### *Skeleton*
 #### Wireframes
-[Initial Design](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/5bcddc8ac0353ef1baee7dc8454ee900aae741df/assets/reference_documents/wireframes/Initial_Design)
+[Initial Design](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/345ae61c1f846b4b615f850372655e3cbb849780/assets/reference_documents/wireframes/Initial_Design)
 
 After working on various parts of the website I decided there were some things I did not like such as the icons for each menu option on the navigation bar, the positioning of the social media links, the download CV link and the layout of the My Story page (aka about).
 
-[Final Design](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/5bcddc8ac0353ef1baee7dc8454ee900aae741df/assets/reference_documents/wireframes/Final_Design)
+[Final Design](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/345ae61c1f846b4b615f850372655e3cbb849780/assets/reference_documents/wireframes/Final_Design)
 
 ### *Surface*
-The colour scheme was taken from the colours of [index-image.jpg](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/4b32379f0e76701ccb944197136907a9fdf6c8db/assets/images/index-image.jpg) 
-[colour pallet](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/5bcddc8ac0353ef1baee7dc8454ee900aae741df/assets/reference_documents/colour_pallet.pdf)
+The colour scheme was taken from the colours of [index_image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/345ae61c1f846b4b615f850372655e3cbb849780/assets/images/index_image.png) 
+[colour pallet](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/345ae61c1f846b4b615f850372655e3cbb849780/assets/reference_documents/colour_pallet.pdf)
 I believe the muted blues and browns give the site a more professional image which is easy on the eye. I chose the laptop and coffee image because the concept seems to fit well with my working personality. I always have a coffee by my side when I am coding which has usually gone cold.
 
 ## Features

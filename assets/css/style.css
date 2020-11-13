@@ -67,6 +67,9 @@ footer {
     background-color: rgba(150, 181, 191, 0.5);
     margin: 0;
     min-height: 50px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
 }
 footer ul {
     width: 100%;
@@ -89,8 +92,8 @@ footer ul {
 
 /*------------------------------------Index Body Image*/
 .index-container {
-    height: 100vh;
-    background: url("../images/index-image.jpg") no-repeat top left fixed;
+    height: 100vh;jpg
+    background: url("../images/index_image.png") no-repeat top left fixed;
     background-size: cover;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -247,7 +250,7 @@ font-weight: 700;
 .contact-container {
     height: 100vh;
     overflow: hidden;
-    background: url("../images/contact-image.jpg") no-repeat top left fixed;
+    background: url("../images/contact_image.png") no-repeat top left fixed;
     background-size: cover;
     display: -webkit-box;
     display: -ms-flexbox;
