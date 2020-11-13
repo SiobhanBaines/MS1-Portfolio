@@ -160,7 +160,7 @@ The final test is to ask for a peer review.
 #### Other Testing
 I used https://validator.w3.org/ to check my HTML5. 
 #### Projects Page 
-Validator.w3 shows that <h3>, <h5> and <p> are not valid children of <button>. I wanted the whole card to act like a button so that it would make the description pop-up in a separate window for review. I wanted to keep the format of the card as it was before. When the pop-up window is closed it leaves a border of the button showing which card was reviewed. I think this is useful especially when viewed on a mobile device. As my skills develope I may find a cleaner way of achieving the whole card acting as a button to give a pop-up window.
+Validator.w3 shows that h3, h5 and p tags are not valid children of button. I wanted the whole card to act like a button so that it would make the description pop-up in a separate window for review. I wanted to keep the format of the card as it was before. When the pop-up window is closed it leaves a border of the button showing which card was reviewed. I think this is useful especially when viewed on a mobile device. As my skills develope I may find a cleaner way of achieving the whole card acting as a button to give a pop-up window.
  
 I used https://jigsaw.w3.org/css-validator/ to check my css. 
 I used https://autoprefixer.github.io/ to add in any prefixes I had missed. 
