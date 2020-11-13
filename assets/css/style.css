@@ -207,6 +207,12 @@ font-weight: 700;
           -ms-flex-align: center;
               align-items: center;
 }
+button.card-body{
+    border-style: none;
+    opacity: 1;
+    padding: 1px, 0;
+    background-color: #fff;
+}
 .card {
     border-radius: 5%;
     width: 15em;
@@ -233,6 +239,7 @@ font-weight: 700;
 .card-subtitle{
     font-size: 15px;
     text-align: center;
+    padding-bottom: 2px;
 }
 .card-text {
   font-size: 30px;
@@ -240,7 +247,7 @@ font-weight: 700;
   position: relative;
   text-align: center;
   color: #b99557;
-  padding: 30px 10px 0 10px;
+  padding: 30px 10px -5px 10px;
 }
 .card-text a{
   font-size: 30px;
@@ -250,7 +257,17 @@ font-weight: 700;
   color: #b99557;
   padding: 30px 10px 0 10px;
 }
-
+#modalLabelP1,
+#modalLabelP2,
+#modalLabelP3,
+#modalLabelP4,
+#modalLabelP5,
+#modalLabelP2{
+    font-weight: 700;
+}
+.btn-projects{
+    background-color: #b99557; 
+}
 /*------------------------------------Contact Body*/
 .contact-container {
     background: url("../images/contact_image.png") no-repeat top left fixed;
