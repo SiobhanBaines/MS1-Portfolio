@@ -58,8 +58,8 @@ After working on various parts of the website I decided there were some things I
 [Final Design](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/345ae61c1f846b4b615f850372655e3cbb849780/assets/reference_documents/wireframes/Final_Design)
 
 ### *Surface*
-The colour scheme was taken from the colours of [index_image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/345ae61c1f846b4b615f850372655e3cbb849780/assets/images/index_image.png) 
-[colour pallet](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/345ae61c1f846b4b615f850372655e3cbb849780/assets/reference_documents/colour_pallet.pdf)
+The colour scheme was taken from the colours of [index_image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/3d543c973fc56c4d8cb2472d9554478aa2aebc81/assets/images/index_image.png) 
+[colour pallet](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/3d543c973fc56c4d8cb2472d9554478aa2aebc81/assets/reference_documents/colour_pallet.pdf)
 I believe the muted blues and browns give the site a more professional image which is easy on the eye. I chose the laptop and coffee image because the concept seems to fit well with my working personality. I always have a coffee by my side when I am coding which has usually gone cold.
 
 ## Features
