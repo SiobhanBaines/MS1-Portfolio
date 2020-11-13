@@ -176,7 +176,7 @@ Code Institute - Whiskey Drop and Rosie Resume websites for help with navigation
 Academind  - I used the ideas from their video to fix my navigation bar
 (https://www.youtube.com/watch?v=qmPmwdshCMw).
 
-When using Google to find out more information about various parts of my code that were not working as I expected I often used[w3schools](https://www.w3schools.com/default.asp) or [stackoverflow](https://stackoverflow.com/questions/tagged/html).
+When using Google to find out more information about various parts of my code that were not working as I expected I often used[w3schools](https://www.w3schools.com/default.asp), [stackoverflow](https://stackoverflow.com/questions/tagged/html) and [Bootstrap](https://getbootstrap.com/docs/4.0/components/modal/).
 
 
 ### Media
