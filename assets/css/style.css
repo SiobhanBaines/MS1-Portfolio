@@ -16,11 +16,12 @@ a {
 }
 
 /*------------------------------------------Global*/
-body {
+html, body {
     margin: 0;
     padding:0;
     font-family: Chilanka;
     color: #073445;
+    height: 100%
 }
 .inline-block {
     display: inline-block;
@@ -46,6 +47,10 @@ header{
     background-color: #c4d4df;
     margin: 0;
     min-height: 50px;
+    z-index: 10;
+    position: fixed;
+    top: 0;
+    width: 100vw;
 }
 .navbar {
     margin-bottom: 0;
@@ -62,6 +67,10 @@ footer {
     background-color: #c4d4df;
     margin: 0;
     min-height: 50px;
+    z-index: 10;
+    position: fixed;
+    bottom:0;
+    width: 100vw;
 }
 
 footer ul {
@@ -85,7 +94,7 @@ footer ul {
 
 /*------------------------------------Index Body Image*/
 .index-container {
-    height: 100vh;
+    height: 100%;
     background: url("../images/index_image.png") no-repeat top left fixed;
     background-size: cover;
     display: -webkit-box;
@@ -97,7 +106,8 @@ footer ul {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    position: relative;
+   position: relative;
+   z-index: -50;
 }
 .jobtitle {
     color: #073445;
@@ -107,15 +117,14 @@ footer ul {
 /*-------------------------------About Me body */
 .about-container{
     background-color: #ececeb;
-    min-height: 100vh;
 }
 .about-me{
-    padding-top: 5px;
+    padding-top: 70px;
 }
 #about-me-intro{
-    padding:5px 0px 0px 0px;
+    padding-top:5px;
     margin-left: 40px;
-    margin-right: 20px;
+    margin-right: 0px;
     border-color: #b99557;
     border-style: dashed;
     border-width: thin;
@@ -125,7 +134,7 @@ footer ul {
     font-size: 14px;
 }
 #about-me-intro ul{
-    padding: 0em 0.5em 0em;
+    padding: 0.5em 0em 0.5em 0em;
     margin-left: 1em;
     margin-right: 1em;
     margin-bottom: 0.5em;
@@ -133,8 +142,10 @@ footer ul {
 #about-me-intro li {
     list-style: none;
 }
-.about-me p {
-    margin-bottom: 3px;
+#about-me-intro p {
+    padding: 5px 0 0 0;
+    margin: 0;
+
 }
 
 #about-me-intro i {
@@ -143,7 +154,7 @@ footer ul {
 #work-section {
     display: table-cell;
     position: relative;
-    padding: 10px 60px 15px 60px;
+    padding: 10px 60px 65px 60px;
     text-align: center;
 }
 #work-section .heading-time{
@@ -151,7 +162,7 @@ font-weight: 700;
 }
 #qualify-section {
     position: relative;
-    padding: 10px 60px 15px 60px;
+    padding: 70px 60px 65px 60px;
     text-align: center;
 }
 .timeline-item {
@@ -190,13 +201,13 @@ font-weight: 700;
 }
 .project-row{
     min-height: 100vh;
+    padding: 70px 5px 70px 5px;
       -webkit-box-pack: center;
           -ms-flex-pack: center;
               justify-content: center;
       -webkit-box-align: center;
           -ms-flex-align: center;
               align-items: center;
-
 }
 .card {
     border-radius: 5%;
@@ -274,11 +285,22 @@ button[type="submit"] {
 }
 
 /*--------------------------------------------Media Queries*/
-@media (min-width: 992px) {
-  .center-form {
-    padding-top: 30px;
-    min-height: 240px;
-    margin: 0 auto;
-    max-width: 50%;
-  }
+@media (max-width: 768px) {
+    .center-form {
+        padding-top: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 50%;
+    }
+    #work-section {
+        display: table-cell;
+        position: relative;
+        padding: 10px 60px 15px 60px;
+        text-align: center;
+    }
+    #qualify-section {
+        position: relative;
+        padding: 10px 60px 65px 60px;
+        text-align: center;
+    }
 }
