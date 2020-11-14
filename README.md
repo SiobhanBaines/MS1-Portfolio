@@ -54,16 +54,18 @@ Finally, there will be links to my social media accounts including LinkedIn, Git
 #### Wireframes
 ###### Initial Design
 [Desktop](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/3ed4294aa8e1cb3cc202dc00b44f3063ae524b19/assets/reference_documents/wireframes/initial_design/desktop_wire_frames_v1.0%20.pdf)
+
 [Mobile](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/3ed4294aa8e1cb3cc202dc00b44f3063ae524b19/assets/reference_documents/wireframes/initial_design/mobile_wire_frames_v1.0%20.pdf)
 
 After working on various parts of the website I decided there were some things I did not like such as the icons for each menu option on the navigation bar, the positioning of the social media links, the download CV link and the layout of the My Story page (aka about).
 
 ###### Final Design
 [Desktop](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/3ed4294aa8e1cb3cc202dc00b44f3063ae524b19/assets/reference_documents/wireframes/final_design/desktop_wire_frames_v2.0.pdf)
+
 [Mobile](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/3ed4294aa8e1cb3cc202dc00b44f3063ae524b19/assets/reference_documents/wireframes/final_design/mobile_wire_frames_v2.0.pdf)
 
 ### *Surface*
-The colour scheme was taken from the colours of [index_image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/3ed4294aa8e1cb3cc202dc00b44f3063ae524b19/assets/images/index_image.png) 
+The colour scheme was taken from the colours of [index_image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/3ed4294aa8e1cb3cc202dc00b44f3063ae524b19/assets/images/index_image.png), 
 [colour pallet](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/3ed4294aa8e1cb3cc202dc00b44f3063ae524b19/assets/reference_documents/colour_pallet.pdf)
 I believe the muted blues and browns give the site a more professional image which is easy on the eye. I chose the laptop and coffee image because the concept seems to fit well with my working personality. I always have a coffee by my side when I am coding which has usually gone cold.
 
@@ -106,7 +108,7 @@ Bootstrap Framework
 Google
 
 ## Testing
-The testing process was on-going through-out the whole of the development. I would change a colour and test it to see how it worked with my design. Adjusting the position of elements would be multiple tests until it was in just the right place. I added padding and removed padding, added margins and removed margins just to see what result I would get. When the site was as good as I thought I could make it, I asked my family and friends to review it and later I asked for a peer-review on [Slack](https://code-institute-room.slack.com/archives/CGWQJQKC5/p1605115211097200).
+The testing process was on-going through-out the whole of the development. I would change a colour and test it to see how it worked with my design. Adjusting the position of elements would be multiple tests until it was in just the right place. I added padding and removed padding, added margins and removed margins just to see what result I would get. When the site was as good as I thought I could make it, I asked my family and friends to review it and later I asked for a peer-review on Slack.
 
 ### Test the Navigation Bar between Desktop and Mobile
 Test the navigation bar collapses to give the 'hamburger' icon when the device is smaller than medium.
@@ -114,6 +116,7 @@ Test the navigation bar collapses to give the 'hamburger' icon when the device i
 Initially I started out copying the source from [Whiskey Drop](https://siobhanbaines.github.io/BootstrapWhiskey/) but soon found there were items I did not understand so went back to Bootstrap and googled other navigation bars. My CV download button was on the right side to begin with but I found moving it across to the left and having it part of the list was better. My colour scheme is such that I needed navbar-light so the menu items were darker than the header bar. I stripped out all but the necessary parts for the desktop menu and gradually added in the collapsible section and the 'hamburger icon'. By trying individual stylings, classes etc I gradually built an understanding of what each element did to the navigation bar. My tutor suggested I needed a 'call to action' feature on the landing page but after much thought I decided it make that page messy. Instead I added a while border to the CV Download menu option which draws the eye and encourages the user to download my CV. 
 ###### Final Test Results 
 ![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/ee7b78e153c3accb56c831fb2b8afbd895cb4522/assets/reference_documents/images_readme/test-results-images/header_desktop.PNG) ![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/ee7b78e153c3accb56c831fb2b8afbd895cb4522/assets/reference_documents/images_readme/test-results-images/header_mobile_hamburger.PNG) ![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/ee7b78e153c3accb56c831fb2b8afbd895cb4522/assets/reference_documents/images_readme/test-results-images/header_mobile_dropdown.PNG)
+
 I would prefer the white border around the CV download button on a mobile device to only outline the actual words. 
 
 ### Test the Footer
@@ -124,13 +127,17 @@ When I started out designing the footer bar, I wanted there to be a second place
 
 ### Navigation Testing
 To ensure the navigation for both the navigation bar and the footer social media icons I created it on the 'index.html' and then copied it across to each of the other pages. I then selected each of the menu items and icons to make sure they worked correctly. 
+
 The menu options all opened the correct page with the exception of the 'CV Download' which opene my CV in a separate tab. 
+
 The social media links each opened in a separate tab.
+###### Final Test Results
 ![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/3ed4294aa8e1cb3cc202dc00b44f3063ae524b19/assets/reference_documents/images_readme/test-results-images/menu_and_social_media_links.PNG)
 
 ### Images
 ###### Development 
 Initially I copied the overlay styling from [resume-miniproject-bootstrap4](https://github.com/Code-Institute-Solutions/resume-miniproject-bootstrap4/tree/master/16-adding-work-history) but this did not give me the affect I was looking for. I wanted the images I was using to be more in the back ground so I used Google to investigate how to make the image fade into the background. I found information on opacity on [w3schools](https://www.w3schools.com/css/css_image_transparency.asp) which helped me to understand what I was doing and after playing with the forth element of the rgba feature I got the result I was looking for. I am still unsure why I need to use '&nbsp;'(non-breaking space) for the opacity overlay but it works.
+
 Originally I wanted images on all my pages but found the 'My Story' page was too long for an image and as I develop more projects I want to add more cards to the 'Projects' page which will also be too long. 
 ###### Final Test Results
 ![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/ee7b78e153c3accb56c831fb2b8afbd895cb4522/assets/reference_documents/images_readme/test-results-images/landing_page.PNG)![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/ee7b78e153c3accb56c831fb2b8afbd895cb4522/assets/reference_documents/images_readme/test-results-images/contact_page.PNG)
@@ -141,7 +148,7 @@ Once the landing page was complete I decided to work on the contact page. Althou
 
 When I was testing the page I noticed the email input accepted any text but forgot about it and only when I asked for a peer-review, and Scott mentioned it again did I investigate. Simply changing the input type from 'text' to 'email' fixed the problem.
 ###### Final Test Results 
-![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/ee7b78e153c3accb56c831fb2b8afbd895cb4522/assets/reference_documents/images_readme/test-results-images/contact_desktop.PNG) ![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/ee7b78e153c3accb56c831fb2b8afbd895cb4522/assets/reference_documents/images_readme/test-results-images/contact_mobile.PNG)
+![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/ee7b78e153c3accb56c831fb2b8afbd895cb4522/assets/reference_documents/images_readme/test-results-images/contact_desktop.PNG) ![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/ee7b78e153c3accb56c831fb2b8afbd895cb4522/assets/reference_documents/images_readme/test-results-images/contact_mobile.PNG) ![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/22c3ab95cddf5456260567bb2b95e2ab397bcbfa/assets/reference_documents/images_readme/test-results-images/contact_email.PNG)
 
 ### My Story Page
 ###### Development 
@@ -149,30 +156,16 @@ The 'My Story' page changed completely during the development of my site. I stru
 
 Getting the timelines to look balanced was tricky and involved many small adjustments. After the peer review, I took Scott's advice and increased the font size on the timelines. He also suggested using the 'tel' tag allowing a mobile device to open the phone app with my mobile number ready to call - a very nice little feature I simply had not thought of. When I had fixed the header and footer to the top and bottom of the page, I had to adjust the padding at the top of each column and add in some extra styling in the @media section to remove the large gap between the timelines.
 ###### Final Test Results 
-![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/ee7b78e153c3accb56c831fb2b8afbd895cb4522/assets/reference_documents/images_readme/test-results-images/my_story_desktop.PNG) ![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/ee7b78e153c3accb56c831fb2b8afbd895cb4522/assets/reference_documents/images_readme/test-results-images/my_story_mobile.PNG)
+![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/ee7b78e153c3accb56c831fb2b8afbd895cb4522/assets/reference_documents/images_readme/test-results-images/my_story_desktop.PNG) ![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/ee7b78e153c3accb56c831fb2b8afbd895cb4522/assets/reference_documents/images_readme/test-results-images/my_story_mobile.PNG) ![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/22c3ab95cddf5456260567bb2b95e2ab397bcbfa/assets/reference_documents/images_readme/test-results-images/timeline_no_gap.PNG)
 
 ### Projects Page
 ###### Development 
-I love the work page on [Haley Schafer's Portfolio](https://www.haleyschafer.com/) and used this to design in the creation of my projects page. I used Google to help find more information about the card. The cards do not feel big enough to have the description on them so I looked for a 'hover' effect and found title attribute of the div element worked really well. When my younger daughter tested the site on her phone she complained the cards did not show her anything if she tapped on them so I used Google again and found the modal classes as well as how to me a description to appear if that card was hovered over. 
+I love the work page on [Haley Schafer's Portfolio](https://www.haleyschafer.com/) and used this to design in the creation of my projects page. I used Google to help find more information about the card. The cards do not feel big enough to have the description on them so I looked for a 'hover' effect and found [title](https://www.w3schools.com/TAGS/tag_title.asp) attribute of the div element worked really well. When my younger daughter tested the site on her phone she complained the cards did not show her anything if she tapped on them so I used Google again and found the [modal](https://getbootstrap.com/docs/4.0/components/modal/) classes as well as how to me a description to appear if that card was hovered over. 
 ###### Final Test Results 
 ![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/ee7b78e153c3accb56c831fb2b8afbd895cb4522/assets/reference_documents/images_readme/test-results-images/projects_desktop.PNG) ![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/ee7b78e153c3accb56c831fb2b8afbd895cb4522/assets/reference_documents/images_readme/test-results-images/projects_mobile.PNG)
 ![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/ee7b78e153c3accb56c831fb2b8afbd895cb4522/assets/reference_documents/images_readme/test-results-images/project_hover_text_desktop.png)
 ![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/ee7b78e153c3accb56c831fb2b8afbd895cb4522/assets/reference_documents/images_readme/test-results-images/project_modal_desktop.PNG)
 ![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/ee7b78e153c3accb56c831fb2b8afbd895cb4522/assets/reference_documents/images_readme/test-results-images/project_modal_mobile.PNG)
-### Transition from Desktop to Mobile
-
-#### Test Scenario 10
-Do the pages flow smoothly on a mobile device?
-
-Does the content look clean and readable, and does it fit well in the mobile device screen?
-
-Does the scroll work properly?
-
-
-
-Once I had completed my unit testing, I sent the link to family and friend asking them to be critical. Perhaps family and friends are too kind.
-
-The final test is to ask for a peer review.
 
 #### Code Verification
 I used https://validator.w3.org/ to check my HTML5. 
@@ -196,8 +189,8 @@ When using Google to find out more information about various parts of my code th
 
 ### Media
 
-The photographs used in this site were obtained from [dreamstime](https://www.dreamstime.com/)
-[Index Page](https://www.dreamstime.com/coffee-next-to-laptop-computer-mug-heart-shape-foam-open-public-domain-image-free-95798528)
+The photographs used in this site were obtained from [dreamstime](https://www.dreamstime.com/), 
+[Index Page](https://www.dreamstime.com/coffee-next-to-laptop-computer-mug-heart-shape-foam-open-public-domain-image-free-95798528), 
 [Contact Page](https://www.dreamstime.com/cappuccino-laptop-computer-next-to-cup-table-public-domain-image-free-94642573)
 
 I then used [icolorpalette](https://icolorpalette.com/) to get a colour palette from the image I used for index-image.
