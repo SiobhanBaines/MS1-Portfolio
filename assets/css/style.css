@@ -213,12 +213,7 @@ font-weight: 700;
 .card-body{
     padding-bottom: 0;
 }
-button.card-body{
-    border-style: none;
-    opacity: 1;
-    padding: 1px, 0;
-    background-color: #fff;
-}
+
 .card {
     border-radius: 5%;
     width: 15em;
@@ -247,6 +242,12 @@ button.card-body{
     font-size: 15px;
     text-align: center;
     padding-bottom: 1.5em;
+}
+button.card-text{
+    border-style: none;
+    opacity: 1;
+    padding: 1px, 0;
+    background-color: #fff;
 }
 .card-text {
   font-size: 30px;
