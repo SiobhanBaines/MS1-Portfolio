@@ -89,10 +89,10 @@ The images give the site a warm comfortable and professional feel.
 I wanted to keep the landing page eye catching but very simple which is why it only has my name and a future job title. 
 
 ##### My Story Page
-Initially I thought I just wanted two or three sentences about me, what I have done and what I want to do but nothing I thought of seem appropriate or to add value. While looking on LinkedIn at some of my contact's pages, I noticed Lucy Jones had a link to her MS1 project which is her portfolio. Her website gave me the inspiration I need to create my own 'My Story' page. Her design allowed me to have a small section about me and how to contact me as well have two separate timelines, one for my work experience and one for qualifications.. 
+Initially I thought I just wanted two or three sentences about me, what I have done and what I want to do but nothing I thought of seem appropriate or to add value. While looking on LinkedIn at some of my contact's pages, I noticed Lucy Jones had a link to her MS1 project which is her portfolio. Her website gave me the inspiration I need to create my own 'My Story' page. Her design showed me how I could have a small section about me and how to contact me, as well have two separate timelines, one for my work experience and one for qualifications.
 
 ##### Projects Page
-In my orginial design I was only going to have the projects I will be completing through the course but this didn't feel right as I came to work on the page. I have over 30 years in Information Technology and have worked on many projects at various levels. It is appropriate this page included the at least the three most recent big projects I have been involved in as well as the milestone projects from the Diploma in Software Development course I am currently studying. As my career moves forward I can expand this area to accommodate more projects. 
+In my orginial design I was only going to have the projects I will be completing through the course but this didn't feel right as I came to work on the page. I have over 30 years in Information Technology and have worked on many projects at various levels. It is appropriate this page included the at least the three most recent big projects I have been involved in as well as the milestone projects from the Diploma in Software Development course I am currently studying. As my career moves forward, I can expand this area to accommodate more projects. 
 
 ##### Contact Page
 My contact page is very simple so I decided to use a background image to add interest. There are input fields for a name, email address and a decription of what the contact is in relation to.
@@ -106,7 +106,7 @@ Link to Milestone Project 3  - The data centric project will be added later and 
 Link to Milestone Project 4 - The final project will be added later and the links to the site and github will be activated. I have left placeholders in the code for the links.
 
 ## Technologies Used
-CSS3, HMTL5, Bootstrap Framework, Google, fontawesome
+CSS3, HMTL5, Bootstrap Framework, Google, Fontawesome
 
 ## Testing
 The testing process was on-going through-out the whole of the website development. I would change a colour and test it to see how it worked with my design. Adjusting the position of elements would involve multiple tests until it was in just the right place. I added padding and removed padding, added margins and removed margins just to see what result I would get. When the site was as good as I thought I could make it, I asked my family and friends to review it and later I asked for a peer-review on Slack.
@@ -135,31 +135,37 @@ To ensure the navigation for both the navigation bar on the header and the foote
 
 ### Images
 ###### Development 
-Initially I copied the overlay styling from [resume-miniproject-bootstrap4](https://github.com/Code-Institute-Solutions/resume-miniproject-bootstrap4/tree/master/16-adding-work-history) but this did not give me the affect I was looking for. I wanted the images I was using to be more in the back ground so I used Google to investigate how to make the image fade into the background. I found information on opacity on [w3schools](https://www.w3schools.com/css/css_image_transparency.asp) which helped me to understand what I was doing and after playing with the forth element of the rgba feature I got the result I was looking for. I am still unsure why I need to use '&nbsp;'(non-breaking space) for the opacity overlay but it works.
+Initially I copied the overlay styling from [resume-miniproject-bootstrap4](https://github.com/Code-Institute-Solutions/resume-miniproject-bootstrap4/tree/master/16-adding-work-history) but this did not give me the affect I was looking for. I wanted the images I was using to be more in the back ground so I used Google to investigate how to make the image fade into the background. I found information on opacity on [w3schools](https://www.w3schools.com/css/css_image_transparency.asp) which helped me to understand what I was doing and after playing with the fourth element of the rgba feature I got the result I was looking for. I am still unsure why I need to use '&nbsp;'(non-breaking space) for the opacity overlay but it works.
 
-Originally I wanted images on all my pages but found the 'My Story' page was too long for an image and as I develop more projects I want to add more cards to the 'Projects' page which will also be too long. 
+Originally, I wanted images on all my pages but found the 'My Story' page was too long for an image and as I develop more projects, I want to add more cards to the 'Projects' page which will also be too long. 
 ###### Final Test Results
 ![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/ee7b78e153c3accb56c831fb2b8afbd895cb4522/assets/reference_documents/images_readme/test-results-images/landing_page.PNG)![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/ee7b78e153c3accb56c831fb2b8afbd895cb4522/assets/reference_documents/images_readme/test-results-images/contact_page.PNG)
 
 ### Contact Page
 ###### Development
-Once the landing page was complete I decided to work on the contact page. Although I had a rough design for the 'My Story' and 'Projects' pages I knew I was not completely happy with my ideas. Since my contact page body was idential in requirements to the one we had just done in the tutorials I decided to copy a section from the contact page on [resume-miniproject-bootstrap4](https://github.com/Code-Institute-Solutions/resume-miniproject-bootstrap4/tree/master/16-adding-work-history). I soon learned, simply copying and pasting code into Gitpod does not work. There seem to be hidden characters that corrupt the code. I made some minor changes including the colour of the submit button to match my colour scheme and added in my email address to the submit button ready for when I have learned the JavaScript to make it send me an email. 
+Once the landing page was complete, I decided to work on the contact page. Although I had a rough design for the 'My Story' and 'Projects' pages I knew I was not completely happy with my ideas. Since my contact page body was idential in requirements to the one we had just done in the tutorials I decided to copy a section from the contact page on [resume-miniproject-bootstrap4](https://github.com/Code-Institute-Solutions/resume-miniproject-bootstrap4/tree/master/16-adding-work-history). I soon learned, simply copying and pasting code into Gitpod does not necessarily work. There seem to be hidden characters that corrupt the code. I made some minor changes including the colour of the submit button to match my colour scheme and added in my email address to the submit button ready for when I have learned the JavaScript to make it send me an email. 
 
-When I was testing the page I noticed the email input accepted any text but forgot about it and only when I asked for a peer-review, and Scott mentioned it again did I investigate. Simply changing the input type from 'text' to 'email' fixed the problem.
+When I was testing the page, I noticed the email input accepted any text but forgot about it and only when I asked for a peer-review, and Scott mentioned it again did I investigate. Simply changing the input type from 'text' to 'email' fixed the problem.
 ###### Final Test Results 
 ![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/ee7b78e153c3accb56c831fb2b8afbd895cb4522/assets/reference_documents/images_readme/test-results-images/contact_desktop.PNG) ![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/ee7b78e153c3accb56c831fb2b8afbd895cb4522/assets/reference_documents/images_readme/test-results-images/contact_mobile.PNG) ![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/22c3ab95cddf5456260567bb2b95e2ab397bcbfa/assets/reference_documents/images_readme/test-results-images/contact_email.PNG)
 
 ### My Story Page
 ###### Development 
-The 'My Story' page changed completely during the development of my site. I struggle with how to tell people who I am and what I do. As previously mentioned I took inspiration from [Lucy Jones' website](https://lucyjpjones.github.io/LucyJones-resume/my-story.html). She has a small about me / contact section and two timelines. This gave me the two columns layout and the Work History from Code Institutes [resume-miniproject-bootstrap4](https://github.com/Code-Institute-Solutions/resume-miniproject-bootstrap4/tree/master/16-adding-work-history) gave me the timeline layout. 
+The 'My Story' page changed completely during the development of my site. I struggle with how to tell people who I am and what I do. As previously mentioned, I took inspiration from [Lucy Jones' website](https://lucyjpjones.github.io/LucyJones-resume/my-story.html). She has a small about me / contact section and two timelines. This gave me the two columns layout and the Work History from Code Institutes [resume-miniproject-bootstrap4](https://github.com/Code-Institute-Solutions/resume-miniproject-bootstrap4/tree/master/16-adding-work-history) gave me the timeline layout. 
 
-Getting the timelines to look balanced was tricky and involved many small adjustments. After the peer review, I took Scott's advice and increased the font size on the timelines. He also suggested using the 'tel' tag allowing a mobile device to open the phone app with my mobile number ready to call - a very nice little feature I simply had not thought of. When I had fixed the header and footer to the top and bottom of the page, I had to adjust the padding at the top of each column and add in some extra styling in the @media section to remove the large gap between the timelines.
+Getting the timelines to look balanced was tricky and involved many small adjustments and checking various sites for different stylings and the inspect facility in the browser was invaluable. 
+
+After the peer review, I took Scott's advice and increased the font size on the timelines. He also suggested using the [tel](https://www.w3schools.com/Tags/att_input_type_tel.asp) tag allowing a mobile device to open the phone app with my mobile number ready to call - a very nice little feature I simply had not thought of. 
+
+When I had made the header and footer stick to the top and bottom of the page, I had to adjust the padding at the top of each column and add in some extra styling in the @media section to remove the large gap between the timelines.
 ###### Final Test Results 
 ![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/ee7b78e153c3accb56c831fb2b8afbd895cb4522/assets/reference_documents/images_readme/test-results-images/my_story_desktop.PNG) ![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/ee7b78e153c3accb56c831fb2b8afbd895cb4522/assets/reference_documents/images_readme/test-results-images/my_story_mobile.PNG) ![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/22c3ab95cddf5456260567bb2b95e2ab397bcbfa/assets/reference_documents/images_readme/test-results-images/timeline_no_gap.PNG)
 
 ### Projects Page
 ###### Development 
-I love the work page on [Haley Schafer's Portfolio](https://www.haleyschafer.com/) and used this to design in the creation of my projects page. I used Google to help find more information about the card. The cards do not feel big enough to have the description on them so I looked for a 'hover' effect and found [title](https://www.w3schools.com/TAGS/tag_title.asp) attribute of the div element worked really well. When my younger daughter tested the site on her phone she complained the cards did not show her anything if she tapped on them so I used Google again and found the [modal](https://getbootstrap.com/docs/4.0/components/modal/) classes as well as how to me a description to appear if that card was hovered over. 
+I love the work page on [Haley Schafer's Portfolio](https://www.haleyschafer.com/) and used her design in the creation of my projects page. I used Google to help find more information about the [card](https://www.w3schools.com/bootstrap4/bootstrap_cards.asp). The cards are not big enough to have the description on them so I looked for a 'hover' effect and found [title](https://www.w3schools.com/TAGS/tag_title.asp) attribute of the div element worked really well. 
+
+When my younger daughter tested the site on her phone, she complained the cards did not show her anything if she tapped on them so I used Google again and found the [modal](https://getbootstrap.com/docs/4.0/components/modal/) classes as well as how to me a description to appear if that card was hovered over. 
 ###### Final Test Results 
 ![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/ee7b78e153c3accb56c831fb2b8afbd895cb4522/assets/reference_documents/images_readme/test-results-images/projects_desktop.PNG) ![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/ee7b78e153c3accb56c831fb2b8afbd895cb4522/assets/reference_documents/images_readme/test-results-images/projects_mobile.PNG)
 ![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/ee7b78e153c3accb56c831fb2b8afbd895cb4522/assets/reference_documents/images_readme/test-results-images/project_hover_text_desktop.png)
@@ -167,8 +173,8 @@ I love the work page on [Haley Schafer's Portfolio](https://www.haleyschafer.com
 ![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/ee7b78e153c3accb56c831fb2b8afbd895cb4522/assets/reference_documents/images_readme/test-results-images/project_modal_mobile.PNG)
 
 #### Code Verification
-I used https://validator.w3.org/ to check my HTML5. 
-I used https://jigsaw.w3.org/css-validator/ to check my css. 
+I used https://validator.w3.org/ to check my HTML5 and corrected the errors it highlighted.
+I used https://jigsaw.w3.org/css-validator/ to check my css. I had tried to use bottom with justify which didn't work. This helped to realise some of the un-used css I had created.
 I used https://autoprefixer.github.io/ to add in any prefixes I had missed. 
 I also copied the HTML into word to run a spell check over it and cleaned up my bad typing.
 I used word to check my spelling.
