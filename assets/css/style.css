@@ -6,6 +6,7 @@
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Chilanka&display=swap');
+
 /*-----------------------------------------Colours*/
 a {
     color: #073445;
@@ -150,6 +151,7 @@ footer ul {
 }
 #about-me-intro i {
     color: #b99557;
+    font-size: 20px;
 }
 #work-section {
     display: table-cell;
