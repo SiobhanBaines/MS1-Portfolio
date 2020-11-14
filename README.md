@@ -160,7 +160,7 @@ The final test is to ask for a peer review.
 #### Other Testing
 I used https://validator.w3.org/ to check my HTML5. 
 #### Projects Page 
-Validator.w3 shows that h3, h5 and p tags are not valid children of button and from my investigations I believe I need to create a javascript function to enable the click-on feature. I want the whole card to act like a button so that it would make the description pop-up in a separate window for the user. When the website is viewed on a desktop hovering over the card shows a small text window. However, mobile devices do not work in the same way, the card needs to be tapped to view further information. 
+Validator.w3 shows that h3, h5 and p tags are not valid children of button and from my investigations I believe I need to create a javascript function to enable the click-on feature. I want the whole card to act like a button so that it would make the description pop-up in a separate window for the user. When the website is viewed on a desktop hovering over the card shows a small text window. However, mobile devices do not work in the same way, the card needs to be tapped to view further information. During testing one of the buttons was visible at the bottom of one of the cards on a Samsung S10 but not on a Sony L3.
  
 I used https://jigsaw.w3.org/css-validator/ to check my css. 
 I used https://autoprefixer.github.io/ to add in any prefixes I had missed. 
