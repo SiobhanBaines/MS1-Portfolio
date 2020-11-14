@@ -16,7 +16,7 @@ This project is to build a static front-end which demonstrates the skills I have
 
 1. **A new visitor to the site**
 
-   As a new visitor to the site I want the information to be clear and concise so that I can easily understand what the site is about, I want to be able to easily navigate around the site to find all it's content and I may want to be to check out their social media for any other useful information.
+   As a new visitor to the site I want the information to be clear and concise so that I can easily understand what the site is about, I want to be able to easily navigate around the site to find all its content and I may want to be to check out their social media for any other useful information.
 
 2. **A recruiter**
 
@@ -27,7 +27,7 @@ This project is to build a static front-end which demonstrates the skills I have
    As an employer I want her site to show me some of her personality as well as her technologically skill set so that I can evaluate her fit with my team.
 
 ### *Strategy*
-My design objective was to create a website showcasing a highlevel of my technical skill set. I wanted the information to be easily accessible, clear and concise but at the same time giving the visitor everything they might want or need.
+My design objective was to create a website showcasing a high-level of my technical skill set. I wanted the information to be easily accessible, clear and concise but at the same time giving the visitor everything they might want or need.
 
 ### *Scope*
 At the same time as providing a good outline of my skills and experience for a prospective employer I wanted to make the experience of using the site as enjoyable as possible and give them the facility to download my curriculum vitae and/or contract me directly as well as the ability to check out all my social media presence. 
@@ -47,7 +47,7 @@ The 'Projects' page will highlight some of the larger projects I have previously
 
 There will be a contact page to allow prospective employers to contact me via email.
 
-Finally, there will be links to my social media accounts including LinkedIn, GitHub, Facebook,Twitter and Instagram as well as providing the ability to download my CV. Where there are active links, they will open in a separate tab. 
+Finally, there will be links to my social media accounts including LinkedIn, GitHub, Facebook, Twitter and Instagram as well as providing the ability to download my CV. Where there are active links, they will open in a separate tab. 
 
 ### *Skeleton*
 #### Wireframes
@@ -67,23 +67,34 @@ I believe the muted blues and browns give the site a more professional image whi
 ### Existing Features
 
 ##### Header navigation bar
+Initially I started out copying the source from [Whiskey Drop](https://siobhanbaines.github.io/BootstrapWhiskey/) but soon found there were items I did not understand so went back to Bootstrap and googled other navigation bars. My CV download button was on the right side to begin with but I found moving it across to the left and having it part of the list was better. My colour scheme is such that I needed navbar-light so the menu items were darker than the header bar. I stripped out all but the necessary parts for the desktop menu and gradually added in the collapsible section and the 'hamburger icon'. By trying individual stylings, classes etc I gradually built an understanding of what each element did to the navigation bar.
 
-Initially I based my navigation bar on the one in the Whiskey Drop tutorial but I struggled to get it working. By using google I came across this bootstrap grid [video](https://www.youtube.com/watch?v=qmPmwdshCMw). After watching I was able to get the navigation bar to not only work but to look how I wanted it to on the screen.
+##### Footer
+When I started out designing the footer bar, I wanted there to be a second place to download my CV from but I found that made the footer look cluttered. Placing the social media icons in the centre feels better to me. I used styling to increase the size of the icons. As part of the peer review Abi highlighted the footer seemed to be behaving strangely. I used Google to find out how I could force the footer to stick to the bottom of the page. Once that was working, I applied the same logic to force the header to stick to the top of the page which allowed for the longer pages to scroll behind both the header and the footer.
 
-##### Image
+##### Images
+I wanted the images I was using to be more in the back ground and after using Google I found this information on [opacity](https://www.w3schools.com/css/css_image_transparency.asp) which gave the information I needed to achieve the result I was looking for. I am still unsure why I need to use '&nbsp;'(non-breaking space) for the opacity overlay but it works.
 
-I wanted the images I was using to be more in the back ground and after using Google I found this information on opacity - https://www.w3schools.com/css/css_image_transparency.asp which gave the the information I needed to achieve the result I was looking for.
+##### Index Page
+My tutor suggested I needed a 'call to action' feature on the landing page but after much thought I decided it was not appropriate. I want the landing page to be uncluttered but pretty and professional at the same time. I have added a border to the CV Download menu option in white which draws the eye and encourages the user to download my CV. 
 
 ##### Time line for Qualifications and Experience
+The Work History from Code Institutes [resume-miniproject-bootstrap4](https://github.com/Code-Institute-Solutions/resume-miniproject-bootstrap4/tree/master/16-adding-work-history) to give me the basic outline. I then looked at [Lucy Jones' website](https://lucyjpjones.github.io/LucyJones-resume/my-story.html) because she has 2 timelines side by side and I wanted to see how she had achieved this. Getting the timelines to look balanced was tricky and involved many small adjustments. After the peer review, I took Scott's advice and increased the font size on the timelines. He also suggested using the 'tel' tag allowing a mobile device to open the phone app with my mobile number ready to call - a very nice little feature I simply had not thought of. When I had fixed the header and footer to the top and bottom of the page, I had to adjust the padding at the top of each column of data and then add in some extra styling in the @media section to make the timelines look right.
 
-The Work History from Code Institutes [resume-miniproject-bootstrap4](https://github.com/Code-Institute-Solutions/resume-miniproject-bootstrap4/tree/master/16-adding-work-history) to give me the basic outline.
+##### Projects Page
+I love the work page on [Haley Schafer's Portfolio](https://www.haleyschafer.com/) and used this to design in the creation of my projects page. I used Google to help find more information about the card and modal classes as well as how to me a description to appear if that card was hovered over. Validator.w3 shows that h3, h5 and p tags are not valid children of button and from my investigations I believe I need to create a JavaScript function to enable the click-on feature. I want the whole card to act like a button so that it would make the description pop-up in a separate window for the user. When the website is viewed on a desktop hovering over the card shows a small text window. However, mobile devices do not work in the same way, the card needs to be tapped to view further information. During testing one of the buttons was visible at the bottom of one of the cards on a Samsung S10 but not on a Sony L3.
+
+##### Contact Page
+
+I did copy this from the contact page on [resume-miniproject-bootstrap4](https://github.com/Code-Institute-Solutions/resume-miniproject-bootstrap4/tree/master/16-adding-work-history). What is interesting is, if you copy and paste the code directly into Gitpod it does not always work. There seem to be hidden characters that corrupt the code. I changed the colour of the submit button and added in my email address for when the submit button will have some JavaScript behind it. I also managed to change the input type for the email to text so it did not work properly when I was testing. Scott noticed this and on reviewing the code I saw my mistake and changed 'text' to 'email' of the input type.
 
 ### Features Left to Implement
 
 Link to Milestone Project 2 - The interactive front-end project will be added later and the links to the site and github will be activated. I have left placeholders in the code for the links.
 Link to Milestone Project 3  - The data centric project will be added later and the links to the site and github will be activated. I have left placeholders in the code for the links.
-
 Link to Milestone Project 4 - The final project will be added later and the links to the site and github will be activated. I have left placeholders in the code for the links.
+
+When I add the next milestone project links into this site, I will need to review the pop-up feature I have implemented because the links, although available as placeholders, will not work because the button is inhibiting access to the icons for the website and Github. I will either use the small 3 bar icon as the button and add it to the milestone projects or I will make the title a button on each project with an on-click feature.
 
 ## Technologies Used
 CSS3
@@ -159,12 +170,10 @@ The final test is to ask for a peer review.
 
 #### Other Testing
 I used https://validator.w3.org/ to check my HTML5. 
-#### Projects Page 
-Validator.w3 shows that h3, h5 and p tags are not valid children of button and from my investigations I believe I need to create a javascript function to enable the click-on feature. I want the whole card to act like a button so that it would make the description pop-up in a separate window for the user. When the website is viewed on a desktop hovering over the card shows a small text window. However, mobile devices do not work in the same way, the card needs to be tapped to view further information. During testing one of the buttons was visible at the bottom of one of the cards on a Samsung S10 but not on a Sony L3.
- 
 I used https://jigsaw.w3.org/css-validator/ to check my css. 
 I used https://autoprefixer.github.io/ to add in any prefixes I had missed. 
 I also copied the HTML into word to run a spell check over it and cleaned up my bad typing.
+I used word to check my spelling.
 
 ## Credits
 Hayley Schafer Portfolio for help with my Projects page and inspiration for my design.(https://www.haleyschafer.com/index.html).
@@ -183,5 +192,5 @@ When using Google to find out more information about various parts of my code th
 
 The photographs used in this site were obtained from [dreamstime](https://www.dreamstime.com/)
 
-I then used [icolorpalette](https://icolorpalette.com/) to get a colour palatte from the image I used for index-image.
+I then used [icolorpalette](https://icolorpalette.com/) to get a colour palette from the image I used for index-image.
 
