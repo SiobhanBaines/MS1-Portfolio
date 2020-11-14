@@ -2,7 +2,8 @@
 
 # Siobhan-Baines-MS1-Portfolio
 
-This project is to build a static front-end which demonstrates the skills I have developed using CSS3, HTML5 and Bootstrap technologies. The subject of this project is my personal portfolio including information about my past, present and future career. The front-end is designed to give any user an informative, interesting, user friendly and professional experience. There will be navigation to 2/3 pages, links to my social media accounts, information about past projects and place holders for future projects, the ability to open my curriculum vitae on a separate tab in pdf format and the facility to contact me directly.
+This project is to build a static front-end which demonstrates the skills I have developed using CSS3, HTML5 and Bootstrap technologies. 
+The subject of this project is my personal portfolio including information about my past, present and future career. The front-end is designed to give any user an informative, interesting, user friendly and professional experience. There will be navigation to 3 pages, the first giving an outline of my previous career and skills, the second for details about some large past projects and placeholders for known future projects and the third giving a mechanism to contact me. There will also be links to my social media accounts and the ability to open my curriculum vitae on separate tab in pdf format. 
 
  ![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/3ed4294aa8e1cb3cc202dc00b44f3063ae524b19/assets/reference_documents/images_readme/amiresponsive_image.png)
 
@@ -16,24 +17,24 @@ This project is to build a static front-end which demonstrates the skills I have
 
 1. **A new visitor to the site**
 
-   As a new visitor to the site I want the information to be clear and concise so that I can easily understand what the site is about, I want to be able to easily navigate around the site to find all its content and I may want to be to check out their social media for any other useful information.
+   As a new visitor to the site I want the information to be clear and concise so that I can easily understand what the site is about. I want to be able to easily navigate around the site to find all the information that is available including be able to download a copy of the curriculum vitae and the facility to check out their social media for any other useful information.
 
 2. **A recruiter**
 
-   As a recruiter I want this site to clearly showcase her ability and the technologies she is adept in using so that I can compare her skill set to those of my client.
-
+   As a recruiter I want this site to clearly showcase her career and educational history. I want to easily check her skill set comparing it against those required by my client. The ability to download her curriculum vitae will help to speed up the recruitment process and allow me to share her details with my client. I will need to have a quick and easy way to contact her if she meets the required criteria.
+   
 3. **An employer**
 
-   As an employer I want her site to show me some of her personality as well as her technologically skill set so that I can evaluate her fit with my team.
+   As an employer I want her site to show me some of her personality as well as her technologically and soft skill sets so that I can evaluate her fit with my team and the job. I will want to contact her if she fits the profile I have in mind.
 
 ### *Strategy*
-My design objective was to create a website showcasing a high-level of my technical skill set. I wanted the information to be easily accessible, clear and concise but at the same time giving the visitor everything they might want or need.
+My design objective was to create a website showcasing a high-level of my technical skill set. I wanted the information to be easily accessible, clear and concise but at the same time giving the visitor everything they might want or need. 
 
 ### *Scope*
-At the same time as providing a good outline of my skills and experience for a prospective employer I wanted to make the experience of using the site as enjoyable as possible and give them the facility to download my curriculum vitae and/or contract me directly as well as the ability to check out all my social media presence. 
+At the same time as providing a good outline of my skills and experience for a prospective employer I want to make the experience of using the site as enjoyable as possible and give them the facility to download my curriculum vitae and/or contract me directly as well as the ability to check out all my social media presence. I want some of my personality and style to come across in the site. 
 
 ### *Structure*
-My landing page will be very simple with only my name and job title in the centre, the header navigation and the footer links.
+My landing page will be very simple with only my name and job title in the centre, a header navigation bar with the facility to download my CV and social media links on a static footer.
 
 ![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/3ed4294aa8e1cb3cc202dc00b44f3063ae524b19/assets/reference_documents/images_readme/test-results-images/home_desktop.PNG)
 
@@ -41,14 +42,12 @@ The 'My Story' page will give a brief overview of who I am and what I have done 
 
 ![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/3ed4294aa8e1cb3cc202dc00b44f3063ae524b19/assets/reference_documents/images_readme/test-results-images/my_story_desktop.PNG)
 
-The 'Projects' page will highlight some of the larger projects I have previously worked on my IT career and some place holders for the future mile stone projects with Code Institute which will eventually have links to the projects source and deployed site.
+The 'Projects' page will highlight some of the larger projects I have previously worked on my IT career and some place holders will be provided for the future mile stone projects with Code Institute which will have links to the projects source and deployed site. 
 
 ![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/3ed4294aa8e1cb3cc202dc00b44f3063ae524b19/assets/reference_documents/images_readme/test-results-images/projects_desktop.PNG)
 
 There will be a contact page to allow prospective employers to contact me via email.
-![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/3ed4294aa8e1cb3cc202dc00b44f3063ae524b19/assets/reference_documents/images_readme/test-results-images/contact_desktop.PNG)
-
-Finally, there will be links to my social media accounts including LinkedIn, GitHub, Facebook, Twitter and Instagram as well as providing the ability to download my CV. Where there are active links, they will open in a separate tab. 
+![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/3ed4294aa8e1cb3cc202dc00b44f3063ae524b19/assets/reference_documents/images_readme/test-results-images/contact_desktop.PNG)  All active links will open in a separate tab. 
 
 ### *Skeleton*
 #### Wireframes
@@ -67,53 +66,57 @@ After working on various parts of the website I decided there were some things I
 ### *Surface*
 The colour scheme was taken from the colours of [index_image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/3ed4294aa8e1cb3cc202dc00b44f3063ae524b19/assets/images/index_image.png), 
 [colour pallet](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/3ed4294aa8e1cb3cc202dc00b44f3063ae524b19/assets/reference_documents/colour_pallet.pdf)
-I believe the muted blues and browns give the site a more professional image which is easy on the eye. I chose the laptop and coffee image because the concept seems to fit well with my working personality. I always have a coffee by my side when I am coding which has usually gone cold.
+I believe the muted blues and browns give the site a more professional image which is easy on the eye. I chose the laptop and coffee image because the concept seems to fit well with my working personality. I always have a coffee by my side when I am coding.
 
 ## Features
 
 ### Existing Features
 
 ##### Header navigation bar
-The navigation bar is set over to the left side of the screen aligned in the centre of the bar. I gives access to the My Story, Projects and Contac pages as well as allowing the site visitor to download my Curriculum Vitae. The 'CV Download' link has a white border designed to draw the attention of the visitor to download my CV to get more information about me.
+The navigation bar items are positioned to the left side of the screen and aligned in the centre of the bar. They give access to the My Story, Projects and Contact pages as well as allowing the site visitor to download my Curriculum Vitae. The 'CV Download' link has a white border designed to draw the attention of the visitor to download my CV to get more information about me.
+
 When the visitor is using a small or mobile device the navigation menu shows as the 'hamburger' icon and when selected expands to a dropdown menu. 
 
 ##### Footer
-The final design of the footer is to have links to all my social media presence. This feature will allow the visitor to gain more information about my technical abilities, the projects I have developed or worked on and an insight into who I am. 
+The final design of the footer is to have links to all my social media presence only. This feature will allow the visitor to gain more information about my technical abilities, the projects I have developed or worked on and an insight into who me as a person. 
 
 ##### Images
-The images are an important part of my website because 
+The images give the site a warm comfortable and professional feel.
+![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/images/index_image.png)
+![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/images/contact_image.png)
 
 ##### Home Page
 I wanted to keep the landing page eye catching but very simple which is why it only has my name and a future job title. 
 
 ##### My Story Page
-Initially I thought I just wanted two or three sentences about me, what I have done and what I want to do but nothing I thought of seem appropriate or value-add. I was having a look on LinkedIn at some of my contacts pages and noticed Lucy Jones had a link to her MS1. Her website gave me the inspiration I need to create my own 'My Story' page. Her design allowed me to have a small section about me and how to contact me as well have two separate timelines, one for my work experience and one for the qualifications I have gained. 
+Initially I thought I just wanted two or three sentences about me, what I have done and what I want to do but nothing I thought of seem appropriate or to add value. While looking on LinkedIn at some of my contact's pages, I noticed Lucy Jones had a link to her MS1 project which is her portfolio. Her website gave me the inspiration I need to create my own 'My Story' page. Her design allowed me to have a small section about me and how to contact me as well have two separate timelines, one for my work experience and one for qualifications.. 
 
 ##### Projects Page
-In my orginial design I was only going to have the projects I will be completing through the course but this didn't feel right as I came to work on the page. I have over 30 years in Information Technology and I have worked on many projects at various levels. It is appropriate this page included the three most recent big projects I have been involved in as well as the milestone projects I will complete. As my career moves forward I can expand this area to accommodate more projects. 
+In my orginial design I was only going to have the projects I will be completing through the course but this didn't feel right as I came to work on the page. I have over 30 years in Information Technology and have worked on many projects at various levels. It is appropriate this page included the at least the three most recent big projects I have been involved in as well as the milestone projects from the Diploma in Software Development course I am currently studying. As my career moves forward I can expand this area to accommodate more projects. 
 
 ##### Contact Page
-Since my contact page is very simple I decided to use a background image to add interest. There are input fields for a name, email address and a decription of what the contact is in relation to.
+My contact page is very simple so I decided to use a background image to add interest. There are input fields for a name, email address and a decription of what the contact is in relation to.
 
 ### Features Left to Implement
 
 Link to Milestone Project 2 - The interactive front-end project will be added later and the links to the site and github will be activated. I have left placeholders in the code for the links.
+
 Link to Milestone Project 3  - The data centric project will be added later and the links to the site and github will be activated. I have left placeholders in the code for the links.
+
 Link to Milestone Project 4 - The final project will be added later and the links to the site and github will be activated. I have left placeholders in the code for the links.
 
 ## Technologies Used
-CSS3
-HMTL5
-Bootstrap Framework
-Google
+CSS3, HMTL5, Bootstrap Framework, Google, fontawesome
 
 ## Testing
-The testing process was on-going through-out the whole of the development. I would change a colour and test it to see how it worked with my design. Adjusting the position of elements would be multiple tests until it was in just the right place. I added padding and removed padding, added margins and removed margins just to see what result I would get. When the site was as good as I thought I could make it, I asked my family and friends to review it and later I asked for a peer-review on Slack.
+The testing process was on-going through-out the whole of the website development. I would change a colour and test it to see how it worked with my design. Adjusting the position of elements would involve multiple tests until it was in just the right place. I added padding and removed padding, added margins and removed margins just to see what result I would get. When the site was as good as I thought I could make it, I asked my family and friends to review it and later I asked for a peer-review on Slack.
 
 ### Test the Navigation Bar between Desktop and Mobile
 Test the navigation bar collapses to give the 'hamburger' icon when the device is smaller than medium.
 ###### Development 
-Initially I started out copying the source from [Whiskey Drop](https://siobhanbaines.github.io/BootstrapWhiskey/) but soon found there were items I did not understand so went back to Bootstrap and googled other navigation bars. My CV download button was on the right side to begin with but I found moving it across to the left and having it part of the list was better. My colour scheme is such that I needed navbar-light so the menu items were darker than the header bar. I stripped out all but the necessary parts for the desktop menu and gradually added in the collapsible section and the 'hamburger icon'. By trying individual stylings, classes etc I gradually built an understanding of what each element did to the navigation bar. My tutor suggested I needed a 'call to action' feature on the landing page but after much thought I decided it make that page messy. Instead I added a while border to the CV Download menu option which draws the eye and encourages the user to download my CV. 
+Initially I started out copying the source from [Whiskey Drop](https://siobhanbaines.github.io/BootstrapWhiskey/) but soon found there were items I did not understand so went back to [Bootstrap](https://getbootstrap.com/docs/4.0/components/navbar/) and googled other navigation bars. My CV download button was on the right side to begin with but I found moving it across to the left and having it part of the list was more visually pleasing. My colour scheme is such that I needed navbar-light so the menu items were darker than the background colour. I stripped out all but the necessary parts for the desktop menu and gradually added in the collapsible section and the 'hamburger icon'from [fontawesome](https://fontawesome.com/). By trying individual stylings, classes etc I gradually built an understanding of what each element did to the navigation bar. 
+
+My mentor suggested I needed a 'call to action' feature on the landing page but after much thought I decided that would make that page messy. Instead I added a while [border](https://www.w3schools.com/css/css_border.asp) to the CV Download menu option which draws the eye and encourages the user to download my CV. 
 ###### Final Test Results 
 ![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/ee7b78e153c3accb56c831fb2b8afbd895cb4522/assets/reference_documents/images_readme/test-results-images/header_desktop.PNG) ![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/ee7b78e153c3accb56c831fb2b8afbd895cb4522/assets/reference_documents/images_readme/test-results-images/header_mobile_hamburger.PNG) ![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/ee7b78e153c3accb56c831fb2b8afbd895cb4522/assets/reference_documents/images_readme/test-results-images/header_mobile_dropdown.PNG)
 
@@ -121,16 +124,12 @@ I would prefer the white border around the CV download button on a mobile device
 
 ### Test the Footer
 ###### Development 
-When I started out designing the footer bar, I wanted there to be a second place to download my CV from but I found that made the footer look cluttered. Placing the social media icons in the centre feels better to me. I used styling to increase the size of the icons. As part of the peer review Abi highlighted the footer seemed to be behaving strangely. I used Google to find out how I could force the footer to stick to the bottom of the page. Once that was working, I applied the same logic to force the header to stick to the top of the page which allowed for the longer pages to scroll behind both the header and the footer.
+When I started out designing the footer bar, I wanted there to be a second place to download my CV but I found that made the footer look cluttered. Placing the social media icons in the centre allows for more space and cleaner styling. I used styling to increase the size of the icons. As part of the peer review Abi highlighted the footer seemed to be behaving strangely. I used Google to find out how I could force the footer to [stick](https://stackoverflow.com/questions/16679146/force-footer-on-bottom-on-pages-with-little-content) to the bottom of the page. Once that was working, I applied the same logic to force the header to stick to the top of the page which allowed for the longer pages to scroll behind both the header and the footer.
 ###### Final Test Results
 ![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/ee7b78e153c3accb56c831fb2b8afbd895cb4522/assets/reference_documents/images_readme/test-results-images/footer.PNG)
 
 ### Navigation Testing
-To ensure the navigation for both the navigation bar and the footer social media icons I created it on the 'index.html' and then copied it across to each of the other pages. I then selected each of the menu items and icons to make sure they worked correctly. 
-
-The menu options all opened the correct page with the exception of the 'CV Download' which opene my CV in a separate tab. 
-
-The social media links each opened in a separate tab.
+To ensure the navigation for both the navigation bar on the header and the footer social media icons I created then on the 'index.html' first, checked they worked and then copied it across to each of the other pages. I then selected each of the menu items and icons on each page to make sure they worked correctly.  The menu options all open the correct page with the exception of the 'CV Download' which opens my CV in a separate tab.  The social media links each open in a separate tab.
 ###### Final Test Results
 ![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/3ed4294aa8e1cb3cc202dc00b44f3063ae524b19/assets/reference_documents/images_readme/test-results-images/menu_and_social_media_links.PNG)
 
