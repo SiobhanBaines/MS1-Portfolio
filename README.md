@@ -179,6 +179,12 @@ I used https://autoprefixer.github.io/ to add in any prefixes I had missed.
 I also copied the HTML into word to run a spell check over it and cleaned up my bad typing.
 I used word to check my spelling.
 
+##### Font style
+I chose Chilanka because I like the clean lines and the almost handwriting effect but when I put might site out for appraisal I had a couple of previous colleagues say they didn't feel the font gave the right sort of image because it has a 'Comic Sans' look to it. They suggested I chose something like Helvetica but I am not keen on the shape of the 'a' so I changed the font to Mulish.
+![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/7e7c7675ad1ac1e2f2db81776998ffd319405c8a/assets/reference_documents/images_readme/font_images/chilanka_font.PNG)
+
+![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/7e7c7675ad1ac1e2f2db81776998ffd319405c8a/assets/reference_documents/images_readme/font_images/mulishfont.PNG)
+
 ## Credits
 Hayley Schafer Portfolio for help with my Projects page and inspiration for my design.(https://www.haleyschafer.com/index.html).
 
