@@ -7,25 +7,25 @@
 
 
 @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,500;1,300&display=swap');
-
-
-/*-----------------------------------------Colours*/
+/*------------------------------------- Colours */
 a {
     color: #444c5d;
 }
-
 /*------------------------------------------Global*/
 html, body {
     margin: 0;
     padding:0;
     font-family: "Mulish", sans-serif;
     font-weight: 400;
-    color: #444c5d;;
+    color: #444c5d;
     height: 100%
 }
 .inline-block {
     display: inline-block;
 }
+/*.inline-block a {
+    color: #444c5d;
+}*/
 h1, h3,h5, h6{
     margin: 0;
 }
@@ -61,8 +61,11 @@ header{
 }
 .nav-item {
     font-size: 20px;
+    font-weight: 500;
 }
-
+.navbar-light .navbar-nav .nav-link{
+    color: #444c5d;
+}
 .cv-pdf{
     border: #fff;
     border-style: solid;
@@ -243,10 +246,17 @@ font-weight: 700;
     font-weight: 700;
     text-align: center;
 }
+p.card-title{
+    /*color: #444c5d;*/
+    color: #2e1f0e;
+
+    z-index: 10;
+}
 .card-subtitle{
     font-size: 14px;
     text-align: center;
     padding-bottom: 1.5em;
+    color: #2e1f0e;
 }
 button.card-text{
     border-style: none;
