@@ -21,6 +21,7 @@
 </head>
 
   <body>
+  <a href="#contact-form">Skip to form</a>
     <!-- Header containing Navigation and CV Download call to action -->
 	<header>
             <!-- copied from Whiskey Drop - Code Institute - modified to fit 
@@ -59,11 +60,16 @@
 			<div class="opaque-overlay">&nbsp;</div>
 			<div class="col">
 				<div class="contact-form">
-					<form>
-						<input type="text" name="fullname" id="fullname" class="form-control" placeholder="Name" required/>
-						<input type="email" name="emailaddress" id="emailaddress" class="form-control" placeholder="Email" required/>
-						<textarea rows="7" name="contact-reason" id="contact-reason" class="form-control" placeholder="Brief Description" required></textarea>
-						<div class="form-row text-center">
+					<form><a name="contact-form" id="contact-form"></a>
+                        <label class="form-label" for="fullname">Name</label>
+						<input type="text" name="fullname" id="fullname" class="form-control" required/>
+                        <label class="form-label" for="phone">Phone</label>
+                        <input type="tel" name="phone" id="phone" class="form-control" required/>
+                        <label class="form-label" for="emailaddress">Email</label>
+						<input type="email" name="emailaddress" id="emailaddress" class="form-control" required/>
+                        <label class="form-label" for="contact-reason">Description</label>
+                        <textarea rows="6" name="contact-reason" id="contact-reason" class="form-control" required></textarea>
+                        <div class="form-row text-center">
 							<div class="col">
 								<button type="submit" class="btn btn-secondary" onclick="mailto:baines.smb@gmail.com">Send Request</button>
 							</div>

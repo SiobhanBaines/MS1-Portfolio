@@ -7,6 +7,7 @@
 
 
 @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,500;1,300&display=swap');
+
 /*------------------------------------- Colours */
 a {
     color: #444c5d;
@@ -23,16 +24,11 @@ html, body {
 .inline-block {
     display: inline-block;
 }
-/*.inline-block a {
-    color: #444c5d;
-}*/
+
 h1, h3,h5, h6{
     margin: 0;
 }
 
-.jumbotron { /*  Copied from Whiskey Drop - Coding Institute */
-    background: transparent;
-}
 /*--------------------------------------Image overlay*/
 
 .opaque-overlay { /* Copied from Whiskey Drop - Coding Institute - changed colour */
@@ -309,17 +305,32 @@ button.card-text{
     min-height: 100vh;
 }
 .contact-form {
-  padding-top: 10px;
-  margin: 0 auto;
-  max-width: 75%;
+    padding-top: 5px;
+    margin: 0 auto;
+    max-width: 65%;
 }
-button[type="submit"] {
+
+.form-control {
+    margin: 0rem;
+    padding: 4px;
+    height: 20px;
+    font-size: 12px;
+    /*display: block;*/ 
+    overflow: hidden; 
+    display: inline-block
+}
+label{
+  display: inline-block;
+  margin: 0px;
+  font-size: 12px;
+}
+.btn-secondary {
   margin-top: 15px;
   margin-bottom: 20px;
   color: #fafafa;
-  background-color: #b99557;
+  font-style: bold;
+  background-color: #2c3035;
 }
-
 /*--------------------------------------------Media Queries*/
 @media (max-width: 768px) {
     .center-form {

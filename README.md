@@ -171,6 +171,119 @@ When my younger daughter tested the site on her phone, she complained the cards 
 ![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/ee7b78e153c3accb56c831fb2b8afbd895cb4522/assets/reference_documents/images_readme/test-results-images/project_hover_text_desktop.png)
 ![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/ee7b78e153c3accb56c831fb2b8afbd895cb4522/assets/reference_documents/images_readme/test-results-images/project_modal_desktop.PNG)
 ![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/ee7b78e153c3accb56c831fb2b8afbd895cb4522/assets/reference_documents/images_readme/test-results-images/project_modal_mobile.PNG)
+## Performance Testing using Lighthouse
+To test using lighthouse, right click the mouse on the home page (index.html) and then look for the ‘>>’, select the arrows and Lighthouse will be at the bottom of the list. Select Lighthouse and click on the ‘Generate Report’.
+#### Home page 	index.html
+The first test I performed for the website was for the desktop version and gave these results.
+![image]()
+[index-desktop-before]()
+I then run the test for the mobile version and these were the results
+![image]()
+[index-mobile-before]()
+On the desktop the accessibility diagnostic is not green. Click on accessibility to get more information about what the issue is.
+###### Contrast a.nav.link 
+a.nav.link is the navigation menu options on the header. I will try a different colour for the font to see it that resolves the issue. Changing the colour did not fix the problem. 
+When I used standard devtools and looked at the css the navigation menu options were looking at I found they were looking at 
+.navbar-light .navbar-nav .nav-link {
+color: rgba(0,0,0,.5);
+}
+in bootstrap.min.css:6 
+I added the below styling into the website’s css.style file which fixed the issue.
+.navbar-light .navbar-nav .nav-link{
+    color: #444c5d;
+}
+I re-ran the desktop version of the test and these were the results.
+![image]()
+[index-desktop-after]()
+Out of curiosity I wanted to see if anything had changed on the mobile so I reran the diagnostic test and these were the results. My assumption is before I had added in the above styling into the website’s style sheet, the website wanted to use some JavaScript provided by Bootstrap and was not needed when the css was corrected.
+![image]()
+[index-mobile-after]()
+#### My Story page 	about.html
+I repeated the diagnostic tests using Lighthouse on the My Story page for desktop and these are the results.
+![image]()
+[about-desktop-result]()
+I then run the test for the mobile version and these were the results
+![image]()
+[about-mobile-result]()
+Since all the results were green no further action is necessary.
+#### Projects page 	projects.html
+I repeated the diagnostic tests using Lighthouse on the Projects page for desktop and these are the results.
+![image]()
+[projects-desktop-before]()
+I then run the test for the mobile version and these were the results
+![image]()
+[projects-mobile-before]()
+On the desktop the accessibility diagnostic is not green. Click on accessibility to get more information about what the issue is. As you read through the accessibility section you will see there is a red triangle on the left side which indicates what the errors are. By opening the dropdown v on the right more details about the HTML can be seen. Selecting each piece of HTML will direct you to the exact line in the code.
+There are 3 issues 
+1.	Buttons do not have an accessible name
+button.card-text
+The error suggests a button element needs a name attribute. Google brought up w3schools.com which explained more about the button element. 
+a.	I gave each card a name but it didn’t change anything.
+b.	Read the full details on Lighthouse and change name=”description” to aria-label="description". This resolved the issue.
+2.	Links do not have a discernible name 
+a
+These are for the icons. I don’t want text next to the icons.
+3.	Background and foreground colors do not have a sufficient contrast ratio 
+p.card-title
+As with the Home page this attribute is picking the bootstrap attribute
+Changing the colour of the font from #444c5d to #2e1f0e resolved the issue.
+I re-ran the desktop version of the test and these were the results.
+![image]()
+[projects-desktop-after]()
+I re-ran the mobile version of the test to confirm the mobile site was clean and these were the results.
+![image]()
+[projects-mobile-after]()
+
+
+#### Contact page 	contact.html
+I repeated the diagnostic tests using Lighthouse on the Contact page for desktop and these are the results.
+![image]()
+[contact-desktop-before]()
+I then run the test for the mobile version and these were the results
+![image]()
+[contact-mobile-before]()
+On the desktop the accessibility diagnostic is not green. Click on accessibility to get more information about what the issue is. As you read through the accessibility section you will see there is a red triangle on the left side which indicates what the errors are. By opening the dropdown v on the right more details about the HTML can be seen. Selecting each piece of HTML will direct you to the exact line in the code.
+There are 4 issues 
+1.	The page does not contain a heading, skip link or landmark region
+Html
+Lighthouse suggests adding a ‘skip-link’ to skip to the main content. I added <a href="#contact-form">Skip to form</a> just under <body> and <form><a name="contact-form" id="contact-form"></a> at the top of the form. Then I re-ran Lighthouse and the accessibility count had increased from 75 to 79.
+If I change the button colour to black I can remove the issue
+2.	Background and foreground colors do not have a sufficient contrast ration
+button.btn.btn-secondary
+As with the other colour contrast issues – add .btn-secondary class to the websites css file
+The original background colour for the button was #8c7444 and I have changed it to #2c3035. From an aesthetic perspective I believe #8c7444 was more pleasing to the eye.
+3.	Form elements do not have associated labels
+input#fullname.form-control
+input#emailaddress.form-control
+textarea#contact-reason.form-control
+
+Adding <label> increased the accessibility to 99 which I have left in for this project but in my opinion the form looked cleaner when <placeholder> was used instead of <label>
+
+4.	Links do not have a discernible name
+a
+These are for the icons. I don’t want text next to the icons.
+![image]()
+[contact-desktop-after]()
+I re-ran the mobile version of the test to check the fixes already applied resolved the issues raise on the previous mobile test. 
+![image]()
+[contact-mobile-test2]()
+There are 2 red triangles under the performance.
+1.	Eliminate render-blocking resources
+This relates to unused CSS and JavaScript. I can only review the CSS because I do have not yet learned JavaScript. When checking the below screen I can only review https://8000-d272d922-26dd-4345-9.../style.css because the others do not belong to me and although are not used in the load of the page they are used by features on the page. 
+![image]()
+The only change I could make is to remove the below because it is not used on any of the pages
+.jumbotron { 
+    background: transparent;
+}
+2.	
+3.	Ensure text remains visible during webfont load
+4.	I tried changing the googlefonts link to be preload but it failed because I needed to add the as element which then caused the load to fail because it didn’t like the href link. I rechecked the link was correct. Lighthouse also suggested adding @font-face but this made no difference. 
+<link rel="preload" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500&display=swap" rel="stylesheet">
+
+The performance count has increased from 84 to 88 and I do not believe there is anything else I can change at this time. Only 2 points for being green.
+![image]()
+[contact-mobile-after]()
 
 #### Code Verification
 I used https://validator.w3.org/ to check my HTML5 and corrected the errors it highlighted.
