@@ -1,7 +1,8 @@
-#Test Script
+# Testing and Deployment
+
 Testing this website includes both the basic functionality and the creative ability. How the website looks and the emotions it creates for the visitor are as important as whether a pop-up or link works correctly. If any features of the website are slow or hesitant to load or the font is too small or not legible, it will spoil the experience .Any spelling mistakes or grammatical errors will reduce the professionalism of the site and may hinder the any future career prospects.
 ##### Load the Web Page
-Open an internet browser and use this link https://siobhanbaines.github.io/Siobhan-Baines-MS1-Portfolio/ to open the website. 
+Open an internet browser and use this link [Portfolio](https://siobhanbaines.github.io/Siobhan-Baines-MS1-Portfolio/) to open the website. 
 
 ## Global Testing
 The chosen font and colour scheme are global to the website but will need checking for unexpected behaviour on all the pages on desktops, tablets and mobile devices. When testing this site, the Appearance Testing needs to be validated on all pages and between desktop, tablet and mobile devices for consistency and to confirm it adheres to the design principles.
@@ -116,14 +117,14 @@ This page is designed to give the visitor a way of leaving me a message and some
 
 ## Tablet Testing
 ##### Load the Web Page
-Open an internet browser and use this link https://siobhanbaines.github.io/Siobhan-Baines-MS1-Portfolio/ to open the website. 
+Open an internet browser and use this link [Portfolio](https://siobhanbaines.github.io/Siobhan-Baines-MS1-Portfolio/) to open the website. 
 When testing the website on a tablet it should behave the same as the website with the exception of 
 1.	The My Story page may display the Qualifications timeline after the Work History timeline dependant of the viewport of the tablet.
 2.	The Projects page may display the projects in three rows of two projects.
 
 ## Mobile Testing
 ##### Load the Web Page
-Open an internet browser and use this link https://siobhanbaines.github.io/Siobhan-Baines-MS1-Portfolio/ to open the website. 
+Open an internet browser and use this link [Portfolio](https://siobhanbaines.github.io/Siobhan-Baines-MS1-Portfolio/) to open the website. 
 When testing the website on a mobile device the features should behave the same as the website but the screens will look different.
 #### Home Page 	- index.html
 The alignment of the name and job title may be different.
@@ -139,17 +140,23 @@ The contact page will be narrower on the mobile device but should behave in the 
 To test using lighthouse, right click the mouse on the home page (index.html) to open the DevTools pane and then look for the ‘>>’ at the top of the screen, select the arrows and Lighthouse will be at the bottom of the list. Select Lighthouse
 On the next screen, scroll down to select either ‘Mobil’ or ‘Desktop’ and then scroll back up the screen to select ‘Generate Report’.
 A screen looking like this will appear
-![image]( https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/index_tests/index-desktop-before.PNG]
+
+![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/index_tests/index-desktop-before.PNG)
+
 If one of the circles is not green, select it to be taken to that area of the report.
 The issues that need to be investigated have a red triangle at the beginning of the line. By using the dropdown arrow on the right of the error details of the error will appear as below.
-![image}(https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/dropdown_error.PNG)
+
+![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/dropdown_error.PNG)
+
 If it is not clear what is wrong from the error select the ‘Learn more’ hyperlink to get more information.
 Clicking on the element in error will open up the main DevTools at the place where the element is used and the css it is using. This information should help you to fix the issue.
 Once you believe the issue is fixed and you have saved your changes in GitPod, refresh the webpage. To re-run the Lighthouse diagnostic report, you will need to close DevTools and reopen.
 
 ## Deployment
 In Gitpod the bottom area of the screen is where git commands are entered.
-![image]( https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/921756b26efd792b26df71253dd1a433cf0eb0eb/assets/reference_documents/images_readme/image_gitpod.PNG)
+
+![image]( https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/images_readme/image_gitpod.PNG)
+
 1.	If you have been running the 8000 port you will need to use Ctrl + Z to escape back and use the command entry. This line will appear “gitpod /workspace/Siobhan-Baines-MS1-Portfolio $” allowing commands to be entered.
 2.	Make sure any changes that have been made are save by selecting the ‘File’ tab and ‘Save All’
 3.	Type “git add .” to add all the changes ready to be committed. Remember the full stop because this will add everything that has been save. If only one file has been changed that file name can be entered instead of the full stop
