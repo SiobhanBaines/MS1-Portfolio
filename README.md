@@ -301,9 +301,8 @@ There are 2 red triangles under the performance.
 ![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/contact_tests/contact-mobile-after.PNG)
 [contact-mobile-after](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/projects_test/projects-desktop-after.pdf)
 
-#### Test-Script
-
-#### Deployment
+#### Testing and Deployment
+[Testing and Deployment](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/921756b26efd792b26df71253dd1a433cf0eb0eb/assets/reference_documents/testing_and_deployment_guide.docx)
 
 #### Code Verification
 I used https://validator.w3.org/ to check my HTML5 and corrected the errors it highlighted.

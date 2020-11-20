@@ -313,15 +313,13 @@ button.card-text{
 .form-control {
     margin: 0rem;
     padding: 4px;
-    height: 20px;
-    /*font-size: 14px;*/
+    height: 24px;
     overflow: hidden; 
-    /*display: inline-block*/
 }
 label{
   display: inline-block;
   margin: 0px;
-  font-size: 14px;
+  font-size: 16px;
 }
 .btn-secondary {
   margin-top: 15px;
