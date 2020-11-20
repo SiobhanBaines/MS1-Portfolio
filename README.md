@@ -114,11 +114,12 @@ The testing process was on-going through-out the whole of the website developmen
 ### Test the Navigation Bar between Desktop and Mobile
 Test the navigation bar collapses to give the 'hamburger' icon when the device is smaller than medium.
 ###### Development 
-Initially I started out copying the source from [Whiskey Drop](https://siobhanbaines.github.io/BootstrapWhiskey/) but soon found there were items I did not understand so went back to [Bootstrap](https://getbootstrap.com/docs/4.0/components/navbar/) and googled other navigation bars. My CV download button was on the right side to begin with but I found moving it across to the left and having it part of the list was more visually pleasing. My colour scheme is such that I needed navbar-light so the menu items were darker than the background colour. I stripped out all but the necessary parts for the desktop menu and gradually added in the collapsible section and the 'hamburger icon'from [fontawesome](https://fontawesome.com/). By trying individual stylings, classes etc I gradually built an understanding of what each element did to the navigation bar. 
+Initially I started out copying the source from [Whiskey Drop](https://siobhanbaines.github.io/BootstrapWhiskey/) but soon found there were items I did not understand so went back to [Bootstrap](https://getbootstrap.com/docs/4.0/components/navbar/) and googled other navigation bars. My CV download button was on the right side to begin with but I found moving it across to the left and having it part of the list was more visually pleasing. My colour scheme is such that I needed navbar-light so the menu items were darker than the background colour. I stripped out all but the necessary parts for the desktop menu and gradually added in the collapsible section and the 'hamburger icon'from [fontawesome](https://fontawesome.com/icons/bars?style=solid). By trying individual stylings, classes etc I gradually built an understanding of what each element did to the navigation bar. 
 
 My mentor suggested I needed a 'call to action' feature on the landing page but after much thought I decided that would make that page messy. Instead I added a while [border](https://www.w3schools.com/css/css_border.asp) to the CV Download menu option which draws the eye and encourages the user to download my CV. 
 ###### Final Test Results 
-![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/ee7b78e153c3accb56c831fb2b8afbd895cb4522/assets/reference_documents/images_readme/test-results-images/header_desktop.PNG) ![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/ee7b78e153c3accb56c831fb2b8afbd895cb4522/assets/reference_documents/images_readme/test-results-images/header_mobile_hamburger.PNG) ![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/ee7b78e153c3accb56c831fb2b8afbd895cb4522/assets/reference_documents/images_readme/test-results-images/header_mobile_dropdown.PNG)
+![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/ee7b78e153c3accb56c831fb2b8afbd895cb4522/assets/reference_documents/images_readme/test-results-images/header_desktop.PNG) 
+![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/ee7b78e153c3accb56c831fb2b8afbd895cb4522/assets/reference_documents/images_readme/test-results-images/header_mobile_hamburger.PNG) ![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/ee7b78e153c3accb56c831fb2b8afbd895cb4522/assets/reference_documents/images_readme/test-results-images/header_mobile_dropdown.PNG)
 
 I would prefer the white border around the CV download button on a mobile device to only outline the actual words. 
 
@@ -139,7 +140,8 @@ Initially I copied the overlay styling from [resume-miniproject-bootstrap4](http
 
 Originally, I wanted images on all my pages but found the 'My Story' page was too long for an image and as I develop more projects, I want to add more cards to the 'Projects' page which will also be too long. 
 ###### Final Test Results
-![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/ee7b78e153c3accb56c831fb2b8afbd895cb4522/assets/reference_documents/images_readme/test-results-images/landing_page.PNG)![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/ee7b78e153c3accb56c831fb2b8afbd895cb4522/assets/reference_documents/images_readme/test-results-images/contact_page.PNG)
+![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/ee7b78e153c3accb56c831fb2b8afbd895cb4522/assets/reference_documents/images_readme/test-results-images/landing_page.PNG)
+![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/ee7b78e153c3accb56c831fb2b8afbd895cb4522/assets/reference_documents/images_readme/test-results-images/contact_page.PNG)
 
 ### Contact Page
 ###### Development
@@ -147,7 +149,9 @@ Once the landing page was complete, I decided to work on the contact page. Altho
 
 When I was testing the page, I noticed the email input accepted any text but forgot about it and only when I asked for a peer-review, and Scott mentioned it again did I investigate. Simply changing the input type from 'text' to 'email' fixed the problem.
 ###### Final Test Results 
-![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/ee7b78e153c3accb56c831fb2b8afbd895cb4522/assets/reference_documents/images_readme/test-results-images/contact_desktop.PNG) ![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/ee7b78e153c3accb56c831fb2b8afbd895cb4522/assets/reference_documents/images_readme/test-results-images/contact_mobile.PNG) ![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/22c3ab95cddf5456260567bb2b95e2ab397bcbfa/assets/reference_documents/images_readme/test-results-images/contact_email.PNG)
+![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/ee7b78e153c3accb56c831fb2b8afbd895cb4522/assets/reference_documents/images_readme/test-results-images/contact_desktop.PNG) 
+![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/ee7b78e153c3accb56c831fb2b8afbd895cb4522/assets/reference_documents/images_readme/test-results-images/contact_mobile.PNG) 
+![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/22c3ab95cddf5456260567bb2b95e2ab397bcbfa/assets/reference_documents/images_readme/test-results-images/contact_email.PNG)
 
 ### My Story Page
 ###### Development 
@@ -159,7 +163,9 @@ After the peer review, I took Scott's advice and increased the font size on the 
 
 When I had made the header and footer stick to the top and bottom of the page, I had to adjust the padding at the top of each column and add in some extra styling in the @media section to remove the large gap between the timelines.
 ###### Final Test Results 
-![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/ee7b78e153c3accb56c831fb2b8afbd895cb4522/assets/reference_documents/images_readme/test-results-images/my_story_desktop.PNG) ![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/ee7b78e153c3accb56c831fb2b8afbd895cb4522/assets/reference_documents/images_readme/test-results-images/my_story_mobile.PNG) ![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/22c3ab95cddf5456260567bb2b95e2ab397bcbfa/assets/reference_documents/images_readme/test-results-images/timeline_no_gap.PNG)
+![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/ee7b78e153c3accb56c831fb2b8afbd895cb4522/assets/reference_documents/images_readme/test-results-images/my_story_desktop.PNG) 
+![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/ee7b78e153c3accb56c831fb2b8afbd895cb4522/assets/reference_documents/images_readme/test-results-images/my_story_mobile.PNG) 
+![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/22c3ab95cddf5456260567bb2b95e2ab397bcbfa/assets/reference_documents/images_readme/test-results-images/timeline_no_gap.PNG)
 
 ### Projects Page
 ###### Development 
@@ -167,7 +173,8 @@ I love the work page on [Haley Schafer's Portfolio](https://www.haleyschafer.com
 
 When my younger daughter tested the site on her phone, she complained the cards did not show her anything if she tapped on them so I used Google again and found the [modal](https://getbootstrap.com/docs/4.0/components/modal/) classes as well as how to me a description to appear if that card was hovered over. 
 ###### Final Test Results 
-![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/ee7b78e153c3accb56c831fb2b8afbd895cb4522/assets/reference_documents/images_readme/test-results-images/projects_desktop.PNG) ![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/ee7b78e153c3accb56c831fb2b8afbd895cb4522/assets/reference_documents/images_readme/test-results-images/projects_mobile.PNG)
+![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/ee7b78e153c3accb56c831fb2b8afbd895cb4522/assets/reference_documents/images_readme/test-results-images/projects_desktop.PNG) 
+![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/ee7b78e153c3accb56c831fb2b8afbd895cb4522/assets/reference_documents/images_readme/test-results-images/projects_mobile.PNG)
 ![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/ee7b78e153c3accb56c831fb2b8afbd895cb4522/assets/reference_documents/images_readme/test-results-images/project_hover_text_desktop.png)
 ![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/ee7b78e153c3accb56c831fb2b8afbd895cb4522/assets/reference_documents/images_readme/test-results-images/project_modal_desktop.PNG)
 ![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/ee7b78e153c3accb56c831fb2b8afbd895cb4522/assets/reference_documents/images_readme/test-results-images/project_modal_mobile.PNG)
@@ -176,11 +183,14 @@ When my younger daughter tested the site on her phone, she complained the cards 
 
 #### Home page 	index.html
 The first test I performed for the website was for the desktop version and gave these results.
+
 ![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/index_tests/index-desktop-before.PNG)
-[index-desktop-before](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/index_tests/index-desktop-before.pdf)
+[index desktop before](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/index_tests/index-desktop-before.pdf)
+
 I then run the test for the mobile version and these were the results
+
 ![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/index_tests/index-mobile-before.PNG)
-[index-mobile-before](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/index_tests/index-mobile-before.pdf)
+[index mobile before](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/index_tests/index-mobile-before.pdf)
 
 On the desktop Lighthouse report the Accessibility dashboard was not green, I investigated the 3 issues.
 
@@ -203,28 +213,38 @@ I added the same classes into the website’s css.style file which fixed the iss
     a 
     These are for the icons. I don’t want text next to the icons.
 I re-ran the Lighthouse in desktop mode and the test came back all green. 
+
 ![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/index_tests/index-desktop-after.PNG)
-[index-desktop-after](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/index_tests/index-desktop-after.pdf)
+[index desktop after](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/index_tests/index-desktop-after.pdf)
+
 Out of curiosity I wanted to see if anything had changed on the mobile before I investigated the errors in the original Lighthouse test so I reran the diagnostic test and these were the results. My assumption is before I had added in the above styling into the website’s style sheet, the website wanted to use some JavaScript provided by Bootstrap and was not needed when the css was corrected.
+
 ![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/index_tests/index-mobile-before.PNG)
-[index-mobile-after](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/index_tests/index-mobile-before.pdf)
+[index mobile after](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/index_tests/index-mobile-before.pdf)
 
 #### My Story page 	about.html
 I repeated the diagnostic tests using Lighthouse on the My Story page for desktop and these are the results.
+
 ![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/my_story_tests/about-desktop-test.PNG)
-[about-desktop-result](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/my_story_tests/about-desktop-test.pdf)
+[about desktop result](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/my_story_tests/about-desktop-test.pdf)
+
 I then run the test for the mobile version and these were the results
+
 ![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/my_story_tests/about-mobile-test.PNG)
-[about-mobile-result](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/my_story_tests/about-mobile-test.pdf)
+[about mobile result](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/my_story_tests/about-mobile-test.pdf)
 Since all the results were green no further action is necessary.
 
 #### Projects page 	projects.html
 I repeated the diagnostic tests using Lighthouse on the Projects page for desktop and these are the results.
+
 ![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/projects_test/projects-desktop-before.PNG)
-[projects-desktop-before](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/projects_test/projects-desktop-before.pdf)
+[projects desktop before](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-
+Portfolio/blob/master/assets/reference_documents/lighthouse_testing/projects_test/projects-desktop-before.pdf)
+
 I then run the test for the mobile version and these were the results.
+
 ![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/projects_test/projects-mobile-before.PNG)
-[projects-mobile-before](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/projects_test/projects-mobile-before.pdf)
+[projects mobile before](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/projects_test/projects-mobile-before.pdf)
 
 On the desktop Lighthouse report the Accessibility dashboard was not green, I investigated the 3 issues.
 
@@ -242,20 +262,25 @@ On the desktop Lighthouse report the Accessibility dashboard was not green, I in
         Changing the colour of the font from #444c5d to #2e1f0e resolved the issue.
 
 I re-ran the desktop version of the test and these were the results.
+
 ![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/projects_test/projects-desktop-after.PNG)
-![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/projects_test/projects-desktop-after.PNG)
-[projects-desktop-after]()
+[projects desktop after](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/projects_test/projects-desktop-after.pdf)
+
 I re-ran the mobile version of the test to confirm the mobile site was clean and these were the results.
+
 ![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/projects_test/projects-mobile-after.PNG)
-[projects-mobile-after](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/projects_test/projects-mobile-after.pdf)
+[projects mobile after](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/projects_test/projects-mobile-after.pdf)
 
 #### Contact page 	contact.html
 I repeated the diagnostic tests using Lighthouse on the Contact page for desktop and these are the results.
+
 ![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/contact_tests/contact-desktop-before.PNG)
-[contact-desktop-before](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/contact_tests/contact-desktop-before..pdf)
+[contact desktop before](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/contact_tests/contact-desktop-before..pdf)
+
 I then run the test for the mobile version and these were the results
+
 ![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/contact_tests/contact-mobile-before.PNG)
-[contact-mobile-before](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/contact_tests/contact-mobile-before.pdf)
+[contact mobile before](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/contact_tests/contact-mobile-before.pdf)
 
 On the desktop Lighthouse report the Accessibility dashboard was not green, I investigated the 4 issues.
 
@@ -277,17 +302,21 @@ Adding <label> increased the accessibility to 99 which I have left in for this p
 4.	Links do not have a discernible name
         a
         These are for the icons. I don’t want text next to the icons.
+        
 ![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/contact_tests/contact-desktop-after.PNG)
-[contact-desktop-after](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/contact_tests/contact-desktop-after.pdf)
+[contact desktop after](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/contact_tests/contact-desktop-after.pdf)
 
 I re-ran the mobile version of the test to check the fixes already applied resolved the issues raise on the previous mobile test. 
+
 ![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/contact_tests/contact-mobile-test2.PNG)
-[contact-mobile-test2](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/contact_tests/contact-mobile-test2.pdf)
+[contact mobile test2](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/contact_tests/contact-mobile-test2.pdf)
 
 There are 2 red triangles under the performance.
 1.	Eliminate render-blocking resources
         This relates to unused CSS and JavaScript. I can only review the CSS because I do have not yet learned JavaScript. When I checked the below screen I could only review https://8000-d272d922-26dd-4345-9.../style.css because the others did not belong to me and although were not used in the load of the page they were used by features on the page. 
+        
 ![image]https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/contact_tests/contact-mobile-coverage.PNG)
+
         The only change I could make is to remove the below because it is not used on any of the pages
         .jumbotron { 
             background: transparent;
@@ -299,7 +328,7 @@ There are 2 red triangles under the performance.
 
         The performance count has increased from 84 to 88 and I do not believe there is anything else I can change at this time. Only 2 points for being green.
 ![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/contact_tests/contact-mobile-after.PNG)
-[contact-mobile-after](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/projects_test/projects-desktop-after.pdf)
+[contact mobile after](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/projects_test/projects-desktop-after.pdf)
 
 #### Testing and Deployment
 [Testing and Deployment](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/921756b26efd792b26df71253dd1a433cf0eb0eb/assets/reference_documents/testing_and_deployment_guide.docx)
