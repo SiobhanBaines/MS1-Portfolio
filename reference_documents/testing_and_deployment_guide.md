@@ -141,12 +141,12 @@ To test using lighthouse, right click the mouse on the home page (index.html) to
 On the next screen, scroll down to select either ‘Mobil’ or ‘Desktop’ and then scroll back up the screen to select ‘Generate Report’.
 A screen looking like this will appear
 
-![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/index_tests/index-desktop-before.PNG)
+![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/reference_documents/lighthouse_testing/index_tests/index-desktop-before.PNG)
 
 If one of the circles is not green, select it to be taken to that area of the report.
 The issues that need to be investigated have a red triangle at the beginning of the line. By using the dropdown arrow on the right of the error details of the error will appear as below.
 
-![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/dropdown_error.PNG)
+![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/reference_documents/lighthouse_testing/dropdown_error.PNG)
 
 If it is not clear what is wrong from the error select the ‘Learn more’ hyperlink to get more information.
 Clicking on the element in error will open up the main DevTools at the place where the element is used and the css it is using. This information should help you to fix the issue.
