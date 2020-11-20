@@ -320,3 +320,10 @@ The photographs used in this site were obtained from [dreamstime](https://www.dr
 
 I then used [icolorpalette](https://icolorpalette.com/) to get a colour palette from the image I used for index-image.
 
+### Lessons learned
+1. When commencing on a Milestone Project I need to make sure I have read and watched ALL the instructions and not just the Assessment Handbook. That way I will not lose points for 
+    a. not creating the Tablet wireframes
+    b. not showing ALL my test evidence for each piece of HTML and CSS I changed and worked on
+    c. use OneNote at least to document as I go so that I do not lose any important information
+2. Having been in IT for 30 years there are tasks I perform automatically but this is a university qualifications and I have to prove each and every step I take.
+3. Allow more time for the documentation so I do not miss any oportunities.
