@@ -171,15 +171,16 @@ When my younger daughter tested the site on her phone, she complained the cards 
 ![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/ee7b78e153c3accb56c831fb2b8afbd895cb4522/assets/reference_documents/images_readme/test-results-images/project_hover_text_desktop.png)
 ![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/ee7b78e153c3accb56c831fb2b8afbd895cb4522/assets/reference_documents/images_readme/test-results-images/project_modal_desktop.PNG)
 ![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/ee7b78e153c3accb56c831fb2b8afbd895cb4522/assets/reference_documents/images_readme/test-results-images/project_modal_mobile.PNG)
-## Performance Testing using Lighthouse
+
+### Performance Testing using Lighthouse
 To test using lighthouse, right click the mouse on the home page (index.html) and then look for the ‘>>’, select the arrows and Lighthouse will be at the bottom of the list. Select Lighthouse and click on the ‘Generate Report’.
 #### Home page 	index.html
 The first test I performed for the website was for the desktop version and gave these results.
-![image]()
-[index-desktop-before]()
+![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/index_tests/index-desktop-before.PNG)
+[index-desktop-before](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/index_tests/index-desktop-before.pdf)
 I then run the test for the mobile version and these were the results
-![image]()
-[index-mobile-before]()
+![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/index_tests/index-mobile-before.PNG)
+[index-mobile-before](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/index_tests/index-mobile-before.pdf)
 On the desktop the accessibility diagnostic is not green. Click on accessibility to get more information about what the issue is.
 ###### Contrast a.nav.link 
 a.nav.link is the navigation menu options on the header. I will try a different colour for the font to see it that resolves the issue. Changing the colour did not fix the problem. 
@@ -193,26 +194,26 @@ I added the below styling into the website’s css.style file which fixed the is
     color: #444c5d;
 }
 I re-ran the desktop version of the test and these were the results.
-![image]()
-[index-desktop-after]()
+![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/index_tests/index-desktop-after.PNG)
+[index-desktop-after](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/index_tests/index-desktop-after.pdf)
 Out of curiosity I wanted to see if anything had changed on the mobile so I reran the diagnostic test and these were the results. My assumption is before I had added in the above styling into the website’s style sheet, the website wanted to use some JavaScript provided by Bootstrap and was not needed when the css was corrected.
-![image]()
-[index-mobile-after]()
+![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/index_tests/index-mobile-before.PNG)
+[index-mobile-after](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/index_tests/index-mobile-before.pdf)
 #### My Story page 	about.html
 I repeated the diagnostic tests using Lighthouse on the My Story page for desktop and these are the results.
-![image]()
-[about-desktop-result]()
+![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/my_story_tests/about-desktop-test.PNG)
+[about-desktop-result](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/my_story_tests/about-desktop-test.pdf)
 I then run the test for the mobile version and these were the results
-![image]()
-[about-mobile-result]()
+![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/my_story_tests/about-mobile-test.PNG)
+[about-mobile-result](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/my_story_tests/about-mobile-test.pdf)
 Since all the results were green no further action is necessary.
 #### Projects page 	projects.html
 I repeated the diagnostic tests using Lighthouse on the Projects page for desktop and these are the results.
-![image]()
-[projects-desktop-before]()
+![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/projects_test/projects-desktop-before.PNG)
+[projects-desktop-before](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/projects_test/projects-desktop-before.pdf)
 I then run the test for the mobile version and these were the results
-![image]()
-[projects-mobile-before]()
+![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/projects_test/projects-mobile-before.PNG)
+[projects-mobile-before](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/projects_test/projects-mobile-before.pdf)
 On the desktop the accessibility diagnostic is not green. Click on accessibility to get more information about what the issue is. As you read through the accessibility section you will see there is a red triangle on the left side which indicates what the errors are. By opening the dropdown v on the right more details about the HTML can be seen. Selecting each piece of HTML will direct you to the exact line in the code.
 There are 3 issues 
 1.	Buttons do not have an accessible name
@@ -228,20 +229,20 @@ p.card-title
 As with the Home page this attribute is picking the bootstrap attribute
 Changing the colour of the font from #444c5d to #2e1f0e resolved the issue.
 I re-ran the desktop version of the test and these were the results.
-![image]()
+![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/projects_test/projects-desktop-after.PNG)
+![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/projects_test/projects-desktop-after.PNG)
 [projects-desktop-after]()
 I re-ran the mobile version of the test to confirm the mobile site was clean and these were the results.
-![image]()
-[projects-mobile-after]()
-
+![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/projects_test/projects-mobile-after.PNG)
+[projects-mobile-after](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/projects_test/projects-mobile-after.pdf)
 
 #### Contact page 	contact.html
 I repeated the diagnostic tests using Lighthouse on the Contact page for desktop and these are the results.
-![image]()
-[contact-desktop-before]()
+![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/contact_tests/contact-desktop-before.PNG)
+[contact-desktop-before](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/contact_tests/contact-desktop-before..pdf)
 I then run the test for the mobile version and these were the results
-![image]()
-[contact-mobile-before]()
+![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/contact_tests/contact-mobile-before.PNG)
+[contact-mobile-before](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/contact_tests/contact-mobile-before.pdf)
 On the desktop the accessibility diagnostic is not green. Click on accessibility to get more information about what the issue is. As you read through the accessibility section you will see there is a red triangle on the left side which indicates what the errors are. By opening the dropdown v on the right more details about the HTML can be seen. Selecting each piece of HTML will direct you to the exact line in the code.
 There are 4 issues 
 1.	The page does not contain a heading, skip link or landmark region
@@ -262,15 +263,15 @@ Adding <label> increased the accessibility to 99 which I have left in for this p
 4.	Links do not have a discernible name
 a
 These are for the icons. I don’t want text next to the icons.
-![image]()
-[contact-desktop-after]()
+![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/contact_tests/contact-desktop-after.PNG)
+[contact-desktop-after](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/contact_tests/contact-desktop-after.pdf)
 I re-ran the mobile version of the test to check the fixes already applied resolved the issues raise on the previous mobile test. 
-![image]()
-[contact-mobile-test2]()
+![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/contact_tests/contact-mobile-test2.PNG)
+[contact-mobile-test2](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/contact_tests/contact-mobile-test2.pdf)
 There are 2 red triangles under the performance.
 1.	Eliminate render-blocking resources
 This relates to unused CSS and JavaScript. I can only review the CSS because I do have not yet learned JavaScript. When checking the below screen I can only review https://8000-d272d922-26dd-4345-9.../style.css because the others do not belong to me and although are not used in the load of the page they are used by features on the page. 
-![image]()
+![image]https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/contact_tests/contact-mobile-coverage.PNG)
 The only change I could make is to remove the below because it is not used on any of the pages
 .jumbotron { 
     background: transparent;
@@ -282,8 +283,8 @@ The only change I could make is to remove the below because it is not used on an
     <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500&display=swap" rel="stylesheet">
 
 The performance count has increased from 84 to 88 and I do not believe there is anything else I can change at this time. Only 2 points for being green.
-![image]()
-[contact-mobile-after]()
+![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/contact_tests/contact-mobile-after.PNG)
+[contact-mobile-after](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/projects_test/projects-desktop-after.pdf)
 
 #### Code Verification
 I used https://validator.w3.org/ to check my HTML5 and corrected the errors it highlighted.
