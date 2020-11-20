@@ -173,7 +173,7 @@ When my younger daughter tested the site on her phone, she complained the cards 
 ![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/ee7b78e153c3accb56c831fb2b8afbd895cb4522/assets/reference_documents/images_readme/test-results-images/project_modal_mobile.PNG)
 
 ### Performance Testing using Lighthouse
-To test using lighthouse, right click the mouse on the home page (index.html) and then look for the ‘>>’, select the arrows and Lighthouse will be at the bottom of the list. Select Lighthouse and click on the ‘Generate Report’.
+
 #### Home page 	index.html
 The first test I performed for the website was for the desktop version and gave these results.
 ![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/index_tests/index-desktop-before.PNG)
@@ -181,24 +181,34 @@ The first test I performed for the website was for the desktop version and gave 
 I then run the test for the mobile version and these were the results
 ![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/index_tests/index-mobile-before.PNG)
 [index-mobile-before](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/index_tests/index-mobile-before.pdf)
-On the desktop the accessibility diagnostic is not green. Click on accessibility to get more information about what the issue is.
-###### Contrast a.nav.link 
-a.nav.link is the navigation menu options on the header. I will try a different colour for the font to see it that resolves the issue. Changing the colour did not fix the problem. 
-When I used standard devtools and looked at the css the navigation menu options were looking at I found they were looking at 
+
+On the desktop Lighthouse report the Accessibility dashboard was not green, I investigated the 3 issues.
+
+1. Background and foreground colors do not have a sufficient contrast ratio
+    a.nav.link
+a.nav.link is the navigation menu options on the header. I tried changing the colour of the font but it did not resolve the issue. 
+When I used standard devtools and looked at the css the navigation menu options were looking at I found they were picking up the bootstrap navbar classes below 
 .navbar-light .navbar-nav .nav-link {
 color: rgba(0,0,0,.5);
 }
-in bootstrap.min.css:6 
-I added the below styling into the website’s css.style file which fixed the issue.
+
+I added the same classes into the website’s css.style file which fixed the issue.
 .navbar-light .navbar-nav .nav-link{
     color: #444c5d;
 }
-I re-ran the desktop version of the test and these were the results.
+2. Heading elements are not in a sequentially-descending order.
+    h3.jobtitle
+    I wanted the jobtitle to be the size of the standard h3 so I left this alone
+3. Links do not have a discernible name
+    a 
+    These are for the icons. I don’t want text next to the icons.
+I re-ran the Lighthouse in desktop mode and the test came back all green. 
 ![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/index_tests/index-desktop-after.PNG)
 [index-desktop-after](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/index_tests/index-desktop-after.pdf)
-Out of curiosity I wanted to see if anything had changed on the mobile so I reran the diagnostic test and these were the results. My assumption is before I had added in the above styling into the website’s style sheet, the website wanted to use some JavaScript provided by Bootstrap and was not needed when the css was corrected.
+Out of curiosity I wanted to see if anything had changed on the mobile before I investigated the errors in the original Lighthouse test so I reran the diagnostic test and these were the results. My assumption is before I had added in the above styling into the website’s style sheet, the website wanted to use some JavaScript provided by Bootstrap and was not needed when the css was corrected.
 ![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/index_tests/index-mobile-before.PNG)
 [index-mobile-after](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/index_tests/index-mobile-before.pdf)
+
 #### My Story page 	about.html
 I repeated the diagnostic tests using Lighthouse on the My Story page for desktop and these are the results.
 ![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/my_story_tests/about-desktop-test.PNG)
@@ -207,27 +217,30 @@ I then run the test for the mobile version and these were the results
 ![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/my_story_tests/about-mobile-test.PNG)
 [about-mobile-result](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/my_story_tests/about-mobile-test.pdf)
 Since all the results were green no further action is necessary.
+
 #### Projects page 	projects.html
 I repeated the diagnostic tests using Lighthouse on the Projects page for desktop and these are the results.
 ![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/projects_test/projects-desktop-before.PNG)
 [projects-desktop-before](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/projects_test/projects-desktop-before.pdf)
-I then run the test for the mobile version and these were the results
+I then run the test for the mobile version and these were the results.
 ![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/projects_test/projects-mobile-before.PNG)
 [projects-mobile-before](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/projects_test/projects-mobile-before.pdf)
-On the desktop the accessibility diagnostic is not green. Click on accessibility to get more information about what the issue is. As you read through the accessibility section you will see there is a red triangle on the left side which indicates what the errors are. By opening the dropdown v on the right more details about the HTML can be seen. Selecting each piece of HTML will direct you to the exact line in the code.
-There are 3 issues 
+
+On the desktop Lighthouse report the Accessibility dashboard was not green, I investigated the 3 issues.
+
 1.	Buttons do not have an accessible name
-button.card-text
-The error suggests a button element needs a name attribute. Google brought up w3schools.com which explained more about the button element. 
-a.	I gave each card a name but it didn’t change anything.
-b.	Read the full details on Lighthouse and change name=”description” to aria-label="description". This resolved the issue.
+        button.card-text
+        The error suggests a button element needs a name attribute. Google brought up w3schools.com which explained more about the button element. 
+        a.	I gave each card a name but it didn’t change anything.
+        b.	Read the full details on Lighthouse and change name=”description” to aria-label="description". This resolved the issue.
 2.	Links do not have a discernible name 
-a
-These are for the icons. I don’t want text next to the icons.
+        a
+        These are for the icons. I don’t want text next to the icons.
 3.	Background and foreground colors do not have a sufficient contrast ratio 
-p.card-title
-As with the Home page this attribute is picking the bootstrap attribute
-Changing the colour of the font from #444c5d to #2e1f0e resolved the issue.
+        p.card-title
+        As with the Home page this attribute is picking the bootstrap attribute
+        Changing the colour of the font from #444c5d to #2e1f0e resolved the issue.
+
 I re-ran the desktop version of the test and these were the results.
 ![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/projects_test/projects-desktop-after.PNG)
 ![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/projects_test/projects-desktop-after.PNG)
@@ -243,48 +256,54 @@ I repeated the diagnostic tests using Lighthouse on the Contact page for desktop
 I then run the test for the mobile version and these were the results
 ![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/contact_tests/contact-mobile-before.PNG)
 [contact-mobile-before](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/contact_tests/contact-mobile-before.pdf)
-On the desktop the accessibility diagnostic is not green. Click on accessibility to get more information about what the issue is. As you read through the accessibility section you will see there is a red triangle on the left side which indicates what the errors are. By opening the dropdown v on the right more details about the HTML can be seen. Selecting each piece of HTML will direct you to the exact line in the code.
-There are 4 issues 
+
+On the desktop Lighthouse report the Accessibility dashboard was not green, I investigated the 4 issues.
+
 1.	The page does not contain a heading, skip link or landmark region
-Html
-Lighthouse suggests adding a ‘skip-link’ to skip to the main content. I added <a href="#contact-form">Skip to form</a> just under <body> and <form><a name="contact-form" id="contact-form"></a> at the top of the form. Then I re-ran Lighthouse and the accessibility count had increased from 75 to 79.
-If I change the button colour to black I can remove the issue
+        Html
+        Lighthouse suggests adding a ‘skip-link’ to skip to the main content. I added <a href="#contact-form">Skip to form</a> just under <body> and <form><a name="contact-form" id="contact-form"></a> at the top of the form. Then I re-ran Lighthouse and the accessibility count had increased from 75 to 79.
+        If I change the button colour to black I can remove the issue
 2.	Background and foreground colors do not have a sufficient contrast ration
-button.btn.btn-secondary
-As with the other colour contrast issues – add .btn-secondary class to the websites css file
-The original background colour for the button was #8c7444 and I have changed it to #2c3035. From an aesthetic perspective I believe #8c7444 was more pleasing to the eye.
+        button.btn.btn-secondary
+        As with the other colour contrast issues – add .btn-secondary class to the websites css file
+        The original background colour for the button was #8c7444 and I have changed it to #2c3035. From an aesthetic perspective I believe #8c7444 was more pleasing to the eye.
 3.	Form elements do not have associated labels
-input#fullname.form-control
-input#emailaddress.form-control
-textarea#contact-reason.form-control
+        input#fullname.form-control
+        input#emailaddress.form-control
+        textarea#contact-reason.form-control
 
 Adding <label> increased the accessibility to 99 which I have left in for this project but in my opinion the form looked cleaner when <placeholder> was used instead of <label>
 
 4.	Links do not have a discernible name
-a
-These are for the icons. I don’t want text next to the icons.
+        a
+        These are for the icons. I don’t want text next to the icons.
 ![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/contact_tests/contact-desktop-after.PNG)
 [contact-desktop-after](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/contact_tests/contact-desktop-after.pdf)
+
 I re-ran the mobile version of the test to check the fixes already applied resolved the issues raise on the previous mobile test. 
 ![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/contact_tests/contact-mobile-test2.PNG)
 [contact-mobile-test2](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/contact_tests/contact-mobile-test2.pdf)
+
 There are 2 red triangles under the performance.
 1.	Eliminate render-blocking resources
-This relates to unused CSS and JavaScript. I can only review the CSS because I do have not yet learned JavaScript. When checking the below screen I can only review https://8000-d272d922-26dd-4345-9.../style.css because the others do not belong to me and although are not used in the load of the page they are used by features on the page. 
+        This relates to unused CSS and JavaScript. I can only review the CSS because I do have not yet learned JavaScript. When I checked the below screen I could only review https://8000-d272d922-26dd-4345-9.../style.css because the others did not belong to me and although were not used in the load of the page they were used by features on the page. 
 ![image]https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/contact_tests/contact-mobile-coverage.PNG)
-The only change I could make is to remove the below because it is not used on any of the pages
-.jumbotron { 
-    background: transparent;
-}
-2.	
+        The only change I could make is to remove the below because it is not used on any of the pages
+        .jumbotron { 
+            background: transparent;
+        }
 3.	Ensure text remains visible during webfont load
-4.	I tried changing the googlefonts link to be preload but it failed because I needed to add the as element which then caused the load to fail because it didn’t like the href link. I rechecked the link was correct. Lighthouse also suggested adding @font-face but this made no difference. 
-<link rel="preload" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500&display=swap" rel="stylesheet">
+        I tried changing the googlefonts link to be preload but it failed because I needed to add the as element which then caused the load to fail because it didn’t like the href link. I rechecked the link was correct. Lighthouse also suggested adding @font-face but this made no difference. 
+        <link rel="preload" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500&display=swap" rel="stylesheet">
 
-The performance count has increased from 84 to 88 and I do not believe there is anything else I can change at this time. Only 2 points for being green.
+        The performance count has increased from 84 to 88 and I do not believe there is anything else I can change at this time. Only 2 points for being green.
 ![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/contact_tests/contact-mobile-after.PNG)
 [contact-mobile-after](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/projects_test/projects-desktop-after.pdf)
+
+#### Test-Script
+
+#### Deployment
 
 #### Code Verification
 I used https://validator.w3.org/ to check my HTML5 and corrected the errors it highlighted.
@@ -323,7 +342,9 @@ I then used [icolorpalette](https://icolorpalette.com/) to get a colour palette 
 ### Lessons learned
 1. When commencing on a Milestone Project I need to make sure I have read and watched ALL the instructions and not just the Assessment Handbook. That way I will not lose points for 
     a. not creating the Tablet wireframes
+        Creating the wireframes for at least desktop, tablet and mobile up front shows I have an idea and understanding of how the website will change as the hardware it is running on changes.
     b. not showing ALL my test evidence for each piece of HTML and CSS I changed and worked on
+        Working on these milestone projects is not quite the same as working on a program in the industry. This is a university level qualification and I need to show how I achieved the results I did and why I chose to do some of the things I did not just code, test and fix as I would in the real world until I had a working site ready to be unit tested before user acceptance testing.
     c. use OneNote at least to document as I go so that I do not lose any important information
-2. Having been in IT for 30 years there are tasks I perform automatically but this is a university qualifications and I have to prove each and every step I take.
-3. Allow more time for the documentation so I do not miss any oportunities.
+        This will help me keep track of all the webpages I visited even if I do not use anything from them in the final product. It will help with the on-going documentation
+2. Allow more time for the documentation so I do not miss any opportunities.

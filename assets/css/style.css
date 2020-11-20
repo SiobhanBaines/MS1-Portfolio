@@ -314,15 +314,14 @@ button.card-text{
     margin: 0rem;
     padding: 4px;
     height: 20px;
-    font-size: 12px;
-    /*display: block;*/ 
+    /*font-size: 14px;*/
     overflow: hidden; 
-    display: inline-block
+    /*display: inline-block*/
 }
 label{
   display: inline-block;
   margin: 0px;
-  font-size: 12px;
+  font-size: 14px;
 }
 .btn-secondary {
   margin-top: 15px;
