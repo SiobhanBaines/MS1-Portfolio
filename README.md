@@ -185,12 +185,14 @@ When my younger daughter tested the site on her phone, she complained the cards 
 The first test I performed for the website was for the desktop version and gave these results.
 
 ![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/index_tests/index-desktop-before.PNG)
-[index desktop before](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/index_tests/index-desktop-before.pdf)
+
+[Report for Home-page Desktop before](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/index_tests/index-desktop-before.pdf)
 
 I then run the test for the mobile version and these were the results
 
 ![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/index_tests/index-mobile-before.PNG)
-[index mobile before](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/index_tests/index-mobile-before.pdf)
+
+[Report for Home-page Mobile before](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/index_tests/index-mobile-before.pdf)
 
 On the desktop Lighthouse report the Accessibility dashboard was not green, I investigated the 3 issues.
 
@@ -215,36 +217,42 @@ I added the same classes into the website’s css.style file which fixed the iss
 I re-ran the Lighthouse in desktop mode and the test came back all green. 
 
 ![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/index_tests/index-desktop-after.PNG)
-[index desktop after](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/index_tests/index-desktop-after.pdf)
+
+[Report for Home-page Desktop After](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/index_tests/index-desktop-after.pdf)
 
 Out of curiosity I wanted to see if anything had changed on the mobile before I investigated the errors in the original Lighthouse test so I reran the diagnostic test and these were the results. My assumption is before I had added in the above styling into the website’s style sheet, the website wanted to use some JavaScript provided by Bootstrap and was not needed when the css was corrected.
 
 ![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/index_tests/index-mobile-before.PNG)
-[index mobile after](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/index_tests/index-mobile-before.pdf)
+
+[Report for Home-page Mobile After](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/index_tests/index-mobile-before.pdf)
 
 #### My Story page 	about.html
 I repeated the diagnostic tests using Lighthouse on the My Story page for desktop and these are the results.
 
 ![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/my_story_tests/about-desktop-test.PNG)
-[about desktop result](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/my_story_tests/about-desktop-test.pdf)
+
+[Report for My Story-page Desktop Result](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/my_story_tests/about-desktop-test.pdf)
 
 I then run the test for the mobile version and these were the results
 
 ![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/my_story_tests/about-mobile-test.PNG)
-[about mobile result](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/my_story_tests/about-mobile-test.pdf)
+
+[Report for Home-page Mobile Result](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/my_story_tests/about-mobile-test.pdf)
+
 Since all the results were green no further action is necessary.
 
 #### Projects page 	projects.html
 I repeated the diagnostic tests using Lighthouse on the Projects page for desktop and these are the results.
 
 ![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/projects_test/projects-desktop-before.PNG)
-[projects desktop before](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-
-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/projects_test/projects-desktop-before.pdf)
+
+[Report for Projects-page Desktop Before](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/projects_test/projects-desktop-before.pdf)
 
 I then run the test for the mobile version and these were the results.
 
 ![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/projects_test/projects-mobile-before.PNG)
-[projects mobile before](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/projects_test/projects-mobile-before.pdf)
+
+[Report for Projects-page Mobile Before](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/projects_test/projects-mobile-before.pdf)
 
 On the desktop Lighthouse report the Accessibility dashboard was not green, I investigated the 3 issues.
 
@@ -264,23 +272,27 @@ On the desktop Lighthouse report the Accessibility dashboard was not green, I in
 I re-ran the desktop version of the test and these were the results.
 
 ![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/projects_test/projects-desktop-after.PNG)
-[projects desktop after](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/projects_test/projects-desktop-after.pdf)
+
+[Report for Projects-page Desktop After](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/projects_test/projects-desktop-after.pdf)
 
 I re-ran the mobile version of the test to confirm the mobile site was clean and these were the results.
 
 ![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/projects_test/projects-mobile-after.PNG)
-[projects mobile after](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/projects_test/projects-mobile-after.pdf)
+
+[Report for Projects-page Mobile After](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/projects_test/projects-mobile-after.pdf)
 
 #### Contact page 	contact.html
 I repeated the diagnostic tests using Lighthouse on the Contact page for desktop and these are the results.
 
 ![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/contact_tests/contact-desktop-before.PNG)
-[contact desktop before](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/contact_tests/contact-desktop-before..pdf)
+
+[Report for Contact-page Desktop Before](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/contact_tests/contact-desktop-before..pdf)
 
 I then run the test for the mobile version and these were the results
 
 ![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/contact_tests/contact-mobile-before.PNG)
-[contact mobile before](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/contact_tests/contact-mobile-before.pdf)
+
+[Report for Contact-page Mobile Before](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/contact_tests/contact-mobile-before.pdf)
 
 On the desktop Lighthouse report the Accessibility dashboard was not green, I investigated the 4 issues.
 
@@ -304,12 +316,14 @@ Adding <label> increased the accessibility to 99 which I have left in for this p
         These are for the icons. I don’t want text next to the icons.
         
 ![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/contact_tests/contact-desktop-after.PNG)
-[contact desktop after](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/contact_tests/contact-desktop-after.pdf)
+
+[Report for Contact-page Desktop After](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/contact_tests/contact-desktop-after.pdf)
 
 I re-ran the mobile version of the test to check the fixes already applied resolved the issues raise on the previous mobile test. 
 
 ![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/contact_tests/contact-mobile-test2.PNG)
-[contact mobile test2](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/contact_tests/contact-mobile-test2.pdf)
+
+[Report for Contact-page Mobile Test2](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/contact_tests/contact-mobile-test2.pdf)
 
 There are 2 red triangles under the performance.
 1.	Eliminate render-blocking resources
@@ -327,8 +341,10 @@ There are 2 red triangles under the performance.
         <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500&display=swap" rel="stylesheet">
 
         The performance count has increased from 84 to 88 and I do not believe there is anything else I can change at this time. Only 2 points for being green.
+        
 ![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/contact_tests/contact-mobile-after.PNG)
-[contact mobile after](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/projects_test/projects-desktop-after.pdf)
+
+[Report for Contact-page Mobile After](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/master/assets/reference_documents/lighthouse_testing/projects_test/projects-desktop-after.pdf)
 
 #### Testing and Deployment
 [Testing and Deployment](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/921756b26efd792b26df71253dd1a433cf0eb0eb/assets/reference_documents/testing_and_deployment_guide.docx)
