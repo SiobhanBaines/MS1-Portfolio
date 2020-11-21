@@ -348,7 +348,7 @@ There are 2 red triangles under the performance.
 [Report for Contact-page Mobile After](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/bcbadf02d1598869e8491236d1e206969babc54a/reference_documents/lighthouse_testing/contact_tests/contact-mobile-after.pdf)
 
 #### Testing and Deployment
-[Testing and Deployment](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/bcbadf02d1598869e8491236d1e206969babc54a/reference_documents/testing_and_deployment_guide.md)
+[Testing and Deployment](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/15c58ceaff352fda0e32e55c34f94dde6b7cbbe4/reference_documents/testing_and_deployment_guide.md)
 
 #### Code Verification
 #### validator.w3
