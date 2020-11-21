@@ -299,7 +299,7 @@ On the desktop Lighthouse report the Accessibility dashboard was not green, I in
 
 1.	The page does not contain a heading, skip link or landmark region
         Html
-        Lighthouse suggests adding a ‘skip-link’ to skip to the main content. I added <a href="#contact-form">Skip to form</a> just under <body> and <form><a name="contact-form" id="contact-form"></a> at the top of the form. Then I re-ran Lighthouse and the accessibility count had increased from 75 to 79.
+        Lighthouse suggests adding a ‘skip-link’ to skip to the main content. I added an a element 'href="#contact-form" Skip to form' just under the body element and in the form element I added an a element 'name="contact-form" id="contact-form"' at the top of the form. Then I re-ran Lighthouse and the accessibility count had increased from 75 to 79.
         If I change the button colour to black I can remove the issue
 2.	Background and foreground colors do not have a sufficient contrast ration
         button.btn.btn-secondary
@@ -310,7 +310,7 @@ On the desktop Lighthouse report the Accessibility dashboard was not green, I in
         input#emailaddress.form-control
         textarea#contact-reason.form-control
 
-Adding <label> increased the accessibility to 99 which I have left in for this project but in my opinion the form looked cleaner when <placeholder> was used instead of <label>
+Adding label element increased the accessibility to 99 which I have left in for this project but in my opinion the form looked cleaner when a placeholder element was used instead of a label element.
 
 4.	Links do not have a discernible name
         a
@@ -338,8 +338,8 @@ There are 2 red triangles under the performance.
         }
 3.	Ensure text remains visible during webfont load
         I tried changing the googlefonts link to be preload but it failed because I needed to add the as element which then caused the load to fail because it didn’t like the href link. I rechecked the link was correct. Lighthouse also suggested adding @font-face but this made no difference. 
-        <link rel="preload" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500&display=swap" rel="stylesheet">
+        link rel="preload" href="https://fonts.gstatic.com"
+        link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500&display=swap" rel="stylesheet"
 
         The performance count has increased from 84 to 88 and I do not believe there is anything else I can change at this time. Only 2 points for being green.
         
@@ -362,7 +362,7 @@ I removed the "name" attribute and added an h2 element with a class .form-header
 
 ![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/fa021d3098237bdbb65b584e483cce2ce87b029b/reference_documents/code_validation/validator_contact_test.png)
 
-I removed the <a> attribute, saved the changes and refreshed Lighthouse.
+I removed the a attribute, saved the changes and refreshed Lighthouse.
 
 ![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/fa021d3098237bdbb65b584e483cce2ce87b029b/reference_documents/code_validation/validator_contact_desktop.png)
 
