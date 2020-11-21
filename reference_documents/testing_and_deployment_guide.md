@@ -165,3 +165,29 @@ In Gitpod the bottom area of the screen is where git commands are entered.
 6.	Open Github and the repository the website is in. To the far right of the menu bar is the Settings tab. Select this and scroll down to “GitHub Pages”
 7.	Under Source if the dropdown menu has “None” select the “master” branch which will bring up the “(root)” folder, and click “Save”
 8.	Your page will now show as published under the GitHub Pages section
+
+## Code validation tests 
+### validator.w3
+This validator is used to validate the HTML code.
+
+1. open web page www.validator.w3.org
+2. open one of the HTML files either in GitHub or GitPod
+3. Click the mouse inside the HTML file and use Ctrl A to select all the records (lines of code) and then Ctrl C to copy all the code.
+4. In the validator chose the "Validate by Direct Input" tab.
+5. Use Ctrl V to paste the code into the text box marked "Enter the Markup to Validate"
+6. Click the Check button
+7. If you get a green message "Document checking completed. No errors or warnings to show, user Ctrl A inside the text box to select all the code and Ctrl X to cut the code from the window. Then move onto the next HTML to validate.
+8. If you get some errors you will need to investigate each error, modify the code and rerun the tests described above including the code validation.
+
+#### jigsaw.w3.org/css-validator
+This validator works in the same was as validator.w3 with the exception it validates CSS.
+
+1. open web page https://jigsaw.w3.org/css-validator/ 
+2. open the style.css file GitHub or GitPod
+3. Click the mouse inside the HTML file and use Ctrl A to select all the records (lines of code) and then Ctrl C to copy all the code.
+4. In the validator chose the "By direct input" tab.
+5. Use Ctrl V to paste the code into the text box marked "Enter the CSS you would like validated"
+6. Click the Check button
+7. If you get a green message "Document checking completed. No errors or warnings to show, the test is complete
+8. If you get some errors you will need to investigate each error, modify the code and rerun the tests described above including the code validation.
+
