@@ -138,15 +138,15 @@ Each project will appear one after the other by scrolling down the screen. Since
 The contact page will be narrower on the mobile device but should behave in the same way as on a desktop device.
 ## Performance Testing using Lighthouse
 To test using lighthouse, right click the mouse on the home page (index.html) to open the DevTools pane and then look for the ‘>>’ at the top of the screen, select the arrows and Lighthouse will be at the bottom of the list. Select Lighthouse
-On the next screen, scroll down to select either ‘Mobil’ or ‘Desktop’ and then scroll back up the screen to select ‘Generate Report’.
+On the next screen, scroll down to select either ‘Mobile’ or ‘Desktop’ and then scroll back up the screen to select ‘Generate Report’.
 A screen looking like this will appear
 
-![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/3750276f92ea0e291d2f1f223d63ce1ba3123a14/reference_documents/lighthouse_testing/index_tests/index-desktop-after.png)
+![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/b94b63aaa5b1f6cf8f91de50214f0592d0918660/reference_documents/lighthouse_testing/index_tests/index-desktop-after.png)
 
 If one of the circles is not green, select it to be taken to that area of the report.
 The issues that need to be investigated have a red triangle at the beginning of the line. By using the dropdown arrow on the right of the error details of the error will appear as below.
 
-![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/3750276f92ea0e291d2f1f223d63ce1ba3123a14/reference_documents/lighthouse_testing/dropdown_error.png)
+![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/b94b63aaa5b1f6cf8f91de50214f0592d0918660/reference_documents/lighthouse_testing/dropdown_error.png)
 
 If it is not clear what is wrong from the error select the ‘Learn more’ hyperlink to get more information.
 Clicking on the element in error will open up the main DevTools at the place where the element is used and the css it is using. This information should help you to fix the issue.
@@ -155,7 +155,7 @@ Once you believe the issue is fixed and you have saved your changes in GitPod, r
 ## Deployment
 In Gitpod the bottom area of the screen is where git commands are entered.
 
-![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/3750276f92ea0e291d2f1f223d63ce1ba3123a14/reference_documents/images_readme/image_gitpod.png)
+![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/b94b63aaa5b1f6cf8f91de50214f0592d0918660/reference_documents/images_readme/image_gitpod.png)
 
 1.	If you have been running the 8000 port you will need to use Ctrl + Z to escape back and use the command entry. This line will appear “gitpod /workspace/Siobhan-Baines-MS1-Portfolio $” allowing commands to be entered.
 2.	Make sure any changes that have been made are save by selecting the ‘File’ tab and ‘Save All’

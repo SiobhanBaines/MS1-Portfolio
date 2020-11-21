@@ -36,7 +36,7 @@ At the same time as providing a good outline of my skills and experience for a p
 ### *Structure*
 My landing page will be very simple with only my name and job title in the centre, a header navigation bar with the facility to download my CV and social media links on a static footer.
 
-![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/a9b3ae92a03364be3599e6b646f995625c87e66b/reference_documents/images_readme/test-results-images/home_desktop.PNG)
+![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/b94b63aaa5b1f6cf8f91de50214f0592d0918660/reference_documents/images_readme/test-results-images/home_desktop.png)
 
 The 'My Story' page will give a brief overview of who I am and what I have done throughout my career in IT as well as the qualifications I have earned since leaving school.
 
