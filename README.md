@@ -328,7 +328,7 @@ I re-ran the mobile version of the test to check the fixes already applied resol
 
 There are 2 red triangles under the performance.
 1.	Eliminate render-blocking resources
-        This relates to unused CSS and JavaScript. I can only review the CSS because I do have not yet learned JavaScript. When I checked the below screen I could only review https://8000-d272d922-26dd-4345-9.../style.css because the others did not belong to me and although were not used in the load of the page they were used by features on the page. 
+        This relates to unused CSS and JavaScript. I can only review the CSS because I do have not yet learned JavaScript. When I checked the below screen, I could only review https://8000-d272d922-26dd-4345-9.../style.css because the others did not belong to me and although were not used in the load of the page they were used by features on the page. 
         
 ![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/bcbadf02d1598869e8491236d1e206969babc54a/reference_documents/lighthouse_testing/contact_tests/contact-mobile-coverage.png)
 
@@ -357,18 +357,18 @@ I used https://validator.w3.org/ to check my HTML5 and corrected the errors it h
 ###### about.html
 This page came back clean when run through the validator
 ###### contact.html
-The validator told me the "name" attribute on the <a> element was obsolete which I had added because Lighthouse told me I needed it. The validator also told me I needed an <h2>...<h6> element.
-I removed the "name" attribute and added an <h2> element with a class .form-header which I gave the CCS of display:none; because I did not want it to display. I then saved the changes and refreshed Lighthouse.
+The validator told me the "name" attribute on the a element was obsolete which I had added because Lighthouse told me I needed it. The validator also told me I needed an h2...h6 element.
+I removed the "name" attribute and added an h2 element with a class .form-header which I gave the CCS of display:none; because I did not want it to display. I then saved the changes and refreshed Lighthouse.
 
-![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/7f9979628e82cb02de37a38bad4f6aef4f65dbc0/reference_documents/code_validation/validator_contact_test.png)
+![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/fa021d3098237bdbb65b584e483cce2ce87b029b/reference_documents/code_validation/validator_contact_test.png)
 
 I removed the <a> attribute, saved the changes and refreshed Lighthouse.
 
-![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/7f9979628e82cb02de37a38bad4f6aef4f65dbc0/reference_documents/code_validation/validator_contact_desktop.png)
+![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/fa021d3098237bdbb65b584e483cce2ce87b029b/reference_documents/code_validation/validator_contact_desktop.png)
 
 I then  refreshed Lighthouse and generated the report for mobile.
 
-!{image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/7f9979628e82cb02de37a38bad4f6aef4f65dbc0/reference_documents/code_validation/validator_contact_mobile.png)}
+![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/fa021d3098237bdbb65b584e483cce2ce87b029b/reference_documents/code_validation/validator_contact_mobile.png)
 
 ###### index.html
 This page came back clean when run through the validator
@@ -378,8 +378,9 @@ This page came back clean when run through the validator
 #### jigsaw.w3.org/css-validator
 I used https://jigsaw.w3.org/css-validator/ to check my css. I had tried to use bottom with justify which didn't work. This helped to realise some of the un-used css I had created.
 ###### style.css
-The validator highlightedthe errors below
-![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/7f9979628e82cb02de37a38bad4f6aef4f65dbc0/reference_documents/code_validation/jigsaw_css_validation.PNG)
+The validator highlighted the errors below
+
+![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/fa021d3098237bdbb65b584e483cce2ce87b029b/reference_documents/code_validation/jigsaw_css_validation.png)
 
 260	button.card-text	Value Error : padding , is an incorrect operator : 1px,0
 
@@ -394,11 +395,11 @@ I the used DevTools to review what was happening with the "card-text" class and 
 I thought I should have used "font-weight" but used google to check. I then changed it to "font-weight", saved and refreshed the browser. Now the wording is bold and I want to check if I change the button colour back to is original colour of #8c7444 and run through Lighthouse.
 These are the results for desktop.
 
-![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/7f9979628e82cb02de37a38bad4f6aef4f65dbc0/reference_documents/code_validation/validator_lighthouse_contact_desktop.PNG)
+![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/fa021d3098237bdbb65b584e483cce2ce87b029b/reference_documents/code_validation/validator_lighthouse_contact_desktop.png)
 
 These are the results for mobile.
 
-![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/7f9979628e82cb02de37a38bad4f6aef4f65dbc0/reference_documents/code_validation/validator_lighthouse_contact_mobile.png)
+![image](https://github.com/SiobhanBaines/Siobhan-Baines-MS1-Portfolio/blob/fa021d3098237bdbb65b584e483cce2ce87b029b/reference_documents/code_validation/validator_lighthouse_contact_mobile.png)
 
 #### autoprefixer.github
 I used https://autoprefixer.github.io/ to add in any prefixes I had missed. 
