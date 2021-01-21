@@ -337,6 +337,12 @@ label{
         margin: 0 auto;
         max-width: 50%;
     }
+    .name-callout,
+    .name,
+    .jobtitle{
+    color: #444c5d;
+    align-items: center;
+}
     #work-section {
         display: table-cell;
         position: relative;
