@@ -1,7 +1,7 @@
 /*
 * Prefixed by https://autoprefixer.github.io
 * PostCSS: v7.0.29,
-* Autoprefixer: v9.7.6
+* Autoprefixer: v9.7.1
 * Browsers: last 4 version
 */
 
@@ -342,7 +342,8 @@ label{
     .jobtitle{
     color: #444c5d;
     align-items: center;
-}
+    margin-left: 0;
+   }
     #work-section {
         display: table-cell;
         position: relative;
