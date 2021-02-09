@@ -220,11 +220,11 @@ font-weight: 700;
 
 .card {
     border-radius: 5%;
-    width: 15em;
+    width: 20em;
     height: 12em;
     top: 25%;
     margin: 8% auto;
-    padding: 15px;
+    padding: 1em;
     justify-items: center;
     -webkit-box-align: center;
         -ms-flex-align: center;
@@ -244,13 +244,12 @@ font-weight: 700;
 }
 p.card-title{
     color: #2e1f0e;
-
     z-index: 10;
 }
 .card-subtitle{
-    font-size: 14px;
+    font-size: 16px;
     text-align: center;
-    padding-bottom: 1.5em;
+    padding-bottom: 1em;
     color: #2e1f0e;
 }
 button.card-text{
@@ -258,21 +257,22 @@ button.card-text{
     opacity: 1;
     padding: 1px 0;
     background-color: #fff;
+    outline: none;
 }
 .card-text {
-  font-size: 20px;
+  font-size: 14px;
   font-weight: bold;
   position: relative;
   text-align: center;
   color: #b99557;
+  
 }
-.card-text a{
-  font-size: 20px;
+a.project-link{
+  font-size: 40px;
   font-weight: bold;
   position: relative;
-  text-align: center;
   color: #b99557;
-  padding: 30px 10px 0 10px;
+  padding: 1px 10px 0 10px;
 }
 #modalLabelP1,
 #modalLabelP2,
@@ -285,6 +285,7 @@ button.card-text{
 .btn-projects{
     background-color: #b99557; 
 }
+
 /*------------------------------------Contact Body*/
 
 .contact-container { /* callout-container copied from Whiskey Drop - Coding Institute - modified */
