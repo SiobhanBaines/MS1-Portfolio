@@ -267,6 +267,9 @@ button.card-text{
   color: #b99557;
   
 }
+.col-12, .col-sm-6, .col-md-4 {
+    padding-left: 5px;
+}
 a.project-link{
   font-size: 40px;
   font-weight: bold;
@@ -356,4 +359,10 @@ label{
         padding: 10px 60px 65px 60px;
         text-align: center;
     }
+    .card {
+    width: 15em;
+    height: 12em;
+    top: 15%;
+}
+   
 }
