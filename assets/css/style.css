@@ -220,8 +220,8 @@ font-weight: 700;
 
 .card {
     border-radius: 5%;
-    width: 20em;
-    height: 12em;
+    width: 15em;
+    height: 10em;
     top: 25%;
     margin: 8% auto;
     padding: 1em;
@@ -247,7 +247,7 @@ p.card-title{
     z-index: 10;
 }
 .card-subtitle{
-    font-size: 16px;
+    font-size: 14px;
     text-align: center;
     padding-bottom: 1em;
     color: #2e1f0e;
