@@ -260,7 +260,8 @@ button.card-text{
     outline: none;
 }
 .card-text {
-  font-size: 14px;
+  font-size: 30px;
+  padding-right: 5px;
   font-weight: bold;
   position: relative;
   text-align: center;
