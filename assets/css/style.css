@@ -260,14 +260,13 @@ button.card-text{
     outline: none;
 }
 .card-text {
-  font-size: 30px;
-  padding-right: 5px;
+  font-size: 14px;
   font-weight: bold;
   position: relative;
   text-align: center;
-  color: #b99557;
-  
+  color: #b99557; 
 }
+
 .col-12, .col-sm-6, .col-md-4 {
     padding-left: 5px;
 }
